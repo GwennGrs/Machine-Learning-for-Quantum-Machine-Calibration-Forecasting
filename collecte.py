@@ -11,7 +11,7 @@ import os
 
 def connect():
     QiskitRuntimeService.save_account(
-    token="cFnkczqO_S0VNMuk-Ads-7JWIv8ims3hh3d04gFJtcJI",
+    token="pvbodFRTX18hEPsOobvl0Ivkz8JTppcD97GrX4rHr98M",
     instance="open-instance",
     overwrite=True,
     set_as_default = True
@@ -123,27 +123,25 @@ def full_collect(service):
     return complet_set, qubit_set, gates_set
 
 # 3 fonctions de créations de csv
-def create_csv_complet(data):
-    folder = "/home/gwenn/Desktop/Projet/data_json/"
+def create_csv_complet(data, folder):
     date = datetime.datetime.now().strftime("%Y-%m-%d_%H:%M:%S")
-    name_file = folder+"ibm_backends_complet_"+ date + ".json"
+    name_file = os.path.join(folder, "ibm_backends_complet_" + date + ".json")
     return data.to_json(name_file, index=False)
 
-def create_csv_qubit(data):
-    folder = "/home/gwenn/Desktop/Projet/data_json/"
+def create_csv_qubit(data, folder):
     date = datetime.datetime.now().strftime("%Y-%m-%d_%H:%M:%S")
-    name_file = folder+"ibm_backends_qubit_"+ date + ".json"
+    name_file = os.path.join(folder, "ibm_backends_qubit_" + date + ".json")
     return data.to_json(name_file, index=False)
 
-def create_csv_gates(data):
-    folder = "/home/gwenn/Desktop/Projet/data_json/"
+def create_csv_gates(data, folder):
     date = datetime.datetime.now().strftime("%Y-%m-%d_%H:%M:%S")
-    name_file = folder+"ibm_backends_gates_"+ date + ".json"
+    name_file = os.path.join(folder, "ibm_backends_gates_" + date + ".json")
     return data.to_json(name_file, index=False)
 
 if __name__=="__main__":
+    target_folder = "/home/gwenn/Desktop/Projet"
     service = connect()
     complete_data, qubit_data, gates_data = full_collect(service)
-    create_csv_complet(complete_data)
-    create_csv_qubit(qubit_data)
-    create_csv_gates(gates_data)
+    create_csv_complet(complete_data, target_folder)
+    create_csv_qubit(qubit_data, target_folder)
+    create_csv_gates(gates_data, target_folder)
