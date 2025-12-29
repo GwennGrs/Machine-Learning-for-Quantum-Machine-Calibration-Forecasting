@@ -138,10 +138,33 @@ def create_csv_gates(data, folder):
     name_file = os.path.join(folder, "ibm_backends_gates_" + date + ".json")
     return data.to_json(name_file, index=False)
 
+def save_gate_data_csv(backend_prop, filename="gate_data.csv"):
+    gate_list = []
+    
+    for gate in backend_prop.gates:
+        if len(gate.qubits) == 2:
+            error = next((p.value for p in gate.parameters if p.name == 'gate_error'), None)
+            duration = next((p.value for p in gate.parameters if p.name == 'gate_length'), None)
+            
+            gate_list.append({
+                "gate": gate.gate,
+                "q_control": gate.qubits[0],
+                "q_target": gate.qubits[1],
+                "error": error,
+                "duration_ns": duration * 1e9 if duration else None
+            })
+    
+    df = pd.DataFrame(gate_list)
+    df.to_csv(filename, index=False)
+    return df
+
 if __name__=="__main__":
     target_folder = "/home/gwenn/Desktop/Projet"
     service = connect()
-    complete_data, qubit_data, gates_data = full_collect(service)
-    create_csv_complet(complete_data, target_folder)
-    create_csv_qubit(qubit_data, target_folder)
-    create_csv_gates(gates_data, target_folder)
+    # complete_data, qubit_data, gates_data = full_collect(service)
+    # create_csv_complet(complete_data, target_folder)
+    # create_csv_qubit(qubit_data, target_folder)
+    # create_csv_gates(gates_data, target_folder)
+
+    ibm_fez = service.backends()[0]
+    save_gate_data_csv(ibm_fez.properties(), "calibration_gates.csv")
