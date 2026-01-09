@@ -1,8 +1,8 @@
 {
-  "ibm_torino-2026-01-09_19:27:54": {
+  "ibm_torino-2026-01-09_19:39:45": {
     "backend": "ibm_torino",
     "num_qubits": 133,
-    "calibration_time": "2026-01-09_19:27:54",
+    "calibration_time": "2026-01-09_19:39:45",
     "qubits": {
       "Q0": {
         "t1": 0.00020066138971373633,
@@ -1335,6 +1335,6 @@
         "readout_length": 1.56e-06
       }
     },
-    "id": "ibm_torino-2026-01-09_19:27:54"
+    "id": "ibm_torino-2026-01-09_19:39:45"
   }
 }
