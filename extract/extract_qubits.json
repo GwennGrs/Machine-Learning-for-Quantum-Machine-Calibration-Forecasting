@@ -1,8 +1,8 @@
 {
-  "ibm_marrakesh-2026-01-09_19:47:43": {
+  "ibm_marrakesh-2026-01-09_19:54:20": {
     "backend": "ibm_marrakesh",
     "num_qubits": 156,
-    "calibration_time": "2026-01-09_19:47:43",
+    "calibration_time": "2026-01-09_19:54:20",
     "qubits": {
       "Q0": {
         "t1": 0.0003642369110014877,
@@ -1565,6 +1565,6 @@
         "readout_length": 2.584e-06
       }
     },
-    "id": "ibm_marrakesh-2026-01-09_19:47:43"
+    "id": "ibm_marrakesh-2026-01-09_19:54:20"
   }
 }
