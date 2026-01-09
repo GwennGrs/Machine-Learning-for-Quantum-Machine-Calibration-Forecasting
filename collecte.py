@@ -242,7 +242,6 @@ def complete_data_json(backend, filename="complete_data.json"):
 
 import json
 import os
-import hashlib
 
 def append_calibration_with_id(calibration, filename="lambda.json"):
     id = str(calibration["backend"]) + "-" + str(calibration["calibration_time"])
@@ -250,10 +249,10 @@ def append_calibration_with_id(calibration, filename="lambda.json"):
     calibration["id"] = id
     dataset = {}
 
-    if os.path.exists(filename):
-        if os.path.getsize(filename) > 0:
+    if os.path.exists("extract/"+filename):
+        if os.path.getsize("extract/"+filename) > 0:
             try:
-                with open(filename, "r") as f:
+                with open("extract/"+filename, "r") as f:
                     dataset = json.load(f)
             except json.JSONDecodeError:
                 dataset = {}
