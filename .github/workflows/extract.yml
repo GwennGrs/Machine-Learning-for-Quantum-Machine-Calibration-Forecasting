@@ -20,5 +20,5 @@ jobs:
 
       - name: Activation de l'environnement virtuel et exécution du script
         run: |
-          source research-project/bin/activate
+          source env/.ibm-extract/bin/activate
           python collecte.py
