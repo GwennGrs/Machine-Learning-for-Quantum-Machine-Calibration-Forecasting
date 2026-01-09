@@ -20,15 +20,17 @@ def connect():
     return service
 
 def collect_data_qubit(qubit_props):
-    t1 = qubit_props.get("T1", (None,))[0]
-    t2 = qubit_props.get("T2", (None,))[0]
-    frequency = qubit_props.get("frequency", (None,))[0]
-    anharmonicity = qubit_props.get("anharmonicity", (None,))[0]
-    readout_error = qubit_props.get("readout_error", (None,))[0]
-    prob_meas0_prep1 = qubit_props.get("prob_meas0_prep1", (None,))[0]
-    prob_meas1_prep0 = qubit_props.get("prob_meas1_prep0", (None,))[0]
-    readout_length = qubit_props.get("readout_length", (None,))[0]
-    return np.array([t1, t2, frequency, anharmonicity, readout_error, prob_meas0_prep1, prob_meas1_prep0, readout_length])
+    props = {
+    "t1": qubit_props.get("T1", (None,))[0],
+    "t2": qubit_props.get("T2", (None,))[0],
+    "frequency": qubit_props.get("frequency", (None,))[0],
+    "anharmonicity": qubit_props.get("anharmonicity", (None,))[0],
+    "readout_error": qubit_props.get("readout_error", (None,))[0],
+    "prob_meas0_prep1": qubit_props.get("prob_meas0_prep1", (None,))[0],
+    "prob_meas1_prep0": qubit_props.get("prob_meas1_prep0", (None,))[0],
+    "readout_length": qubit_props.get("readout_length", (None,))[0]
+    }
+    return props
     
 def collect_data_gates(properties, qub):
     id_props = properties.gate_property("id", qub)
@@ -123,48 +125,167 @@ def full_collect(service):
     return complet_set, qubit_set, gates_set
 
 # 3 fonctions de créations de csv
-def create_csv_complet(data, folder):
-    date = datetime.datetime.now().strftime("%Y-%m-%d_%H:%M:%S")
-    name_file = os.path.join(folder, "ibm_backends_complet_" + date + ".json")
-    return data.to_json(name_file, index=False)
+# def create_json_complet(data, folder):
+#     date = datetime.datetime.now().strftime("%Y-%m-%d_%H:%M:%S")
+#     name_file = os.path.join(folder, "ibm_backends_complet_" + date + ".json")
+#     return data.to_json(name_file, index=False)
 
-def create_csv_qubit(data, folder):
-    date = datetime.datetime.now().strftime("%Y-%m-%d_%H:%M:%S")
-    name_file = os.path.join(folder, "ibm_backends_qubit_" + date + ".json")
-    return data.to_json(name_file, index=False)
+# def create_json_qubit(data, folder):
+#     date = datetime.datetime.now().strftime("%Y-%m-%d_%H:%M:%S")
+#     name_file = os.path.join(folder, "ibm_backends_qubit_" + date + ".json")
+#     return data.to_json(name_file, index=False)
 
-def create_csv_gates(data, folder):
-    date = datetime.datetime.now().strftime("%Y-%m-%d_%H:%M:%S")
-    name_file = os.path.join(folder, "ibm_backends_gates_" + date + ".json")
-    return data.to_json(name_file, index=False)
+# def create_json_gates(data, folder):
+#     date = datetime.datetime.now().strftime("%Y-%m-%d_%H:%M:%S")
+#     name_file = os.path.join(folder, "ibm_backends_gates_" + date + ".json")
+#     return data.to_json(name_file, index=False)
 
-def save_gate_data_csv(backend_prop, filename="gate_data.csv"):
-    gate_list = []
+def gate_data_json(backend, filename="gate_data.json"):
+    '''
+    Extract error and length for all the gate, with the qubit involved and create the Json for the gates data.
     
+    :param backend_prop: the physical backend we want to extract data from
+    :param filename: destination file
+    '''
+    backend_prop = backend.properties()
+    name = backend.name
+    nb_qubits = backend.num_qubits
+    date = datetime.datetime.now().strftime("%Y-%m-%d_%H:%M:%S")
+
+    data = {"backend": name, "num_qubits": nb_qubits, "calibration_time": date, "gates": {}
+    }
+
     for gate in backend_prop.gates:
-        if len(gate.qubits) == 2:
-            error = next((p.value for p in gate.parameters if p.name == 'gate_error'), None)
-            duration = next((p.value for p in gate.parameters if p.name == 'gate_length'), None)
-            
-            gate_list.append({
-                "gate": gate.gate,
-                "q_control": gate.qubits[0],
-                "q_target": gate.qubits[1],
-                "error": error,
-                "duration_ns": duration * 1e9 if duration else None
-            })
+        error = next((p.value for p in gate.parameters if p.name == 'gate_error'), None)
+        duration = next((p.value for p in gate.parameters if p.name == 'gate_length'), None)
+        gate_name = gate.gate
+        data["gates"].setdefault(gate_name, {})
+
+        # For 1-qubit gates
+        if len(gate.qubits) == 1:
+            qub = str(gate.qubits[0])
+            data["gates"][gate_name][qub] = {"error": error, "duration_ns": duration * 1e9 if duration else None}
+        # For 2-qubit gates
+        elif len(gate.qubits) == 2:
+            pair = f"{gate.qubits[0]}-{gate.qubits[1]}"
+            data["gates"][gate_name][pair] = {"error": error, "duration_ns": duration * 1e9 if duration else None}
+
+    # with open(filename, "w") as f:
+    #     json.dump(data, f, indent=2)
+
+    return data
+
+def qub_data_json(backend, filename="qubits_data.json"):
+    '''
+    Extract configurations data from the qubits of the backend and create the Json for the qubits data.
     
-    df = pd.DataFrame(gate_list)
-    df.to_csv(filename, index=False)
-    return df
+    :param backend: the physical backend we want to extract data from
+    :param filename: destination file
+    '''
+    backend_prop = backend.properties()
+    name = backend.name
+    nb_qubits = backend.num_qubits
+    date = datetime.datetime.now().strftime("%Y-%m-%d_%H:%M:%S")
+
+    data = {"backend": name, "num_qubits": nb_qubits, "calibration_time": date, "qubits": {}
+    }
+
+    for index in range(nb_qubits):
+        data["qubits"]["Q"+str(index)] = collect_data_qubit(backend_prop.qubit_property(index))
+
+    # with open(filename, "w") as f:
+    #     json.dump(data, f, indent=2)
+
+    return data
+
+def complete_data_json(backend, filename="complete_data.json"):
+    '''
+    Extracting complete data from the backend
+    
+    :param backend: the physical backend we want to extract data from
+    :param filename: destination file
+    '''
+
+    # General information about backend
+    backend_prop = backend.properties()
+    name = backend.name
+    nb_qubits = backend.num_qubits
+    date = datetime.datetime.now().strftime("%Y-%m-%d_%H:%M:%S")
+
+    ## Set up data for identification
+    data = {"backend": name, "num_qubits": nb_qubits, "calibration_time": date, "qubits": {}, "gates": {}}
+
+    ## Extracting gate data 
+    for gate in backend_prop.gates:
+        error = next((p.value for p in gate.parameters if p.name == 'gate_error'), None)
+        duration = next((p.value for p in gate.parameters if p.name == 'gate_length'), None)
+        gate_name = gate.gate
+        data["gates"].setdefault(gate_name, {})
+
+        # For 1-qubit gates
+        if len(gate.qubits) == 1:
+            qub = str(gate.qubits[0])
+            data["gates"][gate_name][qub] = {"error": error, "duration_ns": duration * 1e9 if duration else None}
+        # For 2-qubit gates
+        elif len(gate.qubits) == 2:
+            pair = f"{gate.qubits[0]}-{gate.qubits[1]}"
+            data["gates"][gate_name][pair] = {"error": error, "duration_ns": duration * 1e9 if duration else None}
+
+    ## Extracting qubit data
+    for index in range(nb_qubits):
+        data["qubits"]["Q"+str(index)] = collect_data_qubit(backend_prop.qubit_property(index))
+    
+    # with open(filename, "w") as f:
+    #     json.dump(data, f, indent=2)
+
+    return data 
+
+import json
+import os
+import hashlib
+
+def append_calibration_with_id(calibration, filename="lambda.json"):
+    id = str(calibration["backend"]) + "-" + str(calibration["calibration_time"])
+
+    calibration["id"] = id
+    dataset = {}
+
+    if os.path.exists(filename):
+        if os.path.getsize(filename) > 0:
+            try:
+                with open(filename, "r") as f:
+                    dataset = json.load(f)
+            except json.JSONDecodeError:
+                dataset = {}
+        else:
+            dataset = {}
+
+    dataset[id] = calibration
+
+    if id in dataset:
+        with open(filename, "w") as f:
+            json.dump(dataset, f, indent=2)
+        
+        return True
+
+    return False    
 
 if __name__=="__main__":
     target_folder = "/home/gwenn/Desktop/Projet"
     service = connect()
-    # complete_data, qubit_data, gates_data = full_collect(service)
-    # create_csv_complet(complete_data, target_folder)
-    # create_csv_qubit(qubit_data, target_folder)
-    # create_csv_gates(gates_data, target_folder)
 
     ibm_fez = service.backends()[0]
-    save_gate_data_csv(ibm_fez.properties(), "calibration_gates.csv")
+    ibm_torino = service.backends()[1]
+    ibm_marrakesh = service.backends()[2]
+    
+    append_calibration_with_id(complete_data_json(ibm_fez), filename="ibm_complete.json")
+    append_calibration_with_id(complete_data_json(ibm_torino), filename="ibm_complete.json")
+    append_calibration_with_id(complete_data_json(ibm_marrakesh), filename="ibm_complete.json")
+
+    append_calibration_with_id(qub_data_json(ibm_fez), filename="ibm_qubits.json")
+    append_calibration_with_id(qub_data_json(ibm_torino), filename="ibm_qubits.json")
+    append_calibration_with_id(qub_data_json(ibm_marrakesh), filename="ibm_qubits.json")
+
+    append_calibration_with_id(gate_data_json(ibm_fez), filename="ibm_gates.json")
+    append_calibration_with_id(gate_data_json(ibm_torino), filename="ibm_gates.json")
+    append_calibration_with_id(gate_data_json(ibm_marrakesh), filename="ibm_gates.json")
