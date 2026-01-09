@@ -263,7 +263,7 @@ def append_calibration_with_id(calibration, filename="lambda.json"):
     dataset[id] = calibration
 
     if id in dataset:
-        with open(filename, "w") as f:
+        with open("extract/"+filename, "w") as f:
             json.dump(dataset, f, indent=2)
         
         return True
@@ -278,14 +278,14 @@ if __name__=="__main__":
     ibm_torino = service.backends()[1]
     ibm_marrakesh = service.backends()[2]
     
-    append_calibration_with_id(complete_data_json(ibm_fez), filename="ibm_complete.json")
-    append_calibration_with_id(complete_data_json(ibm_torino), filename="ibm_complete.json")
-    append_calibration_with_id(complete_data_json(ibm_marrakesh), filename="ibm_complete.json")
+    append_calibration_with_id(complete_data_json(ibm_fez), filename="extract_complete.json")
+    append_calibration_with_id(complete_data_json(ibm_torino), filename="extract_complete.json")
+    append_calibration_with_id(complete_data_json(ibm_marrakesh), filename="extract_complete.json")
 
-    append_calibration_with_id(qub_data_json(ibm_fez), filename="ibm_qubits.json")
-    append_calibration_with_id(qub_data_json(ibm_torino), filename="ibm_qubits.json")
-    append_calibration_with_id(qub_data_json(ibm_marrakesh), filename="ibm_qubits.json")
+    append_calibration_with_id(qub_data_json(ibm_fez), filename="extract_qubits.json")
+    append_calibration_with_id(qub_data_json(ibm_torino), filename="extract_qubits.json")
+    append_calibration_with_id(qub_data_json(ibm_marrakesh), filename="extract_qubits.json")
 
-    append_calibration_with_id(gate_data_json(ibm_fez), filename="ibm_gates.json")
-    append_calibration_with_id(gate_data_json(ibm_torino), filename="ibm_gates.json")
-    append_calibration_with_id(gate_data_json(ibm_marrakesh), filename="ibm_gates.json")
+    append_calibration_with_id(gate_data_json(ibm_fez), filename="extract_gates.json")
+    append_calibration_with_id(gate_data_json(ibm_torino), filename="extract_gates.json")
+    append_calibration_with_id(gate_data_json(ibm_marrakesh), filename="extract_gates.json")
