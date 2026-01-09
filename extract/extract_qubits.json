@@ -1,17 +1,17 @@
 {
-  "ibm_torino-2026-01-09_19:04:12": {
+  "ibm_torino-2026-01-09_19:27:54": {
     "backend": "ibm_torino",
     "num_qubits": 133,
-    "calibration_time": "2026-01-09_19:04:12",
+    "calibration_time": "2026-01-09_19:27:54",
     "qubits": {
       "Q0": {
         "t1": 0.00020066138971373633,
         "t2": 0.00020024813272693663,
         "frequency": null,
         "anharmonicity": null,
-        "readout_error": 0.1387939453125,
-        "prob_meas0_prep1": 0.149658203125,
-        "prob_meas1_prep0": 0.1279296875,
+        "readout_error": 0.1337890625,
+        "prob_meas0_prep1": 0.148193359375,
+        "prob_meas1_prep0": 0.119384765625,
         "readout_length": 1.56e-06
       },
       "Q1": {
@@ -19,9 +19,9 @@
         "t2": 0.00014600266380705165,
         "frequency": null,
         "anharmonicity": null,
-        "readout_error": 0.0545654296875,
-        "prob_meas0_prep1": 0.041015625,
-        "prob_meas1_prep0": 0.068115234375,
+        "readout_error": 0.0633544921875,
+        "prob_meas0_prep1": 0.04150390625,
+        "prob_meas1_prep0": 0.085205078125,
         "readout_length": 1.56e-06
       },
       "Q2": {
@@ -29,9 +29,9 @@
         "t2": 0.00015184298231485726,
         "frequency": null,
         "anharmonicity": null,
-        "readout_error": 0.0501708984375,
-        "prob_meas0_prep1": 0.072265625,
-        "prob_meas1_prep0": 0.028076171875,
+        "readout_error": 0.05126953125,
+        "prob_meas0_prep1": 0.070556640625,
+        "prob_meas1_prep0": 0.031982421875,
         "readout_length": 1.56e-06
       },
       "Q3": {
@@ -39,9 +39,9 @@
         "t2": 0.0001802281629944867,
         "frequency": null,
         "anharmonicity": null,
-        "readout_error": 0.0191650390625,
-        "prob_meas0_prep1": 0.01708984375,
-        "prob_meas1_prep0": 0.021240234375,
+        "readout_error": 0.0211181640625,
+        "prob_meas0_prep1": 0.0185546875,
+        "prob_meas1_prep0": 0.023681640625,
         "readout_length": 1.56e-06
       },
       "Q4": {
@@ -49,9 +49,9 @@
         "t2": 0.00018033051300708758,
         "frequency": null,
         "anharmonicity": null,
-        "readout_error": 0.0406494140625,
-        "prob_meas0_prep1": 0.048583984375,
-        "prob_meas1_prep0": 0.03271484375,
+        "readout_error": 0.039306640625,
+        "prob_meas0_prep1": 0.05029296875,
+        "prob_meas1_prep0": 0.0283203125,
         "readout_length": 1.56e-06
       },
       "Q5": {
@@ -59,9 +59,9 @@
         "t2": 0.00020928090310836338,
         "frequency": null,
         "anharmonicity": null,
-        "readout_error": 0.02783203125,
-        "prob_meas0_prep1": 0.01708984375,
-        "prob_meas1_prep0": 0.03857421875,
+        "readout_error": 0.0296630859375,
+        "prob_meas0_prep1": 0.021240234375,
+        "prob_meas1_prep0": 0.0380859375,
         "readout_length": 1.56e-06
       },
       "Q6": {
@@ -69,9 +69,9 @@
         "t2": 8.154715765059117e-05,
         "frequency": null,
         "anharmonicity": null,
-        "readout_error": 0.011962890625,
+        "readout_error": 0.01318359375,
         "prob_meas0_prep1": 0.0244140625,
-        "prob_meas1_prep0": 0.00146484375,
+        "prob_meas1_prep0": 0.002197265625,
         "readout_length": 1.56e-06
       },
       "Q7": {
@@ -79,9 +79,9 @@
         "t2": 0.00015220088903190678,
         "frequency": null,
         "anharmonicity": null,
-        "readout_error": 0.0826416015625,
-        "prob_meas0_prep1": 0.062744140625,
-        "prob_meas1_prep0": 0.1025390625,
+        "readout_error": 0.08740234375,
+        "prob_meas0_prep1": 0.05908203125,
+        "prob_meas1_prep0": 0.11572265625,
         "readout_length": 1.56e-06
       },
       "Q8": {
@@ -89,9 +89,9 @@
         "t2": 0.0002529971966285671,
         "frequency": null,
         "anharmonicity": null,
-        "readout_error": 0.0703125,
-        "prob_meas0_prep1": 0.06103515625,
-        "prob_meas1_prep0": 0.07958984375,
+        "readout_error": 0.073486328125,
+        "prob_meas0_prep1": 0.060302734375,
+        "prob_meas1_prep0": 0.086669921875,
         "readout_length": 1.56e-06
       },
       "Q9": {
@@ -99,9 +99,9 @@
         "t2": 8.411397864994193e-05,
         "frequency": null,
         "anharmonicity": null,
-        "readout_error": 0.0198974609375,
-        "prob_meas0_prep1": 0.03759765625,
-        "prob_meas1_prep0": 0.002197265625,
+        "readout_error": 0.024169921875,
+        "prob_meas0_prep1": 0.045654296875,
+        "prob_meas1_prep0": 0.002685546875,
         "readout_length": 1.56e-06
       },
       "Q10": {
@@ -109,9 +109,9 @@
         "t2": 3.921016821843225e-05,
         "frequency": null,
         "anharmonicity": null,
-        "readout_error": 0.044677734375,
-        "prob_meas0_prep1": 0.026123046875,
-        "prob_meas1_prep0": 0.063232421875,
+        "readout_error": 0.0467529296875,
+        "prob_meas0_prep1": 0.031005859375,
+        "prob_meas1_prep0": 0.0625,
         "readout_length": 1.56e-06
       },
       "Q11": {
@@ -119,9 +119,9 @@
         "t2": 0.00015153659093301503,
         "frequency": null,
         "anharmonicity": null,
-        "readout_error": 0.010009765625,
-        "prob_meas0_prep1": 0.015869140625,
-        "prob_meas1_prep0": 0.004150390625,
+        "readout_error": 0.013427734375,
+        "prob_meas0_prep1": 0.019287109375,
+        "prob_meas1_prep0": 0.007568359375,
         "readout_length": 1.56e-06
       },
       "Q12": {
@@ -129,9 +129,9 @@
         "t2": 0.000251646197265793,
         "frequency": null,
         "anharmonicity": null,
-        "readout_error": 0.0201416015625,
-        "prob_meas0_prep1": 0.0234375,
-        "prob_meas1_prep0": 0.016845703125,
+        "readout_error": 0.0322265625,
+        "prob_meas0_prep1": 0.0302734375,
+        "prob_meas1_prep0": 0.0341796875,
         "readout_length": 1.56e-06
       },
       "Q13": {
@@ -139,9 +139,9 @@
         "t2": 0.00020493702024432153,
         "frequency": null,
         "anharmonicity": null,
-        "readout_error": 0.0306396484375,
-        "prob_meas0_prep1": 0.02685546875,
-        "prob_meas1_prep0": 0.034423828125,
+        "readout_error": 0.0316162109375,
+        "prob_meas0_prep1": 0.02734375,
+        "prob_meas1_prep0": 0.035888671875,
         "readout_length": 1.56e-06
       },
       "Q14": {
@@ -149,9 +149,9 @@
         "t2": 0.00013544311158799008,
         "frequency": null,
         "anharmonicity": null,
-        "readout_error": 0.0272216796875,
-        "prob_meas0_prep1": 0.0185546875,
-        "prob_meas1_prep0": 0.035888671875,
+        "readout_error": 0.05908203125,
+        "prob_meas0_prep1": 0.0390625,
+        "prob_meas1_prep0": 0.0791015625,
         "readout_length": 1.56e-06
       },
       "Q15": {
@@ -159,9 +159,9 @@
         "t2": 3.384123571278219e-05,
         "frequency": null,
         "anharmonicity": null,
-        "readout_error": 0.014404296875,
-        "prob_meas0_prep1": 0.022705078125,
-        "prob_meas1_prep0": 0.006103515625,
+        "readout_error": 0.0205078125,
+        "prob_meas0_prep1": 0.037353515625,
+        "prob_meas1_prep0": 0.003662109375,
         "readout_length": 1.56e-06
       },
       "Q16": {
@@ -169,9 +169,9 @@
         "t2": 0.00016123620224845226,
         "frequency": null,
         "anharmonicity": null,
-        "readout_error": 0.0252685546875,
-        "prob_meas0_prep1": 0.019775390625,
-        "prob_meas1_prep0": 0.03076171875,
+        "readout_error": 0.02587890625,
+        "prob_meas0_prep1": 0.018310546875,
+        "prob_meas1_prep0": 0.033447265625,
         "readout_length": 1.56e-06
       },
       "Q17": {
@@ -179,9 +179,9 @@
         "t2": 0.00010257624045199118,
         "frequency": null,
         "anharmonicity": null,
-        "readout_error": 0.008056640625,
-        "prob_meas0_prep1": 0.008544921875,
-        "prob_meas1_prep0": 0.007568359375,
+        "readout_error": 0.0079345703125,
+        "prob_meas0_prep1": 0.01171875,
+        "prob_meas1_prep0": 0.004150390625,
         "readout_length": 1.56e-06
       },
       "Q18": {
@@ -189,9 +189,9 @@
         "t2": 0.0002037979418359038,
         "frequency": null,
         "anharmonicity": null,
-        "readout_error": 0.0074462890625,
-        "prob_meas0_prep1": 0.005615234375,
-        "prob_meas1_prep0": 0.00927734375,
+        "readout_error": 0.007080078125,
+        "prob_meas0_prep1": 0.002685546875,
+        "prob_meas1_prep0": 0.011474609375,
         "readout_length": 1.56e-06
       },
       "Q19": {
@@ -199,9 +199,9 @@
         "t2": 0.00029517008531036027,
         "frequency": null,
         "anharmonicity": null,
-        "readout_error": 0.0550537109375,
-        "prob_meas0_prep1": 0.065673828125,
-        "prob_meas1_prep0": 0.04443359375,
+        "readout_error": 0.055908203125,
+        "prob_meas0_prep1": 0.068115234375,
+        "prob_meas1_prep0": 0.043701171875,
         "readout_length": 1.56e-06
       },
       "Q20": {
@@ -209,9 +209,9 @@
         "t2": 0.00011094926682128907,
         "frequency": null,
         "anharmonicity": null,
-        "readout_error": 0.017333984375,
-        "prob_meas0_prep1": 0.023681640625,
-        "prob_meas1_prep0": 0.010986328125,
+        "readout_error": 0.013427734375,
+        "prob_meas0_prep1": 0.016845703125,
+        "prob_meas1_prep0": 0.010009765625,
         "readout_length": 1.56e-06
       },
       "Q21": {
@@ -219,9 +219,9 @@
         "t2": 2.2312997600798375e-05,
         "frequency": null,
         "anharmonicity": null,
-        "readout_error": 0.0775146484375,
-        "prob_meas0_prep1": 0.078369140625,
-        "prob_meas1_prep0": 0.07666015625,
+        "readout_error": 0.0745849609375,
+        "prob_meas0_prep1": 0.0654296875,
+        "prob_meas1_prep0": 0.083740234375,
         "readout_length": 1.56e-06
       },
       "Q22": {
@@ -229,9 +229,9 @@
         "t2": 6.438188918725789e-05,
         "frequency": null,
         "anharmonicity": null,
-        "readout_error": 0.0367431640625,
-        "prob_meas0_prep1": 0.05029296875,
-        "prob_meas1_prep0": 0.023193359375,
+        "readout_error": 0.0345458984375,
+        "prob_meas0_prep1": 0.04345703125,
+        "prob_meas1_prep0": 0.025634765625,
         "readout_length": 1.56e-06
       },
       "Q23": {
@@ -239,9 +239,9 @@
         "t2": 0.00017952562969457766,
         "frequency": null,
         "anharmonicity": null,
-        "readout_error": 0.03759765625,
+        "readout_error": 0.0333251953125,
         "prob_meas0_prep1": 0.025390625,
-        "prob_meas1_prep0": 0.039306640625,
+        "prob_meas1_prep0": 0.031005859375,
         "readout_length": 1.56e-06
       },
       "Q24": {
@@ -249,9 +249,9 @@
         "t2": 0.00017157214162692928,
         "frequency": null,
         "anharmonicity": null,
-        "readout_error": 0.0267333984375,
-        "prob_meas0_prep1": 0.01025390625,
-        "prob_meas1_prep0": 0.043212890625,
+        "readout_error": 0.0223388671875,
+        "prob_meas0_prep1": 0.011962890625,
+        "prob_meas1_prep0": 0.03271484375,
         "readout_length": 1.56e-06
       },
       "Q25": {
@@ -259,9 +259,9 @@
         "t2": 0.00018765146704660963,
         "frequency": null,
         "anharmonicity": null,
-        "readout_error": 0.1092529296875,
-        "prob_meas0_prep1": 0.10400390625,
-        "prob_meas1_prep0": 0.114501953125,
+        "readout_error": 0.095458984375,
+        "prob_meas0_prep1": 0.089111328125,
+        "prob_meas1_prep0": 0.101806640625,
         "readout_length": 1.56e-06
       },
       "Q26": {
@@ -269,9 +269,9 @@
         "t2": 0.00017570753405856876,
         "frequency": null,
         "anharmonicity": null,
-        "readout_error": 0.04443359375,
-        "prob_meas0_prep1": 0.04931640625,
-        "prob_meas1_prep0": 0.03955078125,
+        "readout_error": 0.0419921875,
+        "prob_meas0_prep1": 0.045654296875,
+        "prob_meas1_prep0": 0.038330078125,
         "readout_length": 1.56e-06
       },
       "Q27": {
@@ -279,9 +279,9 @@
         "t2": 8.77971293576243e-05,
         "frequency": null,
         "anharmonicity": null,
-        "readout_error": 0.061279296875,
-        "prob_meas0_prep1": 0.050048828125,
-        "prob_meas1_prep0": 0.072509765625,
+        "readout_error": 0.050048828125,
+        "prob_meas0_prep1": 0.050537109375,
+        "prob_meas1_prep0": 0.049560546875,
         "readout_length": 1.56e-06
       },
       "Q28": {
@@ -289,9 +289,9 @@
         "t2": 0.00016136092565279255,
         "frequency": null,
         "anharmonicity": null,
-        "readout_error": 0.00732421875,
-        "prob_meas0_prep1": 0.007568359375,
-        "prob_meas1_prep0": 0.007080078125,
+        "readout_error": 0.0074462890625,
+        "prob_meas0_prep1": 0.00927734375,
+        "prob_meas1_prep0": 0.005615234375,
         "readout_length": 1.56e-06
       },
       "Q29": {
@@ -299,9 +299,9 @@
         "t2": 0.0001371845447120385,
         "frequency": null,
         "anharmonicity": null,
-        "readout_error": 0.026123046875,
-        "prob_meas0_prep1": 0.014892578125,
-        "prob_meas1_prep0": 0.037353515625,
+        "readout_error": 0.0181884765625,
+        "prob_meas0_prep1": 0.011474609375,
+        "prob_meas1_prep0": 0.02490234375,
         "readout_length": 1.56e-06
       },
       "Q30": {
@@ -309,9 +309,9 @@
         "t2": 0.00011365899587044709,
         "frequency": null,
         "anharmonicity": null,
-        "readout_error": 0.017333984375,
-        "prob_meas0_prep1": 0.008056640625,
-        "prob_meas1_prep0": 0.026611328125,
+        "readout_error": 0.0159912109375,
+        "prob_meas0_prep1": 0.0087890625,
+        "prob_meas1_prep0": 0.023193359375,
         "readout_length": 1.56e-06
       },
       "Q31": {
@@ -319,9 +319,9 @@
         "t2": 0.0002079149515783255,
         "frequency": null,
         "anharmonicity": null,
-        "readout_error": 0.08349609375,
-        "prob_meas0_prep1": 0.078369140625,
-        "prob_meas1_prep0": 0.088623046875,
+        "readout_error": 0.0556640625,
+        "prob_meas0_prep1": 0.041748046875,
+        "prob_meas1_prep0": 0.069580078125,
         "readout_length": 1.56e-06
       },
       "Q32": {
@@ -329,9 +329,9 @@
         "t2": 0.00013899272458461068,
         "frequency": null,
         "anharmonicity": null,
-        "readout_error": 0.01611328125,
-        "prob_meas0_prep1": 0.02197265625,
-        "prob_meas1_prep0": 0.01025390625,
+        "readout_error": 0.0220947265625,
+        "prob_meas0_prep1": 0.03271484375,
+        "prob_meas1_prep0": 0.011474609375,
         "readout_length": 1.56e-06
       },
       "Q33": {
@@ -339,9 +339,9 @@
         "t2": 6.905004238620105e-05,
         "frequency": null,
         "anharmonicity": null,
-        "readout_error": 0.044189453125,
-        "prob_meas0_prep1": 0.02978515625,
-        "prob_meas1_prep0": 0.05859375,
+        "readout_error": 0.0455322265625,
+        "prob_meas0_prep1": 0.0234375,
+        "prob_meas1_prep0": 0.067626953125,
         "readout_length": 1.56e-06
       },
       "Q34": {
@@ -349,9 +349,9 @@
         "t2": 8.71295225763405e-05,
         "frequency": null,
         "anharmonicity": null,
-        "readout_error": 0.0531005859375,
-        "prob_meas0_prep1": 0.05322265625,
-        "prob_meas1_prep0": 0.052978515625,
+        "readout_error": 0.047119140625,
+        "prob_meas0_prep1": 0.051513671875,
+        "prob_meas1_prep0": 0.042724609375,
         "readout_length": 1.56e-06
       },
       "Q35": {
@@ -359,9 +359,9 @@
         "t2": 7.455901707784435e-05,
         "frequency": null,
         "anharmonicity": null,
-        "readout_error": 0.0120849609375,
-        "prob_meas0_prep1": 0.011474609375,
-        "prob_meas1_prep0": 0.0126953125,
+        "readout_error": 0.0167236328125,
+        "prob_meas0_prep1": 0.017822265625,
+        "prob_meas1_prep0": 0.015625,
         "readout_length": 1.56e-06
       },
       "Q36": {
@@ -369,9 +369,9 @@
         "t2": 0.000129228822136122,
         "frequency": null,
         "anharmonicity": null,
-        "readout_error": 0.0072021484375,
-        "prob_meas0_prep1": 0.010498046875,
-        "prob_meas1_prep0": 0.00390625,
+        "readout_error": 0.007080078125,
+        "prob_meas0_prep1": 0.012451171875,
+        "prob_meas1_prep0": 0.001708984375,
         "readout_length": 1.56e-06
       },
       "Q37": {
@@ -379,8 +379,8 @@
         "t2": 0.00010703740360968075,
         "frequency": null,
         "anharmonicity": null,
-        "readout_error": 0.0032958984375,
-        "prob_meas0_prep1": 0.00390625,
+        "readout_error": 0.0042724609375,
+        "prob_meas0_prep1": 0.005859375,
         "prob_meas1_prep0": 0.002685546875,
         "readout_length": 1.56e-06
       },
@@ -389,9 +389,9 @@
         "t2": 0.00015962893784632527,
         "frequency": null,
         "anharmonicity": null,
-        "readout_error": 0.0714111328125,
-        "prob_meas0_prep1": 0.06787109375,
-        "prob_meas1_prep0": 0.074951171875,
+        "readout_error": 0.0625,
+        "prob_meas0_prep1": 0.0732421875,
+        "prob_meas1_prep0": 0.0517578125,
         "readout_length": 1.56e-06
       },
       "Q39": {
@@ -399,9 +399,9 @@
         "t2": 0.00010414602721678559,
         "frequency": null,
         "anharmonicity": null,
-        "readout_error": 0.03515625,
-        "prob_meas0_prep1": 0.025146484375,
-        "prob_meas1_prep0": 0.045166015625,
+        "readout_error": 0.034423828125,
+        "prob_meas0_prep1": 0.02197265625,
+        "prob_meas1_prep0": 0.046875,
         "readout_length": 1.56e-06
       },
       "Q40": {
@@ -409,9 +409,9 @@
         "t2": 0.00022167995754549715,
         "frequency": null,
         "anharmonicity": null,
-        "readout_error": 0.0191650390625,
+        "readout_error": 0.024169921875,
         "prob_meas0_prep1": 0.01904296875,
-        "prob_meas1_prep0": 0.026611328125,
+        "prob_meas1_prep0": 0.030517578125,
         "readout_length": 1.56e-06
       },
       "Q41": {
@@ -419,9 +419,9 @@
         "t2": 5.825057965828797e-05,
         "frequency": null,
         "anharmonicity": null,
-        "readout_error": 0.0703125,
-        "prob_meas0_prep1": 0.13232421875,
-        "prob_meas1_prep0": 0.00830078125,
+        "readout_error": 0.0670166015625,
+        "prob_meas0_prep1": 0.12548828125,
+        "prob_meas1_prep0": 0.008544921875,
         "readout_length": 1.56e-06
       },
       "Q42": {
@@ -429,9 +429,9 @@
         "t2": 0.00015414392047553274,
         "frequency": null,
         "anharmonicity": null,
-        "readout_error": 0.1278076171875,
-        "prob_meas0_prep1": 0.13818359375,
-        "prob_meas1_prep0": 0.117431640625,
+        "readout_error": 0.1422119140625,
+        "prob_meas0_prep1": 0.1787109375,
+        "prob_meas1_prep0": 0.105712890625,
         "readout_length": 1.56e-06
       },
       "Q43": {
@@ -439,9 +439,9 @@
         "t2": 5.614623196111581e-05,
         "frequency": null,
         "anharmonicity": null,
-        "readout_error": 0.0167236328125,
-        "prob_meas0_prep1": 0.021728515625,
-        "prob_meas1_prep0": 0.01171875,
+        "readout_error": 0.0111083984375,
+        "prob_meas0_prep1": 0.014892578125,
+        "prob_meas1_prep0": 0.00732421875,
         "readout_length": 1.56e-06
       },
       "Q44": {
@@ -449,9 +449,9 @@
         "t2": 0.00020640525892066076,
         "frequency": null,
         "anharmonicity": null,
-        "readout_error": 0.040771484375,
-        "prob_meas0_prep1": 0.028076171875,
-        "prob_meas1_prep0": 0.053466796875,
+        "readout_error": 0.0364990234375,
+        "prob_meas0_prep1": 0.027587890625,
+        "prob_meas1_prep0": 0.04541015625,
         "readout_length": 1.56e-06
       },
       "Q45": {
@@ -459,9 +459,9 @@
         "t2": 6.201586515317079e-05,
         "frequency": null,
         "anharmonicity": null,
-        "readout_error": 0.00830078125,
-        "prob_meas0_prep1": 0.012939453125,
-        "prob_meas1_prep0": 0.003662109375,
+        "readout_error": 0.0069580078125,
+        "prob_meas0_prep1": 0.008544921875,
+        "prob_meas1_prep0": 0.00537109375,
         "readout_length": 1.56e-06
       },
       "Q46": {
@@ -469,9 +469,9 @@
         "t2": 0.00016002957369497714,
         "frequency": null,
         "anharmonicity": null,
-        "readout_error": 0.05078125,
-        "prob_meas0_prep1": 0.04931640625,
-        "prob_meas1_prep0": 0.05224609375,
+        "readout_error": 0.0450439453125,
+        "prob_meas0_prep1": 0.050048828125,
+        "prob_meas1_prep0": 0.0400390625,
         "readout_length": 1.56e-06
       },
       "Q47": {
@@ -479,9 +479,9 @@
         "t2": 2.6129803835149898e-05,
         "frequency": null,
         "anharmonicity": null,
-        "readout_error": 0.0223388671875,
-        "prob_meas0_prep1": 0.039794921875,
-        "prob_meas1_prep0": 0.0048828125,
+        "readout_error": 0.0250244140625,
+        "prob_meas0_prep1": 0.046875,
+        "prob_meas1_prep0": 0.003173828125,
         "readout_length": 1.56e-06
       },
       "Q48": {
@@ -489,9 +489,9 @@
         "t2": 0.0002385238569961904,
         "frequency": null,
         "anharmonicity": null,
-        "readout_error": 0.0418701171875,
-        "prob_meas0_prep1": 0.03466796875,
-        "prob_meas1_prep0": 0.049072265625,
+        "readout_error": 0.0440673828125,
+        "prob_meas0_prep1": 0.033447265625,
+        "prob_meas1_prep0": 0.0546875,
         "readout_length": 1.56e-06
       },
       "Q49": {
@@ -499,9 +499,9 @@
         "t2": 0.00011597982061732936,
         "frequency": null,
         "anharmonicity": null,
-        "readout_error": 0.01513671875,
-        "prob_meas0_prep1": 0.01416015625,
-        "prob_meas1_prep0": 0.01611328125,
+        "readout_error": 0.0125732421875,
+        "prob_meas0_prep1": 0.014404296875,
+        "prob_meas1_prep0": 0.0107421875,
         "readout_length": 1.56e-06
       },
       "Q50": {
@@ -509,9 +509,9 @@
         "t2": 0.00018232120414893863,
         "frequency": null,
         "anharmonicity": null,
-        "readout_error": 0.09716796875,
-        "prob_meas0_prep1": 0.102783203125,
-        "prob_meas1_prep0": 0.091552734375,
+        "readout_error": 0.10986328125,
+        "prob_meas0_prep1": 0.10546875,
+        "prob_meas1_prep0": 0.1142578125,
         "readout_length": 1.56e-06
       },
       "Q51": {
@@ -519,9 +519,9 @@
         "t2": 0.00013075541774154874,
         "frequency": null,
         "anharmonicity": null,
-        "readout_error": 0.0064697265625,
-        "prob_meas0_prep1": 0.006103515625,
-        "prob_meas1_prep0": 0.0068359375,
+        "readout_error": 0.007568359375,
+        "prob_meas0_prep1": 0.0068359375,
+        "prob_meas1_prep0": 0.00830078125,
         "readout_length": 1.56e-06
       },
       "Q52": {
@@ -529,9 +529,9 @@
         "t2": 0.000211219202063711,
         "frequency": null,
         "anharmonicity": null,
-        "readout_error": 0.0311279296875,
-        "prob_meas0_prep1": 0.01171875,
-        "prob_meas1_prep0": 0.050537109375,
+        "readout_error": 0.030517578125,
+        "prob_meas0_prep1": 0.011962890625,
+        "prob_meas1_prep0": 0.049072265625,
         "readout_length": 1.56e-06
       },
       "Q53": {
@@ -539,9 +539,9 @@
         "t2": 6.241300371354171e-05,
         "frequency": null,
         "anharmonicity": null,
-        "readout_error": 0.4805908203125,
-        "prob_meas0_prep1": 0.148193359375,
-        "prob_meas1_prep0": 0.81298828125,
+        "readout_error": 0.4534912109375,
+        "prob_meas0_prep1": 0.494384765625,
+        "prob_meas1_prep0": 0.41259765625,
         "readout_length": 1.56e-06
       },
       "Q54": {
@@ -549,9 +549,9 @@
         "t2": 0.00014013767012587916,
         "frequency": null,
         "anharmonicity": null,
-        "readout_error": 0.0147705078125,
-        "prob_meas0_prep1": 0.0078125,
-        "prob_meas1_prep0": 0.021728515625,
+        "readout_error": 0.0189208984375,
+        "prob_meas0_prep1": 0.0107421875,
+        "prob_meas1_prep0": 0.027099609375,
         "readout_length": 1.56e-06
       },
       "Q55": {
@@ -559,9 +559,9 @@
         "t2": 0.0001394554748463278,
         "frequency": null,
         "anharmonicity": null,
-        "readout_error": 0.0078125,
-        "prob_meas0_prep1": 0.010498046875,
-        "prob_meas1_prep0": 0.005126953125,
+        "readout_error": 0.0089111328125,
+        "prob_meas0_prep1": 0.010986328125,
+        "prob_meas1_prep0": 0.0068359375,
         "readout_length": 1.56e-06
       },
       "Q56": {
@@ -569,9 +569,9 @@
         "t2": 0.0001721078408023941,
         "frequency": null,
         "anharmonicity": null,
-        "readout_error": 0.0120849609375,
-        "prob_meas0_prep1": 0.0078125,
-        "prob_meas1_prep0": 0.016357421875,
+        "readout_error": 0.0150146484375,
+        "prob_meas0_prep1": 0.008544921875,
+        "prob_meas1_prep0": 0.021484375,
         "readout_length": 1.56e-06
       },
       "Q57": {
@@ -581,7 +581,7 @@
         "anharmonicity": null,
         "readout_error": 0.0272216796875,
         "prob_meas0_prep1": 0.02294921875,
-        "prob_meas1_prep0": 0.03369140625,
+        "prob_meas1_prep0": 0.0302734375,
         "readout_length": 1.56e-06
       },
       "Q58": {
@@ -589,9 +589,9 @@
         "t2": 0.0001411420230707069,
         "frequency": null,
         "anharmonicity": null,
-        "readout_error": 0.0169677734375,
-        "prob_meas0_prep1": 0.01806640625,
-        "prob_meas1_prep0": 0.015869140625,
+        "readout_error": 0.0205078125,
+        "prob_meas0_prep1": 0.021240234375,
+        "prob_meas1_prep0": 0.019775390625,
         "readout_length": 1.56e-06
       },
       "Q59": {
@@ -599,9 +599,9 @@
         "t2": 0.00013073415971572182,
         "frequency": null,
         "anharmonicity": null,
-        "readout_error": 0.0498046875,
-        "prob_meas0_prep1": 0.061767578125,
-        "prob_meas1_prep0": 0.037841796875,
+        "readout_error": 0.04052734375,
+        "prob_meas0_prep1": 0.053466796875,
+        "prob_meas1_prep0": 0.027587890625,
         "readout_length": 1.56e-06
       },
       "Q60": {
@@ -609,9 +609,9 @@
         "t2": 0.00015269635608638018,
         "frequency": null,
         "anharmonicity": null,
-        "readout_error": 0.0079345703125,
+        "readout_error": 0.0076904296875,
         "prob_meas0_prep1": 0.00830078125,
-        "prob_meas1_prep0": 0.007568359375,
+        "prob_meas1_prep0": 0.007080078125,
         "readout_length": 1.56e-06
       },
       "Q61": {
@@ -619,9 +619,9 @@
         "t2": 0.00019829397816075462,
         "frequency": null,
         "anharmonicity": null,
-        "readout_error": 0.012451171875,
-        "prob_meas0_prep1": 0.010986328125,
-        "prob_meas1_prep0": 0.013916015625,
+        "readout_error": 0.015380859375,
+        "prob_meas0_prep1": 0.018798828125,
+        "prob_meas1_prep0": 0.011962890625,
         "readout_length": 1.56e-06
       },
       "Q62": {
@@ -629,9 +629,9 @@
         "t2": 0.00010093352706036977,
         "frequency": null,
         "anharmonicity": null,
-        "readout_error": 0.01123046875,
-        "prob_meas0_prep1": 0.013916015625,
-        "prob_meas1_prep0": 0.008544921875,
+        "readout_error": 0.014892578125,
+        "prob_meas0_prep1": 0.01708984375,
+        "prob_meas1_prep0": 0.0126953125,
         "readout_length": 1.56e-06
       },
       "Q63": {
@@ -639,9 +639,9 @@
         "t2": 0.00013054057613544893,
         "frequency": null,
         "anharmonicity": null,
-        "readout_error": 0.0545654296875,
-        "prob_meas0_prep1": 0.05517578125,
-        "prob_meas1_prep0": 0.053955078125,
+        "readout_error": 0.04638671875,
+        "prob_meas0_prep1": 0.05224609375,
+        "prob_meas1_prep0": 0.04052734375,
         "readout_length": 1.56e-06
       },
       "Q64": {
@@ -649,9 +649,9 @@
         "t2": 0.00017635468794253124,
         "frequency": null,
         "anharmonicity": null,
-        "readout_error": 0.0675048828125,
-        "prob_meas0_prep1": 0.05908203125,
-        "prob_meas1_prep0": 0.075927734375,
+        "readout_error": 0.0657958984375,
+        "prob_meas0_prep1": 0.061767578125,
+        "prob_meas1_prep0": 0.06982421875,
         "readout_length": 1.56e-06
       },
       "Q65": {
@@ -659,9 +659,9 @@
         "t2": 0.00020794634295438806,
         "frequency": null,
         "anharmonicity": null,
-        "readout_error": 0.0140380859375,
-        "prob_meas0_prep1": 0.015380859375,
-        "prob_meas1_prep0": 0.0126953125,
+        "readout_error": 0.0125732421875,
+        "prob_meas0_prep1": 0.0146484375,
+        "prob_meas1_prep0": 0.010498046875,
         "readout_length": 1.56e-06
       },
       "Q66": {
@@ -669,9 +669,9 @@
         "t2": 0.00016545235913727606,
         "frequency": null,
         "anharmonicity": null,
-        "readout_error": 0.00634765625,
-        "prob_meas0_prep1": 0.0087890625,
-        "prob_meas1_prep0": 0.00390625,
+        "readout_error": 0.0059814453125,
+        "prob_meas0_prep1": 0.0078125,
+        "prob_meas1_prep0": 0.004150390625,
         "readout_length": 1.56e-06
       },
       "Q67": {
@@ -679,9 +679,9 @@
         "t2": 0.00012472486558136168,
         "frequency": null,
         "anharmonicity": null,
-        "readout_error": 0.052490234375,
-        "prob_meas0_prep1": 0.063720703125,
-        "prob_meas1_prep0": 0.041259765625,
+        "readout_error": 0.0478515625,
+        "prob_meas0_prep1": 0.056640625,
+        "prob_meas1_prep0": 0.0390625,
         "readout_length": 1.56e-06
       },
       "Q68": {
@@ -689,9 +689,9 @@
         "t2": 5.376979140600402e-05,
         "frequency": null,
         "anharmonicity": null,
-        "readout_error": 0.007568359375,
-        "prob_meas0_prep1": 0.005615234375,
-        "prob_meas1_prep0": 0.009521484375,
+        "readout_error": 0.0084228515625,
+        "prob_meas0_prep1": 0.006103515625,
+        "prob_meas1_prep0": 0.0107421875,
         "readout_length": 1.56e-06
       },
       "Q69": {
@@ -699,9 +699,9 @@
         "t2": 6.867344137123982e-05,
         "frequency": null,
         "anharmonicity": null,
-        "readout_error": 0.04541015625,
-        "prob_meas0_prep1": 0.05224609375,
-        "prob_meas1_prep0": 0.03857421875,
+        "readout_error": 0.0396728515625,
+        "prob_meas0_prep1": 0.03857421875,
+        "prob_meas1_prep0": 0.040771484375,
         "readout_length": 1.56e-06
       },
       "Q70": {
@@ -709,9 +709,9 @@
         "t2": 4.2410088103855804e-05,
         "frequency": null,
         "anharmonicity": null,
-        "readout_error": 0.0498046875,
-        "prob_meas0_prep1": 0.03857421875,
-        "prob_meas1_prep0": 0.06103515625,
+        "readout_error": 0.0494384765625,
+        "prob_meas0_prep1": 0.036865234375,
+        "prob_meas1_prep0": 0.06201171875,
         "readout_length": 1.56e-06
       },
       "Q71": {
@@ -719,9 +719,9 @@
         "t2": 4.352907107596973e-05,
         "frequency": null,
         "anharmonicity": null,
-        "readout_error": 0.06201171875,
-        "prob_meas0_prep1": 0.0546875,
-        "prob_meas1_prep0": 0.0693359375,
+        "readout_error": 0.048583984375,
+        "prob_meas0_prep1": 0.048583984375,
+        "prob_meas1_prep0": 0.048583984375,
         "readout_length": 1.56e-06
       },
       "Q72": {
@@ -729,9 +729,9 @@
         "t2": 8.547383351931073e-05,
         "frequency": null,
         "anharmonicity": null,
-        "readout_error": 0.00927734375,
-        "prob_meas0_prep1": 0.006103515625,
-        "prob_meas1_prep0": 0.012451171875,
+        "readout_error": 0.010986328125,
+        "prob_meas0_prep1": 0.007080078125,
+        "prob_meas1_prep0": 0.014892578125,
         "readout_length": 1.56e-06
       },
       "Q73": {
@@ -739,9 +739,9 @@
         "t2": 9.585958341019764e-05,
         "frequency": null,
         "anharmonicity": null,
-        "readout_error": 0.0174560546875,
-        "prob_meas0_prep1": 0.012939453125,
-        "prob_meas1_prep0": 0.02197265625,
+        "readout_error": 0.020263671875,
+        "prob_meas0_prep1": 0.015869140625,
+        "prob_meas1_prep0": 0.024658203125,
         "readout_length": 1.56e-06
       },
       "Q74": {
@@ -749,9 +749,9 @@
         "t2": 0.00010509571023015837,
         "frequency": null,
         "anharmonicity": null,
-        "readout_error": 0.010986328125,
+        "readout_error": 0.012451171875,
         "prob_meas0_prep1": 0.00634765625,
-        "prob_meas1_prep0": 0.012451171875,
+        "prob_meas1_prep0": 0.0166015625,
         "readout_length": 1.56e-06
       },
       "Q75": {
@@ -759,9 +759,9 @@
         "t2": 0.00010459709158662122,
         "frequency": null,
         "anharmonicity": null,
-        "readout_error": 0.01708984375,
+        "readout_error": 0.015380859375,
         "prob_meas0_prep1": 0.01953125,
-        "prob_meas1_prep0": 0.0146484375,
+        "prob_meas1_prep0": 0.01123046875,
         "readout_length": 1.56e-06
       },
       "Q76": {
@@ -769,9 +769,9 @@
         "t2": 0.00023745426533180655,
         "frequency": null,
         "anharmonicity": null,
-        "readout_error": 0.0821533203125,
-        "prob_meas0_prep1": 0.017822265625,
-        "prob_meas1_prep0": 0.146484375,
+        "readout_error": 0.0335693359375,
+        "prob_meas0_prep1": 0.016357421875,
+        "prob_meas1_prep0": 0.05078125,
         "readout_length": 1.56e-06
       },
       "Q77": {
@@ -779,9 +779,9 @@
         "t2": 0.00016491819542817032,
         "frequency": null,
         "anharmonicity": null,
-        "readout_error": 0.0311279296875,
-        "prob_meas0_prep1": 0.027099609375,
-        "prob_meas1_prep0": 0.03515625,
+        "readout_error": 0.028076171875,
+        "prob_meas0_prep1": 0.021728515625,
+        "prob_meas1_prep0": 0.034423828125,
         "readout_length": 1.56e-06
       },
       "Q78": {
@@ -789,9 +789,9 @@
         "t2": 9.66477728797081e-05,
         "frequency": null,
         "anharmonicity": null,
-        "readout_error": 0.065673828125,
-        "prob_meas0_prep1": 0.075927734375,
-        "prob_meas1_prep0": 0.055419921875,
+        "readout_error": 0.0716552734375,
+        "prob_meas0_prep1": 0.088134765625,
+        "prob_meas1_prep0": 0.05517578125,
         "readout_length": 1.56e-06
       },
       "Q79": {
@@ -799,9 +799,9 @@
         "t2": 9.653592407892743e-05,
         "frequency": null,
         "anharmonicity": null,
-        "readout_error": 0.0445556640625,
-        "prob_meas0_prep1": 0.083984375,
-        "prob_meas1_prep0": 0.005126953125,
+        "readout_error": 0.037841796875,
+        "prob_meas0_prep1": 0.070068359375,
+        "prob_meas1_prep0": 0.005615234375,
         "readout_length": 1.56e-06
       },
       "Q80": {
@@ -809,9 +809,9 @@
         "t2": 2.8364690539003614e-05,
         "frequency": null,
         "anharmonicity": null,
-        "readout_error": 0.0211181640625,
-        "prob_meas0_prep1": 0.0224609375,
-        "prob_meas1_prep0": 0.019775390625,
+        "readout_error": 0.02587890625,
+        "prob_meas0_prep1": 0.025390625,
+        "prob_meas1_prep0": 0.0263671875,
         "readout_length": 1.56e-06
       },
       "Q81": {
@@ -819,9 +819,9 @@
         "t2": 0.00020451584107221256,
         "frequency": null,
         "anharmonicity": null,
-        "readout_error": 0.0089111328125,
-        "prob_meas0_prep1": 0.005615234375,
-        "prob_meas1_prep0": 0.01220703125,
+        "readout_error": 0.0078125,
+        "prob_meas0_prep1": 0.00634765625,
+        "prob_meas1_prep0": 0.00927734375,
         "readout_length": 1.56e-06
       },
       "Q82": {
@@ -829,9 +829,9 @@
         "t2": 0.00011803803847713986,
         "frequency": null,
         "anharmonicity": null,
-        "readout_error": 0.0968017578125,
-        "prob_meas0_prep1": 0.109619140625,
-        "prob_meas1_prep0": 0.083984375,
+        "readout_error": 0.064453125,
+        "prob_meas0_prep1": 0.07177734375,
+        "prob_meas1_prep0": 0.05712890625,
         "readout_length": 1.56e-06
       },
       "Q83": {
@@ -839,9 +839,9 @@
         "t2": 8.605633161645827e-05,
         "frequency": null,
         "anharmonicity": null,
-        "readout_error": 0.019287109375,
-        "prob_meas0_prep1": 0.00927734375,
-        "prob_meas1_prep0": 0.029296875,
+        "readout_error": 0.01806640625,
+        "prob_meas0_prep1": 0.0126953125,
+        "prob_meas1_prep0": 0.0234375,
         "readout_length": 1.56e-06
       },
       "Q84": {
@@ -849,9 +849,9 @@
         "t2": 0.00013056087692097688,
         "frequency": null,
         "anharmonicity": null,
-        "readout_error": 0.0535888671875,
-        "prob_meas0_prep1": 0.05908203125,
-        "prob_meas1_prep0": 0.048095703125,
+        "readout_error": 0.071044921875,
+        "prob_meas0_prep1": 0.077880859375,
+        "prob_meas1_prep0": 0.064208984375,
         "readout_length": 1.56e-06
       },
       "Q85": {
@@ -859,9 +859,9 @@
         "t2": 5.367006917325196e-06,
         "frequency": null,
         "anharmonicity": null,
-        "readout_error": 0.034912109375,
-        "prob_meas0_prep1": 0.05712890625,
-        "prob_meas1_prep0": 0.0126953125,
+        "readout_error": 0.0330810546875,
+        "prob_meas0_prep1": 0.05615234375,
+        "prob_meas1_prep0": 0.010009765625,
         "readout_length": 1.56e-06
       },
       "Q86": {
@@ -869,9 +869,9 @@
         "t2": 7.416167636408038e-05,
         "frequency": null,
         "anharmonicity": null,
-        "readout_error": 0.216796875,
-        "prob_meas0_prep1": 0.381591796875,
-        "prob_meas1_prep0": 0.052001953125,
+        "readout_error": 0.2655029296875,
+        "prob_meas0_prep1": 0.462646484375,
+        "prob_meas1_prep0": 0.068359375,
         "readout_length": 1.56e-06
       },
       "Q87": {
@@ -879,9 +879,9 @@
         "t2": 0.00020888538702579722,
         "frequency": null,
         "anharmonicity": null,
-        "readout_error": 0.005859375,
-        "prob_meas0_prep1": 0.003662109375,
-        "prob_meas1_prep0": 0.008056640625,
+        "readout_error": 0.0062255859375,
+        "prob_meas0_prep1": 0.0068359375,
+        "prob_meas1_prep0": 0.005615234375,
         "readout_length": 1.56e-06
       },
       "Q88": {
@@ -889,9 +889,9 @@
         "t2": 6.633498362623369e-05,
         "frequency": null,
         "anharmonicity": null,
-        "readout_error": 0.1280517578125,
-        "prob_meas0_prep1": 0.146728515625,
-        "prob_meas1_prep0": 0.109375,
+        "readout_error": 0.2279052734375,
+        "prob_meas0_prep1": 0.3427734375,
+        "prob_meas1_prep0": 0.113037109375,
         "readout_length": 1.56e-06
       },
       "Q89": {
@@ -899,9 +899,9 @@
         "t2": 0.0001920906577747837,
         "frequency": null,
         "anharmonicity": null,
-        "readout_error": 0.074462890625,
-        "prob_meas0_prep1": 0.063720703125,
-        "prob_meas1_prep0": 0.085205078125,
+        "readout_error": 0.076171875,
+        "prob_meas0_prep1": 0.06787109375,
+        "prob_meas1_prep0": 0.08447265625,
         "readout_length": 1.56e-06
       },
       "Q90": {
@@ -909,9 +909,9 @@
         "t2": 0.0003124825741116584,
         "frequency": null,
         "anharmonicity": null,
-        "readout_error": 0.033203125,
-        "prob_meas0_prep1": 0.01123046875,
-        "prob_meas1_prep0": 0.05517578125,
+        "readout_error": 0.032470703125,
+        "prob_meas0_prep1": 0.0126953125,
+        "prob_meas1_prep0": 0.05224609375,
         "readout_length": 1.56e-06
       },
       "Q91": {
@@ -919,9 +919,9 @@
         "t2": 9.231712707156646e-05,
         "frequency": null,
         "anharmonicity": null,
-        "readout_error": 0.017333984375,
+        "readout_error": 0.008056640625,
         "prob_meas0_prep1": 0.01611328125,
-        "prob_meas1_prep0": 0.01953125,
+        "prob_meas1_prep0": 0.0078125,
         "readout_length": 1.56e-06
       },
       "Q92": {
@@ -929,9 +929,9 @@
         "t2": 0.0001748501139220599,
         "frequency": null,
         "anharmonicity": null,
-        "readout_error": 0.00830078125,
-        "prob_meas0_prep1": 0.005859375,
-        "prob_meas1_prep0": 0.0107421875,
+        "readout_error": 0.009521484375,
+        "prob_meas0_prep1": 0.00537109375,
+        "prob_meas1_prep0": 0.013671875,
         "readout_length": 1.56e-06
       },
       "Q93": {
@@ -939,9 +939,9 @@
         "t2": 0.00014057633126739668,
         "frequency": null,
         "anharmonicity": null,
-        "readout_error": 0.0079345703125,
-        "prob_meas0_prep1": 0.005126953125,
-        "prob_meas1_prep0": 0.0107421875,
+        "readout_error": 0.011474609375,
+        "prob_meas0_prep1": 0.008056640625,
+        "prob_meas1_prep0": 0.014892578125,
         "readout_length": 1.56e-06
       },
       "Q94": {
@@ -949,8 +949,8 @@
         "t2": 0.00025109186325351386,
         "frequency": null,
         "anharmonicity": null,
-        "readout_error": 0.0152587890625,
-        "prob_meas0_prep1": 0.01220703125,
+        "readout_error": 0.016357421875,
+        "prob_meas0_prep1": 0.014404296875,
         "prob_meas1_prep0": 0.018310546875,
         "readout_length": 1.56e-06
       },
@@ -959,9 +959,9 @@
         "t2": 0.0002510399913684888,
         "frequency": null,
         "anharmonicity": null,
-        "readout_error": 0.01611328125,
-        "prob_meas0_prep1": 0.017822265625,
-        "prob_meas1_prep0": 0.014404296875,
+        "readout_error": 0.0301513671875,
+        "prob_meas0_prep1": 0.0244140625,
+        "prob_meas1_prep0": 0.035888671875,
         "readout_length": 1.56e-06
       },
       "Q96": {
@@ -969,9 +969,9 @@
         "t2": 7.8001517085284e-05,
         "frequency": null,
         "anharmonicity": null,
-        "readout_error": 0.0142822265625,
-        "prob_meas0_prep1": 0.01953125,
-        "prob_meas1_prep0": 0.009033203125,
+        "readout_error": 0.0098876953125,
+        "prob_meas0_prep1": 0.01318359375,
+        "prob_meas1_prep0": 0.006591796875,
         "readout_length": 1.56e-06
       },
       "Q97": {
@@ -979,9 +979,9 @@
         "t2": 0.00020569990312688534,
         "frequency": null,
         "anharmonicity": null,
-        "readout_error": 0.100830078125,
-        "prob_meas0_prep1": 0.07421875,
-        "prob_meas1_prep0": 0.12744140625,
+        "readout_error": 0.1085205078125,
+        "prob_meas0_prep1": 0.087646484375,
+        "prob_meas1_prep0": 0.12939453125,
         "readout_length": 1.56e-06
       },
       "Q98": {
@@ -989,9 +989,9 @@
         "t2": 0.00010185842406865543,
         "frequency": null,
         "anharmonicity": null,
-        "readout_error": 0.0169677734375,
-        "prob_meas0_prep1": 0.028076171875,
-        "prob_meas1_prep0": 0.005859375,
+        "readout_error": 0.0179443359375,
+        "prob_meas0_prep1": 0.02685546875,
+        "prob_meas1_prep0": 0.009033203125,
         "readout_length": 1.56e-06
       },
       "Q99": {
@@ -999,9 +999,9 @@
         "t2": 0.00012902363204849525,
         "frequency": null,
         "anharmonicity": null,
-        "readout_error": 0.03857421875,
-        "prob_meas0_prep1": 0.030029296875,
-        "prob_meas1_prep0": 0.047119140625,
+        "readout_error": 0.031982421875,
+        "prob_meas0_prep1": 0.03271484375,
+        "prob_meas1_prep0": 0.03125,
         "readout_length": 1.56e-06
       },
       "Q100": {
@@ -1009,9 +1009,9 @@
         "t2": 0.00017506007122571618,
         "frequency": null,
         "anharmonicity": null,
-        "readout_error": 0.047119140625,
+        "readout_error": 0.0419921875,
         "prob_meas0_prep1": 0.027099609375,
-        "prob_meas1_prep0": 0.067138671875,
+        "prob_meas1_prep0": 0.056884765625,
         "readout_length": 1.56e-06
       },
       "Q101": {
@@ -1019,9 +1019,9 @@
         "t2": 5.70671939384622e-05,
         "frequency": null,
         "anharmonicity": null,
-        "readout_error": 0.0343017578125,
-        "prob_meas0_prep1": 0.03466796875,
-        "prob_meas1_prep0": 0.033935546875,
+        "readout_error": 0.1131591796875,
+        "prob_meas0_prep1": 0.10986328125,
+        "prob_meas1_prep0": 0.116455078125,
         "readout_length": 1.56e-06
       },
       "Q102": {
@@ -1029,9 +1029,9 @@
         "t2": 3.1223397924749415e-05,
         "frequency": null,
         "anharmonicity": null,
-        "readout_error": 0.01220703125,
-        "prob_meas0_prep1": 0.011962890625,
-        "prob_meas1_prep0": 0.012451171875,
+        "readout_error": 0.018798828125,
+        "prob_meas0_prep1": 0.017333984375,
+        "prob_meas1_prep0": 0.020263671875,
         "readout_length": 1.56e-06
       },
       "Q103": {
@@ -1039,9 +1039,9 @@
         "t2": 8.77697384848491e-05,
         "frequency": null,
         "anharmonicity": null,
-        "readout_error": 0.0679931640625,
-        "prob_meas0_prep1": 0.07470703125,
-        "prob_meas1_prep0": 0.061279296875,
+        "readout_error": 0.050048828125,
+        "prob_meas0_prep1": 0.0537109375,
+        "prob_meas1_prep0": 0.04638671875,
         "readout_length": 1.56e-06
       },
       "Q104": {
@@ -1049,9 +1049,9 @@
         "t2": 0.00010352831188941579,
         "frequency": null,
         "anharmonicity": null,
-        "readout_error": 0.0350341796875,
-        "prob_meas0_prep1": 0.04248046875,
-        "prob_meas1_prep0": 0.027587890625,
+        "readout_error": 0.02587890625,
+        "prob_meas0_prep1": 0.037841796875,
+        "prob_meas1_prep0": 0.013916015625,
         "readout_length": 1.56e-06
       },
       "Q105": {
@@ -1059,9 +1059,9 @@
         "t2": 0.00012299836642220397,
         "frequency": null,
         "anharmonicity": null,
-        "readout_error": 0.1097412109375,
-        "prob_meas0_prep1": 0.1279296875,
-        "prob_meas1_prep0": 0.091552734375,
+        "readout_error": 0.106201171875,
+        "prob_meas0_prep1": 0.1396484375,
+        "prob_meas1_prep0": 0.07275390625,
         "readout_length": 1.56e-06
       },
       "Q106": {
@@ -1069,9 +1069,9 @@
         "t2": 0.0001243989778231677,
         "frequency": null,
         "anharmonicity": null,
-        "readout_error": 0.1231689453125,
-        "prob_meas0_prep1": 0.162841796875,
-        "prob_meas1_prep0": 0.08349609375,
+        "readout_error": 0.1134033203125,
+        "prob_meas0_prep1": 0.147705078125,
+        "prob_meas1_prep0": 0.0791015625,
         "readout_length": 1.56e-06
       },
       "Q107": {
@@ -1079,9 +1079,9 @@
         "t2": 0.00020125824538258313,
         "frequency": null,
         "anharmonicity": null,
-        "readout_error": 0.0194091796875,
-        "prob_meas0_prep1": 0.01708984375,
-        "prob_meas1_prep0": 0.021728515625,
+        "readout_error": 0.024169921875,
+        "prob_meas0_prep1": 0.02294921875,
+        "prob_meas1_prep0": 0.025390625,
         "readout_length": 1.56e-06
       },
       "Q108": {
@@ -1089,9 +1089,9 @@
         "t2": 7.643799936361091e-05,
         "frequency": null,
         "anharmonicity": null,
-        "readout_error": 0.01611328125,
+        "readout_error": 0.015869140625,
         "prob_meas0_prep1": 0.0068359375,
-        "prob_meas1_prep0": 0.02392578125,
+        "prob_meas1_prep0": 0.022705078125,
         "readout_length": 1.56e-06
       },
       "Q109": {
@@ -1099,9 +1099,9 @@
         "t2": 0.00030779287406198944,
         "frequency": null,
         "anharmonicity": null,
-        "readout_error": 0.09130859375,
-        "prob_meas0_prep1": 0.05859375,
-        "prob_meas1_prep0": 0.1240234375,
+        "readout_error": 0.0501708984375,
+        "prob_meas0_prep1": 0.045654296875,
+        "prob_meas1_prep0": 0.0546875,
         "readout_length": 1.56e-06
       },
       "Q110": {
@@ -1109,9 +1109,9 @@
         "t2": 0.00017668101071428288,
         "frequency": null,
         "anharmonicity": null,
-        "readout_error": 0.010498046875,
-        "prob_meas0_prep1": 0.009521484375,
-        "prob_meas1_prep0": 0.011474609375,
+        "readout_error": 0.0081787109375,
+        "prob_meas0_prep1": 0.007568359375,
+        "prob_meas1_prep0": 0.0087890625,
         "readout_length": 1.56e-06
       },
       "Q111": {
@@ -1119,9 +1119,9 @@
         "t2": 0.00010492931707143636,
         "frequency": null,
         "anharmonicity": null,
-        "readout_error": 0.0166015625,
-        "prob_meas0_prep1": 0.010986328125,
-        "prob_meas1_prep0": 0.022216796875,
+        "readout_error": 0.0126953125,
+        "prob_meas0_prep1": 0.0107421875,
+        "prob_meas1_prep0": 0.0146484375,
         "readout_length": 1.56e-06
       },
       "Q112": {
@@ -1130,8 +1130,8 @@
         "frequency": null,
         "anharmonicity": null,
         "readout_error": 0.0113525390625,
-        "prob_meas0_prep1": 0.010986328125,
-        "prob_meas1_prep0": 0.01171875,
+        "prob_meas0_prep1": 0.008544921875,
+        "prob_meas1_prep0": 0.01416015625,
         "readout_length": 1.56e-06
       },
       "Q113": {
@@ -1139,9 +1139,9 @@
         "t2": 0.00021377625087885745,
         "frequency": null,
         "anharmonicity": null,
-        "readout_error": 0.04541015625,
-        "prob_meas0_prep1": 0.046630859375,
-        "prob_meas1_prep0": 0.044189453125,
+        "readout_error": 0.045654296875,
+        "prob_meas0_prep1": 0.048583984375,
+        "prob_meas1_prep0": 0.042724609375,
         "readout_length": 1.56e-06
       },
       "Q114": {
@@ -1149,9 +1149,9 @@
         "t2": 5.39154109497136e-05,
         "frequency": null,
         "anharmonicity": null,
-        "readout_error": 0.0672607421875,
-        "prob_meas0_prep1": 0.01416015625,
-        "prob_meas1_prep0": 0.120361328125,
+        "readout_error": 0.0604248046875,
+        "prob_meas0_prep1": 0.011962890625,
+        "prob_meas1_prep0": 0.10888671875,
         "readout_length": 1.56e-06
       },
       "Q115": {
@@ -1159,9 +1159,9 @@
         "t2": 0.00013109602451817507,
         "frequency": null,
         "anharmonicity": null,
-        "readout_error": 0.125244140625,
-        "prob_meas0_prep1": 0.09716796875,
-        "prob_meas1_prep0": 0.1533203125,
+        "readout_error": 0.1270751953125,
+        "prob_meas0_prep1": 0.106201171875,
+        "prob_meas1_prep0": 0.14794921875,
         "readout_length": 1.56e-06
       },
       "Q116": {
@@ -1169,9 +1169,9 @@
         "t2": 0.0001786434633954411,
         "frequency": null,
         "anharmonicity": null,
-        "readout_error": 0.039306640625,
-        "prob_meas0_prep1": 0.029296875,
-        "prob_meas1_prep0": 0.04931640625,
+        "readout_error": 0.0416259765625,
+        "prob_meas0_prep1": 0.03076171875,
+        "prob_meas1_prep0": 0.052490234375,
         "readout_length": 1.56e-06
       },
       "Q117": {
@@ -1179,9 +1179,9 @@
         "t2": 7.198371981567178e-05,
         "frequency": null,
         "anharmonicity": null,
-        "readout_error": 0.0067138671875,
-        "prob_meas0_prep1": 0.010498046875,
-        "prob_meas1_prep0": 0.0029296875,
+        "readout_error": 0.0045166015625,
+        "prob_meas0_prep1": 0.0078125,
+        "prob_meas1_prep0": 0.001220703125,
         "readout_length": 1.56e-06
       },
       "Q118": {
@@ -1189,9 +1189,9 @@
         "t2": 0.0001763997770198126,
         "frequency": null,
         "anharmonicity": null,
-        "readout_error": 0.0855712890625,
-        "prob_meas0_prep1": 0.069091796875,
-        "prob_meas1_prep0": 0.10205078125,
+        "readout_error": 0.0941162109375,
+        "prob_meas0_prep1": 0.080810546875,
+        "prob_meas1_prep0": 0.107421875,
         "readout_length": 1.56e-06
       },
       "Q119": {
@@ -1199,9 +1199,9 @@
         "t2": 0.00015598714330889815,
         "frequency": null,
         "anharmonicity": null,
-        "readout_error": 0.0272216796875,
-        "prob_meas0_prep1": 0.015380859375,
-        "prob_meas1_prep0": 0.0390625,
+        "readout_error": 0.0269775390625,
+        "prob_meas0_prep1": 0.014404296875,
+        "prob_meas1_prep0": 0.03955078125,
         "readout_length": 1.56e-06
       },
       "Q120": {
@@ -1209,9 +1209,9 @@
         "t2": 0.00011768965675105082,
         "frequency": null,
         "anharmonicity": null,
-        "readout_error": 0.0224609375,
-        "prob_meas0_prep1": 0.029052734375,
-        "prob_meas1_prep0": 0.015869140625,
+        "readout_error": 0.02490234375,
+        "prob_meas0_prep1": 0.0244140625,
+        "prob_meas1_prep0": 0.025390625,
         "readout_length": 1.56e-06
       },
       "Q121": {
@@ -1219,9 +1219,9 @@
         "t2": 0.00015709172079153038,
         "frequency": null,
         "anharmonicity": null,
-        "readout_error": 0.033203125,
-        "prob_meas0_prep1": 0.02099609375,
-        "prob_meas1_prep0": 0.04541015625,
+        "readout_error": 0.030517578125,
+        "prob_meas0_prep1": 0.0244140625,
+        "prob_meas1_prep0": 0.03662109375,
         "readout_length": 1.56e-06
       },
       "Q122": {
@@ -1229,9 +1229,9 @@
         "t2": 0.00012184504573762665,
         "frequency": null,
         "anharmonicity": null,
-        "readout_error": 0.0753173828125,
-        "prob_meas0_prep1": 0.063720703125,
-        "prob_meas1_prep0": 0.0869140625,
+        "readout_error": 0.0692138671875,
+        "prob_meas0_prep1": 0.060791015625,
+        "prob_meas1_prep0": 0.07763671875,
         "readout_length": 1.56e-06
       },
       "Q123": {
@@ -1239,9 +1239,9 @@
         "t2": 4.070874989761804e-05,
         "frequency": null,
         "anharmonicity": null,
-        "readout_error": 0.0303955078125,
-        "prob_meas0_prep1": 0.05029296875,
-        "prob_meas1_prep0": 0.010498046875,
+        "readout_error": 0.024658203125,
+        "prob_meas0_prep1": 0.04150390625,
+        "prob_meas1_prep0": 0.0078125,
         "readout_length": 1.56e-06
       },
       "Q124": {
@@ -1249,9 +1249,9 @@
         "t2": 9.471503556305515e-05,
         "frequency": null,
         "anharmonicity": null,
-        "readout_error": 0.1392822265625,
-        "prob_meas0_prep1": 0.16796875,
-        "prob_meas1_prep0": 0.110595703125,
+        "readout_error": 0.111328125,
+        "prob_meas0_prep1": 0.12841796875,
+        "prob_meas1_prep0": 0.09423828125,
         "readout_length": 1.56e-06
       },
       "Q125": {
@@ -1259,9 +1259,9 @@
         "t2": 0.00015701692892472165,
         "frequency": null,
         "anharmonicity": null,
-        "readout_error": 0.0087890625,
+        "readout_error": 0.009521484375,
         "prob_meas0_prep1": 0.013671875,
-        "prob_meas1_prep0": 0.006591796875,
+        "prob_meas1_prep0": 0.005615234375,
         "readout_length": 1.56e-06
       },
       "Q126": {
@@ -1269,9 +1269,9 @@
         "t2": 0.0001233591015392796,
         "frequency": null,
         "anharmonicity": null,
-        "readout_error": 0.0833740234375,
-        "prob_meas0_prep1": 0.08544921875,
-        "prob_meas1_prep0": 0.081298828125,
+        "readout_error": 0.0740966796875,
+        "prob_meas0_prep1": 0.075927734375,
+        "prob_meas1_prep0": 0.072265625,
         "readout_length": 1.56e-06
       },
       "Q127": {
@@ -1279,9 +1279,9 @@
         "t2": 0.00010351566298953004,
         "frequency": null,
         "anharmonicity": null,
-        "readout_error": 0.14599609375,
-        "prob_meas0_prep1": 0.13037109375,
-        "prob_meas1_prep0": 0.16162109375,
+        "readout_error": 0.1400146484375,
+        "prob_meas0_prep1": 0.129150390625,
+        "prob_meas1_prep0": 0.15087890625,
         "readout_length": 1.56e-06
       },
       "Q128": {
@@ -1289,9 +1289,9 @@
         "t2": 0.00014649720626812865,
         "frequency": null,
         "anharmonicity": null,
-        "readout_error": 0.0885009765625,
-        "prob_meas0_prep1": 0.07958984375,
-        "prob_meas1_prep0": 0.097412109375,
+        "readout_error": 0.095458984375,
+        "prob_meas0_prep1": 0.09423828125,
+        "prob_meas1_prep0": 0.0966796875,
         "readout_length": 1.56e-06
       },
       "Q129": {
@@ -1299,9 +1299,9 @@
         "t2": 0.0001019837365243492,
         "frequency": null,
         "anharmonicity": null,
-        "readout_error": 0.039794921875,
-        "prob_meas0_prep1": 0.046142578125,
-        "prob_meas1_prep0": 0.033447265625,
+        "readout_error": 0.0406494140625,
+        "prob_meas0_prep1": 0.042236328125,
+        "prob_meas1_prep0": 0.0390625,
         "readout_length": 1.56e-06
       },
       "Q130": {
@@ -1309,9 +1309,9 @@
         "t2": 0.00025821165507483736,
         "frequency": null,
         "anharmonicity": null,
-        "readout_error": 0.0213623046875,
-        "prob_meas0_prep1": 0.01904296875,
-        "prob_meas1_prep0": 0.023681640625,
+        "readout_error": 0.016845703125,
+        "prob_meas0_prep1": 0.016357421875,
+        "prob_meas1_prep0": 0.017333984375,
         "readout_length": 1.56e-06
       },
       "Q131": {
@@ -1319,9 +1319,9 @@
         "t2": 4.884958939429979e-05,
         "frequency": null,
         "anharmonicity": null,
-        "readout_error": 0.010498046875,
-        "prob_meas0_prep1": 0.006591796875,
-        "prob_meas1_prep0": 0.014404296875,
+        "readout_error": 0.0098876953125,
+        "prob_meas0_prep1": 0.0078125,
+        "prob_meas1_prep0": 0.011962890625,
         "readout_length": 1.56e-06
       },
       "Q132": {
@@ -1329,12 +1329,12 @@
         "t2": 0.000161155327994271,
         "frequency": null,
         "anharmonicity": null,
-        "readout_error": 0.0107421875,
-        "prob_meas0_prep1": 0.007080078125,
-        "prob_meas1_prep0": 0.014404296875,
+        "readout_error": 0.010498046875,
+        "prob_meas0_prep1": 0.0078125,
+        "prob_meas1_prep0": 0.01318359375,
         "readout_length": 1.56e-06
       }
     },
-    "id": "ibm_torino-2026-01-09_19:04:12"
+    "id": "ibm_torino-2026-01-09_19:27:54"
   }
 }
