@@ -1,13 +1,16 @@
 from iqm.qiskit_iqm import IQMProvider
-RESONANCE_API_TOKEN="8Gh0R5Ce4bsagrjhXGrK8ZSz6UamMz2dnfZWsPFzJJ8BmpzbZY94U6VZzKA3EMYH"
+RESONANCE_API_TOKEN="bnjru9YD0h359Dua8qQ4QIByn6uUYJA7Nih1xVTDAj0Bm5VP88J9ELmI5Be5Xz8F"
 
-provider = IQMProvider("https://cocos.resonance.meetiqm.com/garnet",
-            token= RESONANCE_API_TOKEN)
-backend = provider.get_backend()
+provider = IQMProvider("https://resonance.meetiqm.com/", quantum_computer="garnet",
+            token=RESONANCE_API_TOKEN)
+backend = provider.get_backend(use_metrics = True)
 
-props = backend.properties()
+target = backend.get_real_target()
 
-for qubit, qubit_props in enumerate(props.qubits):
-    print(f"Qubit {qubit}")
-    for item in qubit_props:
-        print(f"  {item.name}: {item.value} {item.unit}")
+# To collect 
+for i in range(backend.num_qubits):
+    props = target.qubit_properties[i]
+    print(f"Qubit {i}:")
+    print(f"Properties qubit {i}: {props}")
+
+print(target.operation_names)
