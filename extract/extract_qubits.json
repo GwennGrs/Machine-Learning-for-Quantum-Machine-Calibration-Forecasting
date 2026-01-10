@@ -113416,5 +113416,4479 @@
       }
     },
     "id": "ibm_marrakesh-2026-01-10_05:59:17"
+  },
+  "ibm_fez-2026-01-10_06:26:19": {
+    "backend": "ibm_fez",
+    "num_qubits": 156,
+    "calibration_time": "2026-01-10_06:26:19",
+    "qubits": {
+      "Q0": {
+        "t1": 5.0952726277293835e-05,
+        "t2": 5.0077720749351507e-05,
+        "frequency": null,
+        "anharmonicity": null,
+        "readout_error": 0.010009765625,
+        "prob_meas0_prep1": 0.01904296875,
+        "prob_meas1_prep0": 0.0009765625,
+        "readout_length": 1.56e-06
+      },
+      "Q1": {
+        "t1": 0.00019747771843383265,
+        "t2": 0.0002149116510112092,
+        "frequency": null,
+        "anharmonicity": null,
+        "readout_error": 0.019287109375,
+        "prob_meas0_prep1": 0.02294921875,
+        "prob_meas1_prep0": 0.015625,
+        "readout_length": 1.56e-06
+      },
+      "Q2": {
+        "t1": 0.00024087690446258637,
+        "t2": 0.00015892199395216826,
+        "frequency": null,
+        "anharmonicity": null,
+        "readout_error": 0.0045166015625,
+        "prob_meas0_prep1": 0.004638671875,
+        "prob_meas1_prep0": 0.00439453125,
+        "readout_length": 1.56e-06
+      },
+      "Q3": {
+        "t1": 0.0002954783644541357,
+        "t2": 0.00025263737492580134,
+        "frequency": null,
+        "anharmonicity": null,
+        "readout_error": 0.02001953125,
+        "prob_meas0_prep1": 0.0224609375,
+        "prob_meas1_prep0": 0.017578125,
+        "readout_length": 1.56e-06
+      },
+      "Q4": {
+        "t1": 0.000254401161891105,
+        "t2": 0.00014884656525218567,
+        "frequency": null,
+        "anharmonicity": null,
+        "readout_error": 0.003662109375,
+        "prob_meas0_prep1": 0.006591796875,
+        "prob_meas1_prep0": 0.000732421875,
+        "readout_length": 1.56e-06
+      },
+      "Q5": {
+        "t1": 0.00023018732916046478,
+        "t2": 0.000195859680963226,
+        "frequency": null,
+        "anharmonicity": null,
+        "readout_error": 0.0093994140625,
+        "prob_meas0_prep1": 0.009521484375,
+        "prob_meas1_prep0": 0.00927734375,
+        "readout_length": 1.56e-06
+      },
+      "Q6": {
+        "t1": 0.0002326407002164911,
+        "t2": 0.0001354804513386731,
+        "frequency": null,
+        "anharmonicity": null,
+        "readout_error": 0.01416015625,
+        "prob_meas0_prep1": 0.009521484375,
+        "prob_meas1_prep0": 0.018798828125,
+        "readout_length": 1.56e-06
+      },
+      "Q7": {
+        "t1": 0.00010586348965209188,
+        "t2": 3.745936961374401e-05,
+        "frequency": null,
+        "anharmonicity": null,
+        "readout_error": 0.025634765625,
+        "prob_meas0_prep1": 0.031982421875,
+        "prob_meas1_prep0": 0.019287109375,
+        "readout_length": 1.56e-06
+      },
+      "Q8": {
+        "t1": 0.00011737156862994346,
+        "t2": 3.5140929316548505e-05,
+        "frequency": null,
+        "anharmonicity": null,
+        "readout_error": 0.0054931640625,
+        "prob_meas0_prep1": 0.00830078125,
+        "prob_meas1_prep0": 0.002685546875,
+        "readout_length": 1.56e-06
+      },
+      "Q9": {
+        "t1": 0.0002617684042491804,
+        "t2": 2.9445921058028126e-05,
+        "frequency": null,
+        "anharmonicity": null,
+        "readout_error": 0.0098876953125,
+        "prob_meas0_prep1": 0.013427734375,
+        "prob_meas1_prep0": 0.00634765625,
+        "readout_length": 1.56e-06
+      },
+      "Q10": {
+        "t1": 0.0002450886378964742,
+        "t2": 0.00011847125604162036,
+        "frequency": null,
+        "anharmonicity": null,
+        "readout_error": 0.0068359375,
+        "prob_meas0_prep1": 0.00830078125,
+        "prob_meas1_prep0": 0.001953125,
+        "readout_length": 1.56e-06
+      },
+      "Q11": {
+        "t1": 0.00012567236205495162,
+        "t2": 7.557418621528034e-05,
+        "frequency": null,
+        "anharmonicity": null,
+        "readout_error": 0.02197265625,
+        "prob_meas0_prep1": 0.033203125,
+        "prob_meas1_prep0": 0.0107421875,
+        "readout_length": 1.56e-06
+      },
+      "Q12": {
+        "t1": 6.971829918665525e-05,
+        "t2": 7.799229078257413e-05,
+        "frequency": null,
+        "anharmonicity": null,
+        "readout_error": 0.024169921875,
+        "prob_meas0_prep1": 0.0361328125,
+        "prob_meas1_prep0": 0.01220703125,
+        "readout_length": 1.56e-06
+      },
+      "Q13": {
+        "t1": 0.00020931034383372572,
+        "t2": 0.00014913370389057603,
+        "frequency": null,
+        "anharmonicity": null,
+        "readout_error": 0.012451171875,
+        "prob_meas0_prep1": 0.015380859375,
+        "prob_meas1_prep0": 0.009521484375,
+        "readout_length": 1.56e-06
+      },
+      "Q14": {
+        "t1": 0.0002162519375477864,
+        "t2": 7.70993029907745e-05,
+        "frequency": null,
+        "anharmonicity": null,
+        "readout_error": 0.006591796875,
+        "prob_meas0_prep1": 0.006591796875,
+        "prob_meas1_prep0": 0.006591796875,
+        "readout_length": 1.56e-06
+      },
+      "Q15": {
+        "t1": 0.0002600093521872366,
+        "t2": 0.00016949496865782302,
+        "frequency": null,
+        "anharmonicity": null,
+        "readout_error": 0.015625,
+        "prob_meas0_prep1": 0.024169921875,
+        "prob_meas1_prep0": 0.007080078125,
+        "readout_length": 1.56e-06
+      },
+      "Q16": {
+        "t1": 0.00017088310674154844,
+        "t2": 0.00013307248620025863,
+        "frequency": null,
+        "anharmonicity": null,
+        "readout_error": 0.006103515625,
+        "prob_meas0_prep1": 0.009765625,
+        "prob_meas1_prep0": 0.00244140625,
+        "readout_length": 1.56e-06
+      },
+      "Q17": {
+        "t1": 0.00016437025124463206,
+        "t2": 0.00010491881952922495,
+        "frequency": null,
+        "anharmonicity": null,
+        "readout_error": 0.0106201171875,
+        "prob_meas0_prep1": 0.013916015625,
+        "prob_meas1_prep0": 0.00732421875,
+        "readout_length": 1.56e-06
+      },
+      "Q18": {
+        "t1": 9.215276113340924e-05,
+        "t2": 5.313383301082469e-05,
+        "frequency": null,
+        "anharmonicity": null,
+        "readout_error": 0.0087890625,
+        "prob_meas0_prep1": 0.015380859375,
+        "prob_meas1_prep0": 0.002197265625,
+        "readout_length": 1.56e-06
+      },
+      "Q19": {
+        "t1": 0.00020721576870101513,
+        "t2": 0.00019822177531692462,
+        "frequency": null,
+        "anharmonicity": null,
+        "readout_error": 0.00830078125,
+        "prob_meas0_prep1": 0.011474609375,
+        "prob_meas1_prep0": 0.005126953125,
+        "readout_length": 1.56e-06
+      },
+      "Q20": {
+        "t1": 0.00011026142475169143,
+        "t2": 9.357059290463947e-05,
+        "frequency": null,
+        "anharmonicity": null,
+        "readout_error": 0.0093994140625,
+        "prob_meas0_prep1": 0.01318359375,
+        "prob_meas1_prep0": 0.005615234375,
+        "readout_length": 1.56e-06
+      },
+      "Q21": {
+        "t1": 0.0002520119383073065,
+        "t2": 0.0002034548687419176,
+        "frequency": null,
+        "anharmonicity": null,
+        "readout_error": 0.0068359375,
+        "prob_meas0_prep1": 0.0107421875,
+        "prob_meas1_prep0": 0.0029296875,
+        "readout_length": 1.56e-06
+      },
+      "Q22": {
+        "t1": 0.00017175746223698103,
+        "t2": 0.00012360651379851297,
+        "frequency": null,
+        "anharmonicity": null,
+        "readout_error": 0.0074462890625,
+        "prob_meas0_prep1": 0.013427734375,
+        "prob_meas1_prep0": 0.00146484375,
+        "readout_length": 1.56e-06
+      },
+      "Q23": {
+        "t1": 0.00016144283912141374,
+        "t2": 0.00016257945331492264,
+        "frequency": null,
+        "anharmonicity": null,
+        "readout_error": 0.0048828125,
+        "prob_meas0_prep1": 0.00732421875,
+        "prob_meas1_prep0": 0.00244140625,
+        "readout_length": 1.56e-06
+      },
+      "Q24": {
+        "t1": 0.00015844482579039013,
+        "t2": 0.0001687289664337839,
+        "frequency": null,
+        "anharmonicity": null,
+        "readout_error": 0.008056640625,
+        "prob_meas0_prep1": 0.008056640625,
+        "prob_meas1_prep0": 0.008056640625,
+        "readout_length": 1.56e-06
+      },
+      "Q25": {
+        "t1": 0.0001853751721407846,
+        "t2": 0.00013541053603753007,
+        "frequency": null,
+        "anharmonicity": null,
+        "readout_error": 0.010009765625,
+        "prob_meas0_prep1": 0.012451171875,
+        "prob_meas1_prep0": 0.007568359375,
+        "readout_length": 1.56e-06
+      },
+      "Q26": {
+        "t1": 8.449965375239793e-05,
+        "t2": 6.0292683441122236e-05,
+        "frequency": null,
+        "anharmonicity": null,
+        "readout_error": 0.007568359375,
+        "prob_meas0_prep1": 0.01025390625,
+        "prob_meas1_prep0": 0.0048828125,
+        "readout_length": 1.56e-06
+      },
+      "Q27": {
+        "t1": 9.382367942815162e-05,
+        "t2": 0.00010368044198468961,
+        "frequency": null,
+        "anharmonicity": null,
+        "readout_error": 0.0084228515625,
+        "prob_meas0_prep1": 0.02001953125,
+        "prob_meas1_prep0": 0.001953125,
+        "readout_length": 1.56e-06
+      },
+      "Q28": {
+        "t1": 0.00021371715263692395,
+        "t2": 0.00021420129002310638,
+        "frequency": null,
+        "anharmonicity": null,
+        "readout_error": 0.0054931640625,
+        "prob_meas0_prep1": 0.00830078125,
+        "prob_meas1_prep0": 0.002685546875,
+        "readout_length": 1.56e-06
+      },
+      "Q29": {
+        "t1": 0.00020678428629473922,
+        "t2": 5.279404011449661e-05,
+        "frequency": null,
+        "anharmonicity": null,
+        "readout_error": 0.01318359375,
+        "prob_meas0_prep1": 0.019287109375,
+        "prob_meas1_prep0": 0.007080078125,
+        "readout_length": 1.56e-06
+      },
+      "Q30": {
+        "t1": 0.00015936872927967645,
+        "t2": 0.0001353550764876494,
+        "frequency": null,
+        "anharmonicity": null,
+        "readout_error": 0.0068359375,
+        "prob_meas0_prep1": 0.0107421875,
+        "prob_meas1_prep0": 0.0029296875,
+        "readout_length": 1.56e-06
+      },
+      "Q31": {
+        "t1": 0.0001381617834706551,
+        "t2": 6.658402063318986e-05,
+        "frequency": null,
+        "anharmonicity": null,
+        "readout_error": 0.0157470703125,
+        "prob_meas0_prep1": 0.022705078125,
+        "prob_meas1_prep0": 0.0087890625,
+        "readout_length": 1.56e-06
+      },
+      "Q32": {
+        "t1": 0.000141501970496838,
+        "t2": 0.00014352701084806134,
+        "frequency": null,
+        "anharmonicity": null,
+        "readout_error": 0.0347900390625,
+        "prob_meas0_prep1": 0.034423828125,
+        "prob_meas1_prep0": 0.03515625,
+        "readout_length": 1.56e-06
+      },
+      "Q33": {
+        "t1": 0.00016493398154605245,
+        "t2": 0.0001563103565345463,
+        "frequency": null,
+        "anharmonicity": null,
+        "readout_error": 0.0142822265625,
+        "prob_meas0_prep1": 0.020751953125,
+        "prob_meas1_prep0": 0.0078125,
+        "readout_length": 1.56e-06
+      },
+      "Q34": {
+        "t1": 0.0001574830342535216,
+        "t2": 7.913417552090451e-05,
+        "frequency": null,
+        "anharmonicity": null,
+        "readout_error": 0.0140380859375,
+        "prob_meas0_prep1": 0.016357421875,
+        "prob_meas1_prep0": 0.01171875,
+        "readout_length": 1.56e-06
+      },
+      "Q35": {
+        "t1": 0.0001111595711901359,
+        "t2": 3.7245422227797654e-05,
+        "frequency": null,
+        "anharmonicity": null,
+        "readout_error": 0.017578125,
+        "prob_meas0_prep1": 0.025390625,
+        "prob_meas1_prep0": 0.009765625,
+        "readout_length": 1.56e-06
+      },
+      "Q36": {
+        "t1": 0.0001501186366852388,
+        "t2": 0.0001381930955949116,
+        "frequency": null,
+        "anharmonicity": null,
+        "readout_error": 0.008056640625,
+        "prob_meas0_prep1": 0.0087890625,
+        "prob_meas1_prep0": 0.00732421875,
+        "readout_length": 1.56e-06
+      },
+      "Q37": {
+        "t1": 0.00015181345868696254,
+        "t2": 0.0002133782448765029,
+        "frequency": null,
+        "anharmonicity": null,
+        "readout_error": 0.009033203125,
+        "prob_meas0_prep1": 0.010986328125,
+        "prob_meas1_prep0": 0.007080078125,
+        "readout_length": 1.56e-06
+      },
+      "Q38": {
+        "t1": 0.00012258698789288373,
+        "t2": 0.00014494097029830978,
+        "frequency": null,
+        "anharmonicity": null,
+        "readout_error": 0.0072021484375,
+        "prob_meas0_prep1": 0.0107421875,
+        "prob_meas1_prep0": 0.003662109375,
+        "readout_length": 1.56e-06
+      },
+      "Q39": {
+        "t1": 0.00011067879395522876,
+        "t2": 0.00015994333776440814,
+        "frequency": null,
+        "anharmonicity": null,
+        "readout_error": 0.018310546875,
+        "prob_meas0_prep1": 0.0224609375,
+        "prob_meas1_prep0": 0.01416015625,
+        "readout_length": 1.56e-06
+      },
+      "Q40": {
+        "t1": 0.00017470018150665575,
+        "t2": 0.00016578649073754203,
+        "frequency": null,
+        "anharmonicity": null,
+        "readout_error": 0.0146484375,
+        "prob_meas0_prep1": 0.017578125,
+        "prob_meas1_prep0": 0.01171875,
+        "readout_length": 1.56e-06
+      },
+      "Q41": {
+        "t1": 0.00023270239936401297,
+        "t2": 0.0001504166036781345,
+        "frequency": null,
+        "anharmonicity": null,
+        "readout_error": 0.063720703125,
+        "prob_meas0_prep1": 0.0859375,
+        "prob_meas1_prep0": 0.04150390625,
+        "readout_length": 1.56e-06
+      },
+      "Q42": {
+        "t1": 0.0001226586712125197,
+        "t2": 3.588467788380562e-05,
+        "frequency": null,
+        "anharmonicity": null,
+        "readout_error": 0.0205078125,
+        "prob_meas0_prep1": 0.0146484375,
+        "prob_meas1_prep0": 0.0263671875,
+        "readout_length": 1.56e-06
+      },
+      "Q43": {
+        "t1": 0.00013423069801837576,
+        "t2": 7.594443573274557e-05,
+        "frequency": null,
+        "anharmonicity": null,
+        "readout_error": 0.1082763671875,
+        "prob_meas0_prep1": 0.095703125,
+        "prob_meas1_prep0": 0.120849609375,
+        "readout_length": 1.56e-06
+      },
+      "Q44": {
+        "t1": 0.000164995216478219,
+        "t2": 0.00015483539733854388,
+        "frequency": null,
+        "anharmonicity": null,
+        "readout_error": 0.0068359375,
+        "prob_meas0_prep1": 0.0078125,
+        "prob_meas1_prep0": 0.004150390625,
+        "readout_length": 1.56e-06
+      },
+      "Q45": {
+        "t1": 0.00017351491731854994,
+        "t2": 0.00015969150045706958,
+        "frequency": null,
+        "anharmonicity": null,
+        "readout_error": 0.0361328125,
+        "prob_meas0_prep1": 0.04150390625,
+        "prob_meas1_prep0": 0.03076171875,
+        "readout_length": 1.56e-06
+      },
+      "Q46": {
+        "t1": 0.000148449712147674,
+        "t2": 1.1427052945522608e-05,
+        "frequency": null,
+        "anharmonicity": null,
+        "readout_error": 0.0059814453125,
+        "prob_meas0_prep1": 0.009765625,
+        "prob_meas1_prep0": 0.002197265625,
+        "readout_length": 1.56e-06
+      },
+      "Q47": {
+        "t1": 0.00014821424873347184,
+        "t2": 6.305476520761232e-05,
+        "frequency": null,
+        "anharmonicity": null,
+        "readout_error": 0.0230712890625,
+        "prob_meas0_prep1": 0.02734375,
+        "prob_meas1_prep0": 0.018798828125,
+        "readout_length": 1.56e-06
+      },
+      "Q48": {
+        "t1": 8.265418582648149e-05,
+        "t2": 3.3779203192399046e-05,
+        "frequency": null,
+        "anharmonicity": null,
+        "readout_error": 0.0048828125,
+        "prob_meas0_prep1": 0.0068359375,
+        "prob_meas1_prep0": 0.0029296875,
+        "readout_length": 1.56e-06
+      },
+      "Q49": {
+        "t1": 0.00010245587955007076,
+        "t2": 3.849243524229436e-05,
+        "frequency": null,
+        "anharmonicity": null,
+        "readout_error": 0.017822265625,
+        "prob_meas0_prep1": 0.021728515625,
+        "prob_meas1_prep0": 0.013916015625,
+        "readout_length": 1.56e-06
+      },
+      "Q50": {
+        "t1": 0.0001690443850248241,
+        "t2": 0.00010349805147870058,
+        "frequency": null,
+        "anharmonicity": null,
+        "readout_error": 0.0045166015625,
+        "prob_meas0_prep1": 0.006103515625,
+        "prob_meas1_prep0": 0.0029296875,
+        "readout_length": 1.56e-06
+      },
+      "Q51": {
+        "t1": 3.9351126865452195e-05,
+        "t2": 4.43824487069976e-05,
+        "frequency": null,
+        "anharmonicity": null,
+        "readout_error": 0.0465087890625,
+        "prob_meas0_prep1": 0.043212890625,
+        "prob_meas1_prep0": 0.0498046875,
+        "readout_length": 1.56e-06
+      },
+      "Q52": {
+        "t1": 0.00012726760930265935,
+        "t2": 0.00010744447750619719,
+        "frequency": null,
+        "anharmonicity": null,
+        "readout_error": 0.0101318359375,
+        "prob_meas0_prep1": 0.013671875,
+        "prob_meas1_prep0": 0.006591796875,
+        "readout_length": 1.56e-06
+      },
+      "Q53": {
+        "t1": 0.0001514487081923045,
+        "t2": 1.3838975869201354e-05,
+        "frequency": null,
+        "anharmonicity": null,
+        "readout_error": 0.0435791015625,
+        "prob_meas0_prep1": 0.047607421875,
+        "prob_meas1_prep0": 0.03955078125,
+        "readout_length": 1.56e-06
+      },
+      "Q54": {
+        "t1": 0.00016063993583863284,
+        "t2": 0.00017434568701183917,
+        "frequency": null,
+        "anharmonicity": null,
+        "readout_error": 0.005859375,
+        "prob_meas0_prep1": 0.0068359375,
+        "prob_meas1_prep0": 0.0048828125,
+        "readout_length": 1.56e-06
+      },
+      "Q55": {
+        "t1": 0.00014029649571362698,
+        "t2": 0.00014467300476337476,
+        "frequency": null,
+        "anharmonicity": null,
+        "readout_error": 0.05224609375,
+        "prob_meas0_prep1": 0.0849609375,
+        "prob_meas1_prep0": 0.01953125,
+        "readout_length": 1.56e-06
+      },
+      "Q56": {
+        "t1": 0.00021169133382985023,
+        "t2": 0.00025289512389007387,
+        "frequency": null,
+        "anharmonicity": null,
+        "readout_error": 0.0135498046875,
+        "prob_meas0_prep1": 0.01416015625,
+        "prob_meas1_prep0": 0.012939453125,
+        "readout_length": 1.56e-06
+      },
+      "Q57": {
+        "t1": 0.00015403052342062077,
+        "t2": 7.2285936317355e-05,
+        "frequency": null,
+        "anharmonicity": null,
+        "readout_error": 0.0087890625,
+        "prob_meas0_prep1": 0.01416015625,
+        "prob_meas1_prep0": 0.00341796875,
+        "readout_length": 1.56e-06
+      },
+      "Q58": {
+        "t1": 0.00015244952404726227,
+        "t2": 0.00011855469986520776,
+        "frequency": null,
+        "anharmonicity": null,
+        "readout_error": 0.0245361328125,
+        "prob_meas0_prep1": 0.046875,
+        "prob_meas1_prep0": 0.002197265625,
+        "readout_length": 1.56e-06
+      },
+      "Q59": {
+        "t1": 0.00012005392241941221,
+        "t2": 0.00012614998792610793,
+        "frequency": null,
+        "anharmonicity": null,
+        "readout_error": 0.0091552734375,
+        "prob_meas0_prep1": 0.01171875,
+        "prob_meas1_prep0": 0.006591796875,
+        "readout_length": 1.56e-06
+      },
+      "Q60": {
+        "t1": 0.00014437654135465974,
+        "t2": 4.191480531447225e-05,
+        "frequency": null,
+        "anharmonicity": null,
+        "readout_error": 0.0323486328125,
+        "prob_meas0_prep1": 0.03857421875,
+        "prob_meas1_prep0": 0.026123046875,
+        "readout_length": 1.56e-06
+      },
+      "Q61": {
+        "t1": 0.00021122145685471025,
+        "t2": 0.0001185891344686103,
+        "frequency": null,
+        "anharmonicity": null,
+        "readout_error": 0.0440673828125,
+        "prob_meas0_prep1": 0.04150390625,
+        "prob_meas1_prep0": 0.038818359375,
+        "readout_length": 1.56e-06
+      },
+      "Q62": {
+        "t1": 8.823326322936268e-05,
+        "t2": 3.876492631902822e-05,
+        "frequency": null,
+        "anharmonicity": null,
+        "readout_error": 0.018798828125,
+        "prob_meas0_prep1": 0.016845703125,
+        "prob_meas1_prep0": 0.020751953125,
+        "readout_length": 1.56e-06
+      },
+      "Q63": {
+        "t1": 0.0001496426983502948,
+        "t2": 1.3616393683998451e-05,
+        "frequency": null,
+        "anharmonicity": null,
+        "readout_error": 0.0299072265625,
+        "prob_meas0_prep1": 0.03564453125,
+        "prob_meas1_prep0": 0.024169921875,
+        "readout_length": 1.56e-06
+      },
+      "Q64": {
+        "t1": 6.965322789767612e-05,
+        "t2": 7.002794246699063e-05,
+        "frequency": null,
+        "anharmonicity": null,
+        "readout_error": 0.0045166015625,
+        "prob_meas0_prep1": 0.006591796875,
+        "prob_meas1_prep0": 0.00244140625,
+        "readout_length": 1.56e-06
+      },
+      "Q65": {
+        "t1": 0.00012888962860064772,
+        "t2": 8.609199057942822e-05,
+        "frequency": null,
+        "anharmonicity": null,
+        "readout_error": 0.07958984375,
+        "prob_meas0_prep1": 0.0830078125,
+        "prob_meas1_prep0": 0.076171875,
+        "readout_length": 1.56e-06
+      },
+      "Q66": {
+        "t1": 0.00012115576094034703,
+        "t2": 1.742827649181523e-05,
+        "frequency": null,
+        "anharmonicity": null,
+        "readout_error": 0.007568359375,
+        "prob_meas0_prep1": 0.010986328125,
+        "prob_meas1_prep0": 0.004150390625,
+        "readout_length": 1.56e-06
+      },
+      "Q67": {
+        "t1": 0.00011724132960774782,
+        "t2": 6.18660953501302e-05,
+        "frequency": null,
+        "anharmonicity": null,
+        "readout_error": 0.05419921875,
+        "prob_meas0_prep1": 0.0576171875,
+        "prob_meas1_prep0": 0.05078125,
+        "readout_length": 1.56e-06
+      },
+      "Q68": {
+        "t1": 0.00012460055712688658,
+        "t2": 0.00010061172662738333,
+        "frequency": null,
+        "anharmonicity": null,
+        "readout_error": 0.005615234375,
+        "prob_meas0_prep1": 0.008056640625,
+        "prob_meas1_prep0": 0.003173828125,
+        "readout_length": 1.56e-06
+      },
+      "Q69": {
+        "t1": 0.00015197566905835965,
+        "t2": 7.586988731851886e-05,
+        "frequency": null,
+        "anharmonicity": null,
+        "readout_error": 0.00634765625,
+        "prob_meas0_prep1": 0.008544921875,
+        "prob_meas1_prep0": 0.004150390625,
+        "readout_length": 1.56e-06
+      },
+      "Q70": {
+        "t1": 0.00010910861341454455,
+        "t2": 8.360309186698856e-05,
+        "frequency": null,
+        "anharmonicity": null,
+        "readout_error": 0.004150390625,
+        "prob_meas0_prep1": 0.0068359375,
+        "prob_meas1_prep0": 0.00146484375,
+        "readout_length": 1.56e-06
+      },
+      "Q71": {
+        "t1": 0.00020524982849689935,
+        "t2": 0.0001609580378757505,
+        "frequency": null,
+        "anharmonicity": null,
+        "readout_error": 0.0093994140625,
+        "prob_meas0_prep1": 0.013427734375,
+        "prob_meas1_prep0": 0.00537109375,
+        "readout_length": 1.56e-06
+      },
+      "Q72": {
+        "t1": 6.69356077038598e-06,
+        "t2": 9.915649886504495e-05,
+        "frequency": null,
+        "anharmonicity": null,
+        "readout_error": 0.4923095703125,
+        "prob_meas0_prep1": 0.2041015625,
+        "prob_meas1_prep0": 0.780517578125,
+        "readout_length": 1.56e-06
+      },
+      "Q73": {
+        "t1": 0.0001773234174320362,
+        "t2": 7.893587132027283e-05,
+        "frequency": null,
+        "anharmonicity": null,
+        "readout_error": 0.0130615234375,
+        "prob_meas0_prep1": 0.0166015625,
+        "prob_meas1_prep0": 0.009521484375,
+        "readout_length": 1.56e-06
+      },
+      "Q74": {
+        "t1": 0.00011118930228413954,
+        "t2": 0.00011274332657424097,
+        "frequency": null,
+        "anharmonicity": null,
+        "readout_error": 0.007080078125,
+        "prob_meas0_prep1": 0.00830078125,
+        "prob_meas1_prep0": 0.005859375,
+        "readout_length": 1.56e-06
+      },
+      "Q75": {
+        "t1": 0.00012621088511835098,
+        "t2": 0.0001238666251494685,
+        "frequency": null,
+        "anharmonicity": null,
+        "readout_error": 0.00634765625,
+        "prob_meas0_prep1": 0.010009765625,
+        "prob_meas1_prep0": 0.002685546875,
+        "readout_length": 1.56e-06
+      },
+      "Q76": {
+        "t1": 0.0001903724976170042,
+        "t2": 0.00010701796723260515,
+        "frequency": null,
+        "anharmonicity": null,
+        "readout_error": 0.03271484375,
+        "prob_meas0_prep1": 0.031982421875,
+        "prob_meas1_prep0": 0.033447265625,
+        "readout_length": 1.56e-06
+      },
+      "Q77": {
+        "t1": 0.000132819984267212,
+        "t2": 4.669974207292134e-05,
+        "frequency": null,
+        "anharmonicity": null,
+        "readout_error": 0.0146484375,
+        "prob_meas0_prep1": 0.019287109375,
+        "prob_meas1_prep0": 0.010009765625,
+        "readout_length": 1.56e-06
+      },
+      "Q78": {
+        "t1": 0.00012355928067733126,
+        "t2": 8.535848068120749e-05,
+        "frequency": null,
+        "anharmonicity": null,
+        "readout_error": 0.01611328125,
+        "prob_meas0_prep1": 0.01611328125,
+        "prob_meas1_prep0": 0.0146484375,
+        "readout_length": 1.56e-06
+      },
+      "Q79": {
+        "t1": 0.00015831464160733858,
+        "t2": 5.633311320869402e-05,
+        "frequency": null,
+        "anharmonicity": null,
+        "readout_error": 0.0084228515625,
+        "prob_meas0_prep1": 0.011474609375,
+        "prob_meas1_prep0": 0.00537109375,
+        "readout_length": 1.56e-06
+      },
+      "Q80": {
+        "t1": 0.00014878710410660162,
+        "t2": 9.031984153444189e-05,
+        "frequency": null,
+        "anharmonicity": null,
+        "readout_error": 0.0069580078125,
+        "prob_meas0_prep1": 0.008544921875,
+        "prob_meas1_prep0": 0.00537109375,
+        "readout_length": 1.56e-06
+      },
+      "Q81": {
+        "t1": 0.0001428205491123555,
+        "t2": 2.062060424841207e-05,
+        "frequency": null,
+        "anharmonicity": null,
+        "readout_error": 0.016357421875,
+        "prob_meas0_prep1": 0.025390625,
+        "prob_meas1_prep0": 0.00732421875,
+        "readout_length": 1.56e-06
+      },
+      "Q82": {
+        "t1": 0.0001306478300618162,
+        "t2": 3.0429967810314724e-05,
+        "frequency": null,
+        "anharmonicity": null,
+        "readout_error": 0.0042724609375,
+        "prob_meas0_prep1": 0.00634765625,
+        "prob_meas1_prep0": 0.002197265625,
+        "readout_length": 1.56e-06
+      },
+      "Q83": {
+        "t1": 0.00014046844024382884,
+        "t2": 0.000171991285573264,
+        "frequency": null,
+        "anharmonicity": null,
+        "readout_error": 0.0794677734375,
+        "prob_meas0_prep1": 0.0859375,
+        "prob_meas1_prep0": 0.072998046875,
+        "readout_length": 1.56e-06
+      },
+      "Q84": {
+        "t1": 0.00015290629503909693,
+        "t2": 0.00011265215983574145,
+        "frequency": null,
+        "anharmonicity": null,
+        "readout_error": 0.0068359375,
+        "prob_meas0_prep1": 0.01171875,
+        "prob_meas1_prep0": 0.001953125,
+        "readout_length": 1.56e-06
+      },
+      "Q85": {
+        "t1": 0.00018842658953487228,
+        "t2": 3.516533445161494e-05,
+        "frequency": null,
+        "anharmonicity": null,
+        "readout_error": 0.0135498046875,
+        "prob_meas0_prep1": 0.012939453125,
+        "prob_meas1_prep0": 0.01416015625,
+        "readout_length": 1.56e-06
+      },
+      "Q86": {
+        "t1": 0.00011846768558863316,
+        "t2": 7.751628358098299e-05,
+        "frequency": null,
+        "anharmonicity": null,
+        "readout_error": 0.0074462890625,
+        "prob_meas0_prep1": 0.007568359375,
+        "prob_meas1_prep0": 0.00732421875,
+        "readout_length": 1.56e-06
+      },
+      "Q87": {
+        "t1": 0.00018525259998480333,
+        "t2": 0.00028737638675799704,
+        "frequency": null,
+        "anharmonicity": null,
+        "readout_error": 0.042724609375,
+        "prob_meas0_prep1": 0.056640625,
+        "prob_meas1_prep0": 0.02880859375,
+        "readout_length": 1.56e-06
+      },
+      "Q88": {
+        "t1": 0.00010996387650991434,
+        "t2": 0.00014735527206762006,
+        "frequency": null,
+        "anharmonicity": null,
+        "readout_error": 0.0068359375,
+        "prob_meas0_prep1": 0.011474609375,
+        "prob_meas1_prep0": 0.002197265625,
+        "readout_length": 1.56e-06
+      },
+      "Q89": {
+        "t1": 0.00018182688833696625,
+        "t2": 8.729427767204633e-05,
+        "frequency": null,
+        "anharmonicity": null,
+        "readout_error": 0.0142822265625,
+        "prob_meas0_prep1": 0.01611328125,
+        "prob_meas1_prep0": 0.012451171875,
+        "readout_length": 1.56e-06
+      },
+      "Q90": {
+        "t1": 0.000156952345863451,
+        "t2": 0.0001492651567356161,
+        "frequency": null,
+        "anharmonicity": null,
+        "readout_error": 0.0086669921875,
+        "prob_meas0_prep1": 0.015869140625,
+        "prob_meas1_prep0": 0.00146484375,
+        "readout_length": 1.56e-06
+      },
+      "Q91": {
+        "t1": 0.0001513952209214034,
+        "t2": 1.874099292924857e-05,
+        "frequency": null,
+        "anharmonicity": null,
+        "readout_error": 0.02001953125,
+        "prob_meas0_prep1": 0.02587890625,
+        "prob_meas1_prep0": 0.01416015625,
+        "readout_length": 1.56e-06
+      },
+      "Q92": {
+        "t1": 0.0001730535964029471,
+        "t2": 0.00023000028903898945,
+        "frequency": null,
+        "anharmonicity": null,
+        "readout_error": 0.00537109375,
+        "prob_meas0_prep1": 0.00927734375,
+        "prob_meas1_prep0": 0.00146484375,
+        "readout_length": 1.56e-06
+      },
+      "Q93": {
+        "t1": 0.00014695778766905205,
+        "t2": 0.0001539576846870078,
+        "frequency": null,
+        "anharmonicity": null,
+        "readout_error": 0.0245361328125,
+        "prob_meas0_prep1": 0.0322265625,
+        "prob_meas1_prep0": 0.016845703125,
+        "readout_length": 1.56e-06
+      },
+      "Q94": {
+        "t1": 0.00014216553675257075,
+        "t2": 4.961903634709099e-05,
+        "frequency": null,
+        "anharmonicity": null,
+        "readout_error": 0.0072021484375,
+        "prob_meas0_prep1": 0.007568359375,
+        "prob_meas1_prep0": 0.0068359375,
+        "readout_length": 1.56e-06
+      },
+      "Q95": {
+        "t1": 0.00010848188074970263,
+        "t2": 0.00012880791974652443,
+        "frequency": null,
+        "anharmonicity": null,
+        "readout_error": 0.010009765625,
+        "prob_meas0_prep1": 0.015625,
+        "prob_meas1_prep0": 0.003173828125,
+        "readout_length": 1.56e-06
+      },
+      "Q96": {
+        "t1": 0.00012794558118980927,
+        "t2": 0.00012716774620858103,
+        "frequency": null,
+        "anharmonicity": null,
+        "readout_error": 0.0050048828125,
+        "prob_meas0_prep1": 0.007080078125,
+        "prob_meas1_prep0": 0.0029296875,
+        "readout_length": 1.56e-06
+      },
+      "Q97": {
+        "t1": 0.00011397926413393974,
+        "t2": 0.00013784411454147687,
+        "frequency": null,
+        "anharmonicity": null,
+        "readout_error": 0.006591796875,
+        "prob_meas0_prep1": 0.0087890625,
+        "prob_meas1_prep0": 0.00439453125,
+        "readout_length": 1.56e-06
+      },
+      "Q98": {
+        "t1": 0.00016495782629676666,
+        "t2": 1.8637614386173424e-05,
+        "frequency": null,
+        "anharmonicity": null,
+        "readout_error": 0.007568359375,
+        "prob_meas0_prep1": 0.0107421875,
+        "prob_meas1_prep0": 0.00439453125,
+        "readout_length": 1.56e-06
+      },
+      "Q99": {
+        "t1": 0.00012494300344522425,
+        "t2": 3.730607259313049e-05,
+        "frequency": null,
+        "anharmonicity": null,
+        "readout_error": 0.02001953125,
+        "prob_meas0_prep1": 0.01806640625,
+        "prob_meas1_prep0": 0.02197265625,
+        "readout_length": 1.56e-06
+      },
+      "Q100": {
+        "t1": 0.00018224703391673237,
+        "t2": 3.060416700213285e-05,
+        "frequency": null,
+        "anharmonicity": null,
+        "readout_error": 0.00830078125,
+        "prob_meas0_prep1": 0.012939453125,
+        "prob_meas1_prep0": 0.003662109375,
+        "readout_length": 1.56e-06
+      },
+      "Q101": {
+        "t1": 0.00016878295281980529,
+        "t2": 0.00013840498496979896,
+        "frequency": null,
+        "anharmonicity": null,
+        "readout_error": 0.0543212890625,
+        "prob_meas0_prep1": 0.065673828125,
+        "prob_meas1_prep0": 0.04296875,
+        "readout_length": 1.56e-06
+      },
+      "Q102": {
+        "t1": 0.00013143513922027385,
+        "t2": 3.928661194587797e-05,
+        "frequency": null,
+        "anharmonicity": null,
+        "readout_error": 0.018310546875,
+        "prob_meas0_prep1": 0.0341796875,
+        "prob_meas1_prep0": 0.00244140625,
+        "readout_length": 1.56e-06
+      },
+      "Q103": {
+        "t1": 8.924137913524919e-05,
+        "t2": 0.00010039106093078611,
+        "frequency": null,
+        "anharmonicity": null,
+        "readout_error": 0.005859375,
+        "prob_meas0_prep1": 0.0107421875,
+        "prob_meas1_prep0": 0.0009765625,
+        "readout_length": 1.56e-06
+      },
+      "Q104": {
+        "t1": 0.000116220783817022,
+        "t2": 9.667325664500481e-05,
+        "frequency": null,
+        "anharmonicity": null,
+        "readout_error": 0.009521484375,
+        "prob_meas0_prep1": 0.0107421875,
+        "prob_meas1_prep0": 0.00830078125,
+        "readout_length": 1.56e-06
+      },
+      "Q105": {
+        "t1": 0.0001591565195993124,
+        "t2": 0.0001548628547081214,
+        "frequency": null,
+        "anharmonicity": null,
+        "readout_error": 0.0174560546875,
+        "prob_meas0_prep1": 0.02099609375,
+        "prob_meas1_prep0": 0.013916015625,
+        "readout_length": 1.56e-06
+      },
+      "Q106": {
+        "t1": 0.00019189900677229538,
+        "t2": 0.00018729233951502372,
+        "frequency": null,
+        "anharmonicity": null,
+        "readout_error": 0.00537109375,
+        "prob_meas0_prep1": 0.006591796875,
+        "prob_meas1_prep0": 0.004150390625,
+        "readout_length": 1.56e-06
+      },
+      "Q107": {
+        "t1": 5.786259205951726e-05,
+        "t2": 1.89482958458444e-05,
+        "frequency": null,
+        "anharmonicity": null,
+        "readout_error": 0.0152587890625,
+        "prob_meas0_prep1": 0.01806640625,
+        "prob_meas1_prep0": 0.012451171875,
+        "readout_length": 1.56e-06
+      },
+      "Q108": {
+        "t1": 0.00010805313421951688,
+        "t2": 0.00011596835603218809,
+        "frequency": null,
+        "anharmonicity": null,
+        "readout_error": 0.00537109375,
+        "prob_meas0_prep1": 0.0078125,
+        "prob_meas1_prep0": 0.0029296875,
+        "readout_length": 1.56e-06
+      },
+      "Q109": {
+        "t1": 0.00015504918304109109,
+        "t2": 4.391919039169995e-05,
+        "frequency": null,
+        "anharmonicity": null,
+        "readout_error": 0.0126953125,
+        "prob_meas0_prep1": 0.017822265625,
+        "prob_meas1_prep0": 0.007568359375,
+        "readout_length": 1.56e-06
+      },
+      "Q110": {
+        "t1": 0.0001413262009520296,
+        "t2": 0.00011646878009868392,
+        "frequency": null,
+        "anharmonicity": null,
+        "readout_error": 0.007080078125,
+        "prob_meas0_prep1": 0.012939453125,
+        "prob_meas1_prep0": 0.001220703125,
+        "readout_length": 1.56e-06
+      },
+      "Q111": {
+        "t1": 0.0001633692802319104,
+        "t2": 9.999745074259453e-05,
+        "frequency": null,
+        "anharmonicity": null,
+        "readout_error": 0.0093994140625,
+        "prob_meas0_prep1": 0.012939453125,
+        "prob_meas1_prep0": 0.005859375,
+        "readout_length": 1.56e-06
+      },
+      "Q112": {
+        "t1": 0.0001410315573307323,
+        "t2": 0.00012916939388740194,
+        "frequency": null,
+        "anharmonicity": null,
+        "readout_error": 0.0076904296875,
+        "prob_meas0_prep1": 0.02099609375,
+        "prob_meas1_prep0": 0.008544921875,
+        "readout_length": 1.56e-06
+      },
+      "Q113": {
+        "t1": 0.00017003599274963623,
+        "t2": 3.0102732127289075e-05,
+        "frequency": null,
+        "anharmonicity": null,
+        "readout_error": 0.0792236328125,
+        "prob_meas0_prep1": 0.090087890625,
+        "prob_meas1_prep0": 0.068359375,
+        "readout_length": 1.56e-06
+      },
+      "Q114": {
+        "t1": 0.00017034581202988872,
+        "t2": 0.00010685818572603969,
+        "frequency": null,
+        "anharmonicity": null,
+        "readout_error": 0.005615234375,
+        "prob_meas0_prep1": 0.009765625,
+        "prob_meas1_prep0": 0.00146484375,
+        "readout_length": 1.56e-06
+      },
+      "Q115": {
+        "t1": 0.00015991654421653384,
+        "t2": 0.00021175821118487649,
+        "frequency": null,
+        "anharmonicity": null,
+        "readout_error": 0.005615234375,
+        "prob_meas0_prep1": 0.009033203125,
+        "prob_meas1_prep0": 0.002197265625,
+        "readout_length": 1.56e-06
+      },
+      "Q116": {
+        "t1": 0.00012822388049394653,
+        "t2": 0.0001212614640061612,
+        "frequency": null,
+        "anharmonicity": null,
+        "readout_error": 0.0113525390625,
+        "prob_meas0_prep1": 0.015869140625,
+        "prob_meas1_prep0": 0.0068359375,
+        "readout_length": 1.56e-06
+      },
+      "Q117": {
+        "t1": 0.0001934163180339063,
+        "t2": 0.00020664725218606046,
+        "frequency": null,
+        "anharmonicity": null,
+        "readout_error": 0.0194091796875,
+        "prob_meas0_prep1": 0.021728515625,
+        "prob_meas1_prep0": 0.01708984375,
+        "readout_length": 1.56e-06
+      },
+      "Q118": {
+        "t1": 0.00016144055624054765,
+        "t2": 5.202214474376862e-05,
+        "frequency": null,
+        "anharmonicity": null,
+        "readout_error": 0.008544921875,
+        "prob_meas0_prep1": 0.010009765625,
+        "prob_meas1_prep0": 0.007080078125,
+        "readout_length": 1.56e-06
+      },
+      "Q119": {
+        "t1": 7.432513317649005e-05,
+        "t2": 0.00010727815487824205,
+        "frequency": null,
+        "anharmonicity": null,
+        "readout_error": 0.0120849609375,
+        "prob_meas0_prep1": 0.01708984375,
+        "prob_meas1_prep0": 0.007080078125,
+        "readout_length": 1.56e-06
+      },
+      "Q120": {
+        "t1": 0.00011711935167020643,
+        "t2": 0.0001483870199130727,
+        "frequency": null,
+        "anharmonicity": null,
+        "readout_error": 0.0074462890625,
+        "prob_meas0_prep1": 0.0078125,
+        "prob_meas1_prep0": 0.007080078125,
+        "readout_length": 1.56e-06
+      },
+      "Q121": {
+        "t1": 0.00011493062074807859,
+        "t2": 0.0001170084545791116,
+        "frequency": null,
+        "anharmonicity": null,
+        "readout_error": 0.0111083984375,
+        "prob_meas0_prep1": 0.012939453125,
+        "prob_meas1_prep0": 0.00927734375,
+        "readout_length": 1.56e-06
+      },
+      "Q122": {
+        "t1": 0.0001413569964538792,
+        "t2": 6.331423511539749e-05,
+        "frequency": null,
+        "anharmonicity": null,
+        "readout_error": 0.01171875,
+        "prob_meas0_prep1": 0.015625,
+        "prob_meas1_prep0": 0.0078125,
+        "readout_length": 1.56e-06
+      },
+      "Q123": {
+        "t1": 0.00015459881851175508,
+        "t2": 0.00012585041057559067,
+        "frequency": null,
+        "anharmonicity": null,
+        "readout_error": 0.0081787109375,
+        "prob_meas0_prep1": 0.010009765625,
+        "prob_meas1_prep0": 0.00634765625,
+        "readout_length": 1.56e-06
+      },
+      "Q124": {
+        "t1": 0.0001002015789727381,
+        "t2": 0.00012850501885332632,
+        "frequency": null,
+        "anharmonicity": null,
+        "readout_error": 0.006103515625,
+        "prob_meas0_prep1": 0.010498046875,
+        "prob_meas1_prep0": 0.001708984375,
+        "readout_length": 1.56e-06
+      },
+      "Q125": {
+        "t1": 0.00016085412588880604,
+        "t2": 5.540416332156178e-05,
+        "frequency": null,
+        "anharmonicity": null,
+        "readout_error": 0.01318359375,
+        "prob_meas0_prep1": 0.0185546875,
+        "prob_meas1_prep0": 0.0078125,
+        "readout_length": 1.56e-06
+      },
+      "Q126": {
+        "t1": 0.0001358728038895069,
+        "t2": 6.879523133795992e-05,
+        "frequency": null,
+        "anharmonicity": null,
+        "readout_error": 0.0045166015625,
+        "prob_meas0_prep1": 0.00830078125,
+        "prob_meas1_prep0": 0.000732421875,
+        "readout_length": 1.56e-06
+      },
+      "Q127": {
+        "t1": 0.00022544797159406712,
+        "t2": 0.00020658017167434034,
+        "frequency": null,
+        "anharmonicity": null,
+        "readout_error": 0.0087890625,
+        "prob_meas0_prep1": 0.01123046875,
+        "prob_meas1_prep0": 0.00634765625,
+        "readout_length": 1.56e-06
+      },
+      "Q128": {
+        "t1": 0.00012515877879012242,
+        "t2": 5.1297716976280965e-05,
+        "frequency": null,
+        "anharmonicity": null,
+        "readout_error": 0.0084228515625,
+        "prob_meas0_prep1": 0.0107421875,
+        "prob_meas1_prep0": 0.006103515625,
+        "readout_length": 1.56e-06
+      },
+      "Q129": {
+        "t1": 0.00010920288859685306,
+        "t2": 8.990042278870417e-05,
+        "frequency": null,
+        "anharmonicity": null,
+        "readout_error": 0.03173828125,
+        "prob_meas0_prep1": 0.01806640625,
+        "prob_meas1_prep0": 0.013671875,
+        "readout_length": 1.56e-06
+      },
+      "Q130": {
+        "t1": 0.0001623358619526449,
+        "t2": 0.00013572917953157408,
+        "frequency": null,
+        "anharmonicity": null,
+        "readout_error": 0.0054931640625,
+        "prob_meas0_prep1": 0.007568359375,
+        "prob_meas1_prep0": 0.00341796875,
+        "readout_length": 1.56e-06
+      },
+      "Q131": {
+        "t1": 0.00018786579350188668,
+        "t2": 0.0002448364563744488,
+        "frequency": null,
+        "anharmonicity": null,
+        "readout_error": 0.0802001953125,
+        "prob_meas0_prep1": 0.093505859375,
+        "prob_meas1_prep0": 0.06689453125,
+        "readout_length": 1.56e-06
+      },
+      "Q132": {
+        "t1": 0.00012856504763339308,
+        "t2": 0.00016221970617371077,
+        "frequency": null,
+        "anharmonicity": null,
+        "readout_error": 0.0032958984375,
+        "prob_meas0_prep1": 0.005615234375,
+        "prob_meas1_prep0": 0.0009765625,
+        "readout_length": 1.56e-06
+      },
+      "Q133": {
+        "t1": 6.118623697971487e-05,
+        "t2": 3.175867793684135e-05,
+        "frequency": null,
+        "anharmonicity": null,
+        "readout_error": 0.0140380859375,
+        "prob_meas0_prep1": 0.0205078125,
+        "prob_meas1_prep0": 0.007568359375,
+        "readout_length": 1.56e-06
+      },
+      "Q134": {
+        "t1": 0.00013364604967157907,
+        "t2": 3.683302176487687e-05,
+        "frequency": null,
+        "anharmonicity": null,
+        "readout_error": 0.007080078125,
+        "prob_meas0_prep1": 0.0107421875,
+        "prob_meas1_prep0": 0.00341796875,
+        "readout_length": 1.56e-06
+      },
+      "Q135": {
+        "t1": 0.0002220595872126845,
+        "t2": 0.0001955540556955844,
+        "frequency": null,
+        "anharmonicity": null,
+        "readout_error": 0.0517578125,
+        "prob_meas0_prep1": 0.069580078125,
+        "prob_meas1_prep0": 0.033935546875,
+        "readout_length": 1.56e-06
+      },
+      "Q136": {
+        "t1": 0.0001372760152483298,
+        "t2": 0.00013117810595005791,
+        "frequency": null,
+        "anharmonicity": null,
+        "readout_error": 0.0072021484375,
+        "prob_meas0_prep1": 0.010986328125,
+        "prob_meas1_prep0": 0.00341796875,
+        "readout_length": 1.56e-06
+      },
+      "Q137": {
+        "t1": 0.00015136941355567256,
+        "t2": 0.00017600596620910631,
+        "frequency": null,
+        "anharmonicity": null,
+        "readout_error": 0.006103515625,
+        "prob_meas0_prep1": 0.010986328125,
+        "prob_meas1_prep0": 0.001220703125,
+        "readout_length": 1.56e-06
+      },
+      "Q138": {
+        "t1": 8.846160701567924e-05,
+        "t2": 9.430102072521917e-05,
+        "frequency": null,
+        "anharmonicity": null,
+        "readout_error": 0.005859375,
+        "prob_meas0_prep1": 0.009765625,
+        "prob_meas1_prep0": 0.001953125,
+        "readout_length": 1.56e-06
+      },
+      "Q139": {
+        "t1": 7.621886303656578e-05,
+        "t2": 2.835442822063363e-05,
+        "frequency": null,
+        "anharmonicity": null,
+        "readout_error": 0.009765625,
+        "prob_meas0_prep1": 0.01904296875,
+        "prob_meas1_prep0": 0.00048828125,
+        "readout_length": 1.56e-06
+      },
+      "Q140": {
+        "t1": 0.00010965938618395465,
+        "t2": 0.00018601049640266405,
+        "frequency": null,
+        "anharmonicity": null,
+        "readout_error": 0.0191650390625,
+        "prob_meas0_prep1": 0.01806640625,
+        "prob_meas1_prep0": 0.020263671875,
+        "readout_length": 1.56e-06
+      },
+      "Q141": {
+        "t1": 0.00030220591560420774,
+        "t2": 0.00013733349655272088,
+        "frequency": null,
+        "anharmonicity": null,
+        "readout_error": 0.0076904296875,
+        "prob_meas0_prep1": 0.01220703125,
+        "prob_meas1_prep0": 0.003173828125,
+        "readout_length": 1.56e-06
+      },
+      "Q142": {
+        "t1": 0.000105397417953828,
+        "t2": 0.00011810360147994764,
+        "frequency": null,
+        "anharmonicity": null,
+        "readout_error": 0.004638671875,
+        "prob_meas0_prep1": 0.007080078125,
+        "prob_meas1_prep0": 0.002197265625,
+        "readout_length": 1.56e-06
+      },
+      "Q143": {
+        "t1": 0.00024095535634201484,
+        "t2": 0.00017840870286404777,
+        "frequency": null,
+        "anharmonicity": null,
+        "readout_error": 0.00830078125,
+        "prob_meas0_prep1": 0.01318359375,
+        "prob_meas1_prep0": 0.00341796875,
+        "readout_length": 1.56e-06
+      },
+      "Q144": {
+        "t1": 0.00015607997401800923,
+        "t2": 0.00021752700180668105,
+        "frequency": null,
+        "anharmonicity": null,
+        "readout_error": 0.0054931640625,
+        "prob_meas0_prep1": 0.009521484375,
+        "prob_meas1_prep0": 0.00146484375,
+        "readout_length": 1.56e-06
+      },
+      "Q145": {
+        "t1": 0.0002087265784447351,
+        "t2": 0.00015138940442789987,
+        "frequency": null,
+        "anharmonicity": null,
+        "readout_error": 0.01220703125,
+        "prob_meas0_prep1": 0.017578125,
+        "prob_meas1_prep0": 0.0068359375,
+        "readout_length": 1.56e-06
+      },
+      "Q146": {
+        "t1": 9.809428014609516e-05,
+        "t2": 1.0704342384564114e-05,
+        "frequency": null,
+        "anharmonicity": null,
+        "readout_error": 0.0045166015625,
+        "prob_meas0_prep1": 0.0087890625,
+        "prob_meas1_prep0": 0.000732421875,
+        "readout_length": 1.56e-06
+      },
+      "Q147": {
+        "t1": 0.00016563906391612478,
+        "t2": 0.00014549481253695715,
+        "frequency": null,
+        "anharmonicity": null,
+        "readout_error": 0.0059814453125,
+        "prob_meas0_prep1": 0.01171875,
+        "prob_meas1_prep0": 0.000244140625,
+        "readout_length": 1.56e-06
+      },
+      "Q148": {
+        "t1": 0.0001010969732485728,
+        "t2": 0.00011778552379905834,
+        "frequency": null,
+        "anharmonicity": null,
+        "readout_error": 0.0103759765625,
+        "prob_meas0_prep1": 0.01806640625,
+        "prob_meas1_prep0": 0.002685546875,
+        "readout_length": 1.56e-06
+      },
+      "Q149": {
+        "t1": 6.917723548134031e-05,
+        "t2": 8.648903348446055e-06,
+        "frequency": null,
+        "anharmonicity": null,
+        "readout_error": 0.038818359375,
+        "prob_meas0_prep1": 0.0458984375,
+        "prob_meas1_prep0": 0.03173828125,
+        "readout_length": 1.56e-06
+      },
+      "Q150": {
+        "t1": 0.00013568511945253388,
+        "t2": 6.019241794185039e-06,
+        "frequency": null,
+        "anharmonicity": null,
+        "readout_error": 0.0050048828125,
+        "prob_meas0_prep1": 0.0087890625,
+        "prob_meas1_prep0": 0.001220703125,
+        "readout_length": 1.56e-06
+      },
+      "Q151": {
+        "t1": 9.649644428558687e-05,
+        "t2": 0.00012011294656922127,
+        "frequency": null,
+        "anharmonicity": null,
+        "readout_error": 0.010009765625,
+        "prob_meas0_prep1": 0.01611328125,
+        "prob_meas1_prep0": 0.00390625,
+        "readout_length": 1.56e-06
+      },
+      "Q152": {
+        "t1": 4.646182645549426e-05,
+        "t2": 7.854300798569745e-05,
+        "frequency": null,
+        "anharmonicity": null,
+        "readout_error": 0.006103515625,
+        "prob_meas0_prep1": 0.010498046875,
+        "prob_meas1_prep0": 0.001708984375,
+        "readout_length": 1.56e-06
+      },
+      "Q153": {
+        "t1": 0.00019563453683125084,
+        "t2": 5.5056988153948704e-05,
+        "frequency": null,
+        "anharmonicity": null,
+        "readout_error": 0.0091552734375,
+        "prob_meas0_prep1": 0.014892578125,
+        "prob_meas1_prep0": 0.00341796875,
+        "readout_length": 1.56e-06
+      },
+      "Q154": {
+        "t1": 0.0001260216776561608,
+        "t2": 8.553366147709822e-05,
+        "frequency": null,
+        "anharmonicity": null,
+        "readout_error": 0.00927734375,
+        "prob_meas0_prep1": 0.011474609375,
+        "prob_meas1_prep0": 0.007080078125,
+        "readout_length": 1.56e-06
+      },
+      "Q155": {
+        "t1": 0.00017113738597047758,
+        "t2": 1.7414061659060846e-05,
+        "frequency": null,
+        "anharmonicity": null,
+        "readout_error": 0.0106201171875,
+        "prob_meas0_prep1": 0.014892578125,
+        "prob_meas1_prep0": 0.00634765625,
+        "readout_length": 1.56e-06
+      }
+    },
+    "id": "ibm_fez-2026-01-10_06:26:19"
+  },
+  "ibm_torino-2026-01-10_06:26:19": {
+    "backend": "ibm_torino",
+    "num_qubits": 133,
+    "calibration_time": "2026-01-10_06:26:19",
+    "qubits": {
+      "Q0": {
+        "t1": 0.00016182733281634913,
+        "t2": 0.00017639542193564312,
+        "frequency": null,
+        "anharmonicity": null,
+        "readout_error": 0.1322021484375,
+        "prob_meas0_prep1": 0.159912109375,
+        "prob_meas1_prep0": 0.1044921875,
+        "readout_length": 1.56e-06
+      },
+      "Q1": {
+        "t1": 0.00019749449829846642,
+        "t2": 0.00016921449692388883,
+        "frequency": null,
+        "anharmonicity": null,
+        "readout_error": 0.05078125,
+        "prob_meas0_prep1": 0.036376953125,
+        "prob_meas1_prep0": 0.065185546875,
+        "readout_length": 1.56e-06
+      },
+      "Q2": {
+        "t1": 0.00016036446821918505,
+        "t2": 0.00017572638323451597,
+        "frequency": null,
+        "anharmonicity": null,
+        "readout_error": 0.029541015625,
+        "prob_meas0_prep1": 0.041259765625,
+        "prob_meas1_prep0": 0.017822265625,
+        "readout_length": 1.56e-06
+      },
+      "Q3": {
+        "t1": 0.0002523919037466497,
+        "t2": 0.00018957112184029028,
+        "frequency": null,
+        "anharmonicity": null,
+        "readout_error": 0.0252685546875,
+        "prob_meas0_prep1": 0.02001953125,
+        "prob_meas1_prep0": 0.030517578125,
+        "readout_length": 1.56e-06
+      },
+      "Q4": {
+        "t1": 0.00014181799304665944,
+        "t2": 0.00017331401914838225,
+        "frequency": null,
+        "anharmonicity": null,
+        "readout_error": 0.0416259765625,
+        "prob_meas0_prep1": 0.048583984375,
+        "prob_meas1_prep0": 0.03466796875,
+        "readout_length": 1.56e-06
+      },
+      "Q5": {
+        "t1": 0.00026927533533642527,
+        "t2": 0.00021600545157811514,
+        "frequency": null,
+        "anharmonicity": null,
+        "readout_error": 0.0308837890625,
+        "prob_meas0_prep1": 0.01953125,
+        "prob_meas1_prep0": 0.042236328125,
+        "readout_length": 1.56e-06
+      },
+      "Q6": {
+        "t1": 4.7219851148889606e-05,
+        "t2": 7.688074378908392e-05,
+        "frequency": null,
+        "anharmonicity": null,
+        "readout_error": 0.0142822265625,
+        "prob_meas0_prep1": 0.02001953125,
+        "prob_meas1_prep0": 0.002197265625,
+        "readout_length": 1.56e-06
+      },
+      "Q7": {
+        "t1": 0.00025447143873477544,
+        "t2": 0.00014606522575711097,
+        "frequency": null,
+        "anharmonicity": null,
+        "readout_error": 0.0789794921875,
+        "prob_meas0_prep1": 0.0537109375,
+        "prob_meas1_prep0": 0.104248046875,
+        "readout_length": 1.56e-06
+      },
+      "Q8": {
+        "t1": 0.00023947112140371745,
+        "t2": 0.00019916925209783552,
+        "frequency": null,
+        "anharmonicity": null,
+        "readout_error": 0.0830078125,
+        "prob_meas0_prep1": 0.068359375,
+        "prob_meas1_prep0": 0.09765625,
+        "readout_length": 1.56e-06
+      },
+      "Q9": {
+        "t1": 9.813514003959516e-05,
+        "t2": 9.361283935746148e-05,
+        "frequency": null,
+        "anharmonicity": null,
+        "readout_error": 0.029541015625,
+        "prob_meas0_prep1": 0.050537109375,
+        "prob_meas1_prep0": 0.008544921875,
+        "readout_length": 1.56e-06
+      },
+      "Q10": {
+        "t1": 0.000247908797698942,
+        "t2": 0.00027109026080102204,
+        "frequency": null,
+        "anharmonicity": null,
+        "readout_error": 0.0628662109375,
+        "prob_meas0_prep1": 0.046630859375,
+        "prob_meas1_prep0": 0.0791015625,
+        "readout_length": 1.56e-06
+      },
+      "Q11": {
+        "t1": 0.00013157696612936748,
+        "t2": 3.420810830433982e-05,
+        "frequency": null,
+        "anharmonicity": null,
+        "readout_error": 0.015869140625,
+        "prob_meas0_prep1": 0.019287109375,
+        "prob_meas1_prep0": 0.012451171875,
+        "readout_length": 1.56e-06
+      },
+      "Q12": {
+        "t1": 0.00016813441272145013,
+        "t2": 0.00017550387879074035,
+        "frequency": null,
+        "anharmonicity": null,
+        "readout_error": 0.0281982421875,
+        "prob_meas0_prep1": 0.03125,
+        "prob_meas1_prep0": 0.025146484375,
+        "readout_length": 1.56e-06
+      },
+      "Q13": {
+        "t1": 0.00024276551234944738,
+        "t2": 0.00020971707479713162,
+        "frequency": null,
+        "anharmonicity": null,
+        "readout_error": 0.0333251953125,
+        "prob_meas0_prep1": 0.02734375,
+        "prob_meas1_prep0": 0.039306640625,
+        "readout_length": 1.56e-06
+      },
+      "Q14": {
+        "t1": 0.00028522844277719046,
+        "t2": 0.00015534765453019536,
+        "frequency": null,
+        "anharmonicity": null,
+        "readout_error": 0.03125,
+        "prob_meas0_prep1": 0.017822265625,
+        "prob_meas1_prep0": 0.044677734375,
+        "readout_length": 1.56e-06
+      },
+      "Q15": {
+        "t1": 0.00018446428897644568,
+        "t2": 3.5257428914638186e-05,
+        "frequency": null,
+        "anharmonicity": null,
+        "readout_error": 0.0216064453125,
+        "prob_meas0_prep1": 0.03759765625,
+        "prob_meas1_prep0": 0.005615234375,
+        "readout_length": 1.56e-06
+      },
+      "Q16": {
+        "t1": 0.00015020013201551434,
+        "t2": 0.0001385666779692034,
+        "frequency": null,
+        "anharmonicity": null,
+        "readout_error": 0.0233154296875,
+        "prob_meas0_prep1": 0.02001953125,
+        "prob_meas1_prep0": 0.026611328125,
+        "readout_length": 1.56e-06
+      },
+      "Q17": {
+        "t1": 0.00021005094666345686,
+        "t2": 0.00010371835759981207,
+        "frequency": null,
+        "anharmonicity": null,
+        "readout_error": 0.010009765625,
+        "prob_meas0_prep1": 0.013916015625,
+        "prob_meas1_prep0": 0.006103515625,
+        "readout_length": 1.56e-06
+      },
+      "Q18": {
+        "t1": 0.000171876558338984,
+        "t2": 0.00017090787094806777,
+        "frequency": null,
+        "anharmonicity": null,
+        "readout_error": 0.00634765625,
+        "prob_meas0_prep1": 0.007568359375,
+        "prob_meas1_prep0": 0.005126953125,
+        "readout_length": 1.56e-06
+      },
+      "Q19": {
+        "t1": 0.00014017922609974178,
+        "t2": 0.00023021691719199747,
+        "frequency": null,
+        "anharmonicity": null,
+        "readout_error": 0.0589599609375,
+        "prob_meas0_prep1": 0.072509765625,
+        "prob_meas1_prep0": 0.04541015625,
+        "readout_length": 1.56e-06
+      },
+      "Q20": {
+        "t1": 0.000232022769231301,
+        "t2": 0.00012493278679876637,
+        "frequency": null,
+        "anharmonicity": null,
+        "readout_error": 0.012451171875,
+        "prob_meas0_prep1": 0.015380859375,
+        "prob_meas1_prep0": 0.009521484375,
+        "readout_length": 1.56e-06
+      },
+      "Q21": {
+        "t1": 8.43189744527019e-05,
+        "t2": 2.2145682049053638e-05,
+        "frequency": null,
+        "anharmonicity": null,
+        "readout_error": 0.074462890625,
+        "prob_meas0_prep1": 0.062255859375,
+        "prob_meas1_prep0": 0.086669921875,
+        "readout_length": 1.56e-06
+      },
+      "Q22": {
+        "t1": 7.255680200904272e-05,
+        "t2": 8.416201481575386e-05,
+        "frequency": null,
+        "anharmonicity": null,
+        "readout_error": 0.035888671875,
+        "prob_meas0_prep1": 0.0439453125,
+        "prob_meas1_prep0": 0.02783203125,
+        "readout_length": 1.56e-06
+      },
+      "Q23": {
+        "t1": 0.00019032791599405893,
+        "t2": 0.00023023680756184108,
+        "frequency": null,
+        "anharmonicity": null,
+        "readout_error": 0.0484619140625,
+        "prob_meas0_prep1": 0.0390625,
+        "prob_meas1_prep0": 0.05078125,
+        "readout_length": 1.56e-06
+      },
+      "Q24": {
+        "t1": 0.00013020127982911448,
+        "t2": 0.00013661052804011728,
+        "frequency": null,
+        "anharmonicity": null,
+        "readout_error": 0.027587890625,
+        "prob_meas0_prep1": 0.017822265625,
+        "prob_meas1_prep0": 0.037353515625,
+        "readout_length": 1.56e-06
+      },
+      "Q25": {
+        "t1": 0.0002430975412834442,
+        "t2": 0.0002783529089773418,
+        "frequency": null,
+        "anharmonicity": null,
+        "readout_error": 0.1185302734375,
+        "prob_meas0_prep1": 0.11962890625,
+        "prob_meas1_prep0": 0.117431640625,
+        "readout_length": 1.56e-06
+      },
+      "Q26": {
+        "t1": 0.0001701906905023123,
+        "t2": 0.00014554416541971626,
+        "frequency": null,
+        "anharmonicity": null,
+        "readout_error": 0.044189453125,
+        "prob_meas0_prep1": 0.04736328125,
+        "prob_meas1_prep0": 0.041015625,
+        "readout_length": 1.56e-06
+      },
+      "Q27": {
+        "t1": 8.931913438759048e-05,
+        "t2": 0.00011815068310201801,
+        "frequency": null,
+        "anharmonicity": null,
+        "readout_error": 0.0584716796875,
+        "prob_meas0_prep1": 0.048095703125,
+        "prob_meas1_prep0": 0.06884765625,
+        "readout_length": 1.56e-06
+      },
+      "Q28": {
+        "t1": 0.00019775954497920997,
+        "t2": 0.00019311948374727735,
+        "frequency": null,
+        "anharmonicity": null,
+        "readout_error": 0.008544921875,
+        "prob_meas0_prep1": 0.007080078125,
+        "prob_meas1_prep0": 0.010009765625,
+        "readout_length": 1.56e-06
+      },
+      "Q29": {
+        "t1": 0.00015000491359945555,
+        "t2": 0.00013682854858144955,
+        "frequency": null,
+        "anharmonicity": null,
+        "readout_error": 0.02490234375,
+        "prob_meas0_prep1": 0.01220703125,
+        "prob_meas1_prep0": 0.03759765625,
+        "readout_length": 1.56e-06
+      },
+      "Q30": {
+        "t1": 0.00023341650570152586,
+        "t2": 0.00015125850842289754,
+        "frequency": null,
+        "anharmonicity": null,
+        "readout_error": 0.013671875,
+        "prob_meas0_prep1": 0.00390625,
+        "prob_meas1_prep0": 0.0234375,
+        "readout_length": 1.56e-06
+      },
+      "Q31": {
+        "t1": 0.00020825227763506096,
+        "t2": 0.00017651903447920937,
+        "frequency": null,
+        "anharmonicity": null,
+        "readout_error": 0.053955078125,
+        "prob_meas0_prep1": 0.03564453125,
+        "prob_meas1_prep0": 0.072265625,
+        "readout_length": 1.56e-06
+      },
+      "Q32": {
+        "t1": 0.0001555925257930439,
+        "t2": 0.0001056851578714443,
+        "frequency": null,
+        "anharmonicity": null,
+        "readout_error": 0.020263671875,
+        "prob_meas0_prep1": 0.0283203125,
+        "prob_meas1_prep0": 0.01220703125,
+        "readout_length": 1.56e-06
+      },
+      "Q33": {
+        "t1": 0.00018364740453184533,
+        "t2": 5.6076900172714136e-05,
+        "frequency": null,
+        "anharmonicity": null,
+        "readout_error": 0.05322265625,
+        "prob_meas0_prep1": 0.029541015625,
+        "prob_meas1_prep0": 0.076904296875,
+        "readout_length": 1.56e-06
+      },
+      "Q34": {
+        "t1": 0.00021817271166234568,
+        "t2": 0.00010345931940943617,
+        "frequency": null,
+        "anharmonicity": null,
+        "readout_error": 0.045166015625,
+        "prob_meas0_prep1": 0.0458984375,
+        "prob_meas1_prep0": 0.04443359375,
+        "readout_length": 1.56e-06
+      },
+      "Q35": {
+        "t1": 6.295242830278391e-05,
+        "t2": 5.572468387615097e-05,
+        "frequency": null,
+        "anharmonicity": null,
+        "readout_error": 0.015869140625,
+        "prob_meas0_prep1": 0.0185546875,
+        "prob_meas1_prep0": 0.01318359375,
+        "readout_length": 1.56e-06
+      },
+      "Q36": {
+        "t1": 0.00010549431766469795,
+        "t2": 0.0001545152092683646,
+        "frequency": null,
+        "anharmonicity": null,
+        "readout_error": 0.0069580078125,
+        "prob_meas0_prep1": 0.010986328125,
+        "prob_meas1_prep0": 0.0029296875,
+        "readout_length": 1.56e-06
+      },
+      "Q37": {
+        "t1": 0.000162485090002173,
+        "t2": 0.0001073934385479941,
+        "frequency": null,
+        "anharmonicity": null,
+        "readout_error": 0.00244140625,
+        "prob_meas0_prep1": 0.00341796875,
+        "prob_meas1_prep0": 0.00146484375,
+        "readout_length": 1.56e-06
+      },
+      "Q38": {
+        "t1": 0.00022181221734806787,
+        "t2": 0.0001982238091926303,
+        "frequency": null,
+        "anharmonicity": null,
+        "readout_error": 0.0682373046875,
+        "prob_meas0_prep1": 0.067626953125,
+        "prob_meas1_prep0": 0.06884765625,
+        "readout_length": 1.56e-06
+      },
+      "Q39": {
+        "t1": 0.0001140972784521091,
+        "t2": 0.00011714841539408233,
+        "frequency": null,
+        "anharmonicity": null,
+        "readout_error": 0.034423828125,
+        "prob_meas0_prep1": 0.0244140625,
+        "prob_meas1_prep0": 0.04443359375,
+        "readout_length": 1.56e-06
+      },
+      "Q40": {
+        "t1": 0.00013092921888973452,
+        "t2": 0.0001278691709099499,
+        "frequency": null,
+        "anharmonicity": null,
+        "readout_error": 0.025146484375,
+        "prob_meas0_prep1": 0.013671875,
+        "prob_meas1_prep0": 0.038330078125,
+        "readout_length": 1.56e-06
+      },
+      "Q41": {
+        "t1": 5.264178758118056e-05,
+        "t2": 5.825057965828797e-05,
+        "frequency": null,
+        "anharmonicity": null,
+        "readout_error": 0.0947265625,
+        "prob_meas0_prep1": 0.181640625,
+        "prob_meas1_prep0": 0.0078125,
+        "readout_length": 1.56e-06
+      },
+      "Q42": {
+        "t1": 0.00015396925588934054,
+        "t2": 0.00011627756519581422,
+        "frequency": null,
+        "anharmonicity": null,
+        "readout_error": 0.1282958984375,
+        "prob_meas0_prep1": 0.137451171875,
+        "prob_meas1_prep0": 0.119140625,
+        "readout_length": 1.56e-06
+      },
+      "Q43": {
+        "t1": 7.076639825507245e-05,
+        "t2": 5.978959495054e-05,
+        "frequency": null,
+        "anharmonicity": null,
+        "readout_error": 0.0078125,
+        "prob_meas0_prep1": 0.011962890625,
+        "prob_meas1_prep0": 0.003662109375,
+        "readout_length": 1.56e-06
+      },
+      "Q44": {
+        "t1": 0.00021627372166767148,
+        "t2": 0.0001876789347221317,
+        "frequency": null,
+        "anharmonicity": null,
+        "readout_error": 0.03271484375,
+        "prob_meas0_prep1": 0.02734375,
+        "prob_meas1_prep0": 0.0380859375,
+        "readout_length": 1.56e-06
+      },
+      "Q45": {
+        "t1": 4.7205937782379684e-05,
+        "t2": 5.936297362014193e-05,
+        "frequency": null,
+        "anharmonicity": null,
+        "readout_error": 0.0081787109375,
+        "prob_meas0_prep1": 0.011474609375,
+        "prob_meas1_prep0": 0.0048828125,
+        "readout_length": 1.56e-06
+      },
+      "Q46": {
+        "t1": 0.00017828109295083832,
+        "t2": 0.00014807275000367986,
+        "frequency": null,
+        "anharmonicity": null,
+        "readout_error": 0.0423583984375,
+        "prob_meas0_prep1": 0.04541015625,
+        "prob_meas1_prep0": 0.039306640625,
+        "readout_length": 1.56e-06
+      },
+      "Q47": {
+        "t1": 0.00019375585748343077,
+        "t2": 3.816691554387917e-05,
+        "frequency": null,
+        "anharmonicity": null,
+        "readout_error": 0.02001953125,
+        "prob_meas0_prep1": 0.0361328125,
+        "prob_meas1_prep0": 0.00390625,
+        "readout_length": 1.56e-06
+      },
+      "Q48": {
+        "t1": 0.0001709603515657124,
+        "t2": 0.00022423499904358966,
+        "frequency": null,
+        "anharmonicity": null,
+        "readout_error": 0.042724609375,
+        "prob_meas0_prep1": 0.029541015625,
+        "prob_meas1_prep0": 0.055908203125,
+        "readout_length": 1.56e-06
+      },
+      "Q49": {
+        "t1": 0.0002119893773190825,
+        "t2": 0.00012492146683456502,
+        "frequency": null,
+        "anharmonicity": null,
+        "readout_error": 0.018798828125,
+        "prob_meas0_prep1": 0.018310546875,
+        "prob_meas1_prep0": 0.019287109375,
+        "readout_length": 1.56e-06
+      },
+      "Q50": {
+        "t1": 0.00019738705210861846,
+        "t2": 0.00022584072940939851,
+        "frequency": null,
+        "anharmonicity": null,
+        "readout_error": 0.106689453125,
+        "prob_meas0_prep1": 0.09765625,
+        "prob_meas1_prep0": 0.11572265625,
+        "readout_length": 1.56e-06
+      },
+      "Q51": {
+        "t1": 0.0002215278501259151,
+        "t2": 0.0001526038205137067,
+        "frequency": null,
+        "anharmonicity": null,
+        "readout_error": 0.00732421875,
+        "prob_meas0_prep1": 0.005859375,
+        "prob_meas1_prep0": 0.0087890625,
+        "readout_length": 1.56e-06
+      },
+      "Q52": {
+        "t1": 0.000153800535647698,
+        "t2": 0.00021284206125970283,
+        "frequency": null,
+        "anharmonicity": null,
+        "readout_error": 0.0186767578125,
+        "prob_meas0_prep1": 0.015380859375,
+        "prob_meas1_prep0": 0.02197265625,
+        "readout_length": 1.56e-06
+      },
+      "Q53": {
+        "t1": 2.2368561299607725e-05,
+        "t2": 6.241300371354171e-05,
+        "frequency": null,
+        "anharmonicity": null,
+        "readout_error": 0.4554443359375,
+        "prob_meas0_prep1": 0.466796875,
+        "prob_meas1_prep0": 0.444091796875,
+        "readout_length": 1.56e-06
+      },
+      "Q54": {
+        "t1": 0.00016775059545000477,
+        "t2": 0.00012128252422291389,
+        "frequency": null,
+        "anharmonicity": null,
+        "readout_error": 0.0089111328125,
+        "prob_meas0_prep1": 0.00830078125,
+        "prob_meas1_prep0": 0.009521484375,
+        "readout_length": 1.56e-06
+      },
+      "Q55": {
+        "t1": 0.00023023276230908624,
+        "t2": 0.00013841265787377935,
+        "frequency": null,
+        "anharmonicity": null,
+        "readout_error": 0.00927734375,
+        "prob_meas0_prep1": 0.0107421875,
+        "prob_meas1_prep0": 0.0078125,
+        "readout_length": 1.56e-06
+      },
+      "Q56": {
+        "t1": 0.00022849259723809931,
+        "t2": 0.0001753817156311674,
+        "frequency": null,
+        "anharmonicity": null,
+        "readout_error": 0.0123291015625,
+        "prob_meas0_prep1": 0.0107421875,
+        "prob_meas1_prep0": 0.013916015625,
+        "readout_length": 1.56e-06
+      },
+      "Q57": {
+        "t1": 0.00014516637291174972,
+        "t2": 0.00025512306406645706,
+        "frequency": null,
+        "anharmonicity": null,
+        "readout_error": 0.0338134765625,
+        "prob_meas0_prep1": 0.029296875,
+        "prob_meas1_prep0": 0.04296875,
+        "readout_length": 1.56e-06
+      },
+      "Q58": {
+        "t1": 0.0001538791120757517,
+        "t2": 0.00017739857564785176,
+        "frequency": null,
+        "anharmonicity": null,
+        "readout_error": 0.0201416015625,
+        "prob_meas0_prep1": 0.02099609375,
+        "prob_meas1_prep0": 0.019287109375,
+        "readout_length": 1.56e-06
+      },
+      "Q59": {
+        "t1": 8.641872007271644e-05,
+        "t2": 6.423908361696816e-05,
+        "frequency": null,
+        "anharmonicity": null,
+        "readout_error": 0.0411376953125,
+        "prob_meas0_prep1": 0.054931640625,
+        "prob_meas1_prep0": 0.02734375,
+        "readout_length": 1.56e-06
+      },
+      "Q60": {
+        "t1": 0.00017520759148056183,
+        "t2": 0.00020637511230766562,
+        "frequency": null,
+        "anharmonicity": null,
+        "readout_error": 0.0087890625,
+        "prob_meas0_prep1": 0.007568359375,
+        "prob_meas1_prep0": 0.010009765625,
+        "readout_length": 1.56e-06
+      },
+      "Q61": {
+        "t1": 0.00016172324003438393,
+        "t2": 0.00014058471958726127,
+        "frequency": null,
+        "anharmonicity": null,
+        "readout_error": 0.0123291015625,
+        "prob_meas0_prep1": 0.010986328125,
+        "prob_meas1_prep0": 0.013671875,
+        "readout_length": 1.56e-06
+      },
+      "Q62": {
+        "t1": 0.00013467485954757552,
+        "t2": 8.278596987555152e-05,
+        "frequency": null,
+        "anharmonicity": null,
+        "readout_error": 0.0113525390625,
+        "prob_meas0_prep1": 0.01220703125,
+        "prob_meas1_prep0": 0.010498046875,
+        "readout_length": 1.56e-06
+      },
+      "Q63": {
+        "t1": 0.00023268565961399347,
+        "t2": 0.00012937054372507624,
+        "frequency": null,
+        "anharmonicity": null,
+        "readout_error": 0.0423583984375,
+        "prob_meas0_prep1": 0.046630859375,
+        "prob_meas1_prep0": 0.0380859375,
+        "readout_length": 1.56e-06
+      },
+      "Q64": {
+        "t1": 0.00013812015813505812,
+        "t2": 7.557801939921188e-05,
+        "frequency": null,
+        "anharmonicity": null,
+        "readout_error": 0.0660400390625,
+        "prob_meas0_prep1": 0.06005859375,
+        "prob_meas1_prep0": 0.072021484375,
+        "readout_length": 1.56e-06
+      },
+      "Q65": {
+        "t1": 0.0002405801035783892,
+        "t2": 0.00020649950486741495,
+        "frequency": null,
+        "anharmonicity": null,
+        "readout_error": 0.0130615234375,
+        "prob_meas0_prep1": 0.015625,
+        "prob_meas1_prep0": 0.010498046875,
+        "readout_length": 1.56e-06
+      },
+      "Q66": {
+        "t1": 0.0002064381661255868,
+        "t2": 0.00020618817271869137,
+        "frequency": null,
+        "anharmonicity": null,
+        "readout_error": 0.0062255859375,
+        "prob_meas0_prep1": 0.0068359375,
+        "prob_meas1_prep0": 0.005615234375,
+        "readout_length": 1.56e-06
+      },
+      "Q67": {
+        "t1": 0.00015717197173571805,
+        "t2": 0.00012565236130203343,
+        "frequency": null,
+        "anharmonicity": null,
+        "readout_error": 0.0562744140625,
+        "prob_meas0_prep1": 0.07421875,
+        "prob_meas1_prep0": 0.038330078125,
+        "readout_length": 1.56e-06
+      },
+      "Q68": {
+        "t1": 0.00010677154468754875,
+        "t2": 6.590727739576133e-05,
+        "frequency": null,
+        "anharmonicity": null,
+        "readout_error": 0.0078125,
+        "prob_meas0_prep1": 0.005859375,
+        "prob_meas1_prep0": 0.009765625,
+        "readout_length": 1.56e-06
+      },
+      "Q69": {
+        "t1": 0.00016460861112991561,
+        "t2": 7.801460512581015e-05,
+        "frequency": null,
+        "anharmonicity": null,
+        "readout_error": 0.042724609375,
+        "prob_meas0_prep1": 0.039794921875,
+        "prob_meas1_prep0": 0.045654296875,
+        "readout_length": 1.56e-06
+      },
+      "Q70": {
+        "t1": 8.340507743061313e-05,
+        "t2": 3.9723205066528434e-05,
+        "frequency": null,
+        "anharmonicity": null,
+        "readout_error": 0.0465087890625,
+        "prob_meas0_prep1": 0.02978515625,
+        "prob_meas1_prep0": 0.063232421875,
+        "readout_length": 1.56e-06
+      },
+      "Q71": {
+        "t1": 0.00021269515267579423,
+        "t2": 3.578622456839627e-05,
+        "frequency": null,
+        "anharmonicity": null,
+        "readout_error": 0.06494140625,
+        "prob_meas0_prep1": 0.053955078125,
+        "prob_meas1_prep0": 0.075927734375,
+        "readout_length": 1.56e-06
+      },
+      "Q72": {
+        "t1": 0.00024805910977911014,
+        "t2": 8.1971295801698e-05,
+        "frequency": null,
+        "anharmonicity": null,
+        "readout_error": 0.0096435546875,
+        "prob_meas0_prep1": 0.002197265625,
+        "prob_meas1_prep0": 0.01708984375,
+        "readout_length": 1.56e-06
+      },
+      "Q73": {
+        "t1": 0.0002233180290380785,
+        "t2": 9.419981502284472e-05,
+        "frequency": null,
+        "anharmonicity": null,
+        "readout_error": 0.02294921875,
+        "prob_meas0_prep1": 0.018798828125,
+        "prob_meas1_prep0": 0.027099609375,
+        "readout_length": 1.56e-06
+      },
+      "Q74": {
+        "t1": 0.0001603188375977546,
+        "t2": 0.00011573489106497853,
+        "frequency": null,
+        "anharmonicity": null,
+        "readout_error": 0.013671875,
+        "prob_meas0_prep1": 0.0087890625,
+        "prob_meas1_prep0": 0.017333984375,
+        "readout_length": 1.56e-06
+      },
+      "Q75": {
+        "t1": 0.00023445758753577162,
+        "t2": 0.00012419269550134658,
+        "frequency": null,
+        "anharmonicity": null,
+        "readout_error": 0.0101318359375,
+        "prob_meas0_prep1": 0.008544921875,
+        "prob_meas1_prep0": 0.01171875,
+        "readout_length": 1.56e-06
+      },
+      "Q76": {
+        "t1": 0.00028339375082009945,
+        "t2": 0.00023780038501254697,
+        "frequency": null,
+        "anharmonicity": null,
+        "readout_error": 0.0335693359375,
+        "prob_meas0_prep1": 0.0205078125,
+        "prob_meas1_prep0": 0.046630859375,
+        "readout_length": 1.56e-06
+      },
+      "Q77": {
+        "t1": 0.00024572995008641246,
+        "t2": 0.00017342744028685895,
+        "frequency": null,
+        "anharmonicity": null,
+        "readout_error": 0.026123046875,
+        "prob_meas0_prep1": 0.022216796875,
+        "prob_meas1_prep0": 0.030029296875,
+        "readout_length": 1.56e-06
+      },
+      "Q78": {
+        "t1": 0.00011320929018886269,
+        "t2": 0.00011722393228016658,
+        "frequency": null,
+        "anharmonicity": null,
+        "readout_error": 0.0555419921875,
+        "prob_meas0_prep1": 0.07080078125,
+        "prob_meas1_prep0": 0.040283203125,
+        "readout_length": 1.56e-06
+      },
+      "Q79": {
+        "t1": 5.296966362687767e-05,
+        "t2": 6.62775178297114e-05,
+        "frequency": null,
+        "anharmonicity": null,
+        "readout_error": 0.0391845703125,
+        "prob_meas0_prep1": 0.071044921875,
+        "prob_meas1_prep0": 0.00732421875,
+        "readout_length": 1.56e-06
+      },
+      "Q80": {
+        "t1": 0.0001851588700485416,
+        "t2": 3.089944142168296e-05,
+        "frequency": null,
+        "anharmonicity": null,
+        "readout_error": 0.0311279296875,
+        "prob_meas0_prep1": 0.0302734375,
+        "prob_meas1_prep0": 0.031982421875,
+        "readout_length": 1.56e-06
+      },
+      "Q81": {
+        "t1": 0.00010121319563631502,
+        "t2": 0.00011208369791453509,
+        "frequency": null,
+        "anharmonicity": null,
+        "readout_error": 0.0069580078125,
+        "prob_meas0_prep1": 0.006103515625,
+        "prob_meas1_prep0": 0.0078125,
+        "readout_length": 1.56e-06
+      },
+      "Q82": {
+        "t1": 0.0002455107039120287,
+        "t2": 0.00011973919925721798,
+        "frequency": null,
+        "anharmonicity": null,
+        "readout_error": 0.083740234375,
+        "prob_meas0_prep1": 0.077392578125,
+        "prob_meas1_prep0": 0.090087890625,
+        "readout_length": 1.56e-06
+      },
+      "Q83": {
+        "t1": 0.00015470800486633738,
+        "t2": 8.639541624658905e-05,
+        "frequency": null,
+        "anharmonicity": null,
+        "readout_error": 0.020263671875,
+        "prob_meas0_prep1": 0.01171875,
+        "prob_meas1_prep0": 0.02880859375,
+        "readout_length": 1.56e-06
+      },
+      "Q84": {
+        "t1": 0.0001800463713494753,
+        "t2": 0.00013404799340121842,
+        "frequency": null,
+        "anharmonicity": null,
+        "readout_error": 0.093505859375,
+        "prob_meas0_prep1": 0.1044921875,
+        "prob_meas1_prep0": 0.08251953125,
+        "readout_length": 1.56e-06
+      },
+      "Q85": {
+        "t1": 3.5507861707747996e-06,
+        "t2": 6.977886294668654e-06,
+        "frequency": null,
+        "anharmonicity": null,
+        "readout_error": 0.0321044921875,
+        "prob_meas0_prep1": 0.0498046875,
+        "prob_meas1_prep0": 0.014404296875,
+        "readout_length": 1.56e-06
+      },
+      "Q86": {
+        "t1": 0.0001446703639731249,
+        "t2": 0.00013445827699909812,
+        "frequency": null,
+        "anharmonicity": null,
+        "readout_error": 0.234619140625,
+        "prob_meas0_prep1": 0.417236328125,
+        "prob_meas1_prep0": 0.052001953125,
+        "readout_length": 1.56e-06
+      },
+      "Q87": {
+        "t1": 6.360671773170691e-05,
+        "t2": 0.0001095428938359917,
+        "frequency": null,
+        "anharmonicity": null,
+        "readout_error": 0.008056640625,
+        "prob_meas0_prep1": 0.005615234375,
+        "prob_meas1_prep0": 0.010498046875,
+        "readout_length": 1.56e-06
+      },
+      "Q88": {
+        "t1": 2.7860861460428465e-05,
+        "t2": 6.633498362623369e-05,
+        "frequency": null,
+        "anharmonicity": null,
+        "readout_error": 0.2462158203125,
+        "prob_meas0_prep1": 0.400390625,
+        "prob_meas1_prep0": 0.092041015625,
+        "readout_length": 1.56e-06
+      },
+      "Q89": {
+        "t1": 0.00026579706093173174,
+        "t2": 0.00018215820384402713,
+        "frequency": null,
+        "anharmonicity": null,
+        "readout_error": 0.0726318359375,
+        "prob_meas0_prep1": 0.06298828125,
+        "prob_meas1_prep0": 0.082275390625,
+        "readout_length": 1.56e-06
+      },
+      "Q90": {
+        "t1": 0.00032106288216794,
+        "t2": 0.00024225259835051978,
+        "frequency": null,
+        "anharmonicity": null,
+        "readout_error": 0.031005859375,
+        "prob_meas0_prep1": 0.012939453125,
+        "prob_meas1_prep0": 0.049072265625,
+        "readout_length": 1.56e-06
+      },
+      "Q91": {
+        "t1": 0.00019796787836328866,
+        "t2": 9.625394264712561e-05,
+        "frequency": null,
+        "anharmonicity": null,
+        "readout_error": 0.00634765625,
+        "prob_meas0_prep1": 0.00537109375,
+        "prob_meas1_prep0": 0.007080078125,
+        "readout_length": 1.56e-06
+      },
+      "Q92": {
+        "t1": 0.00022425702919178043,
+        "t2": 0.00017023366754469747,
+        "frequency": null,
+        "anharmonicity": null,
+        "readout_error": 0.00830078125,
+        "prob_meas0_prep1": 0.006103515625,
+        "prob_meas1_prep0": 0.010498046875,
+        "readout_length": 1.56e-06
+      },
+      "Q93": {
+        "t1": 0.00024082270170115477,
+        "t2": 0.00012154922079666932,
+        "frequency": null,
+        "anharmonicity": null,
+        "readout_error": 0.0093994140625,
+        "prob_meas0_prep1": 0.00634765625,
+        "prob_meas1_prep0": 0.012451171875,
+        "readout_length": 1.56e-06
+      },
+      "Q94": {
+        "t1": 0.00024969558562733246,
+        "t2": 0.00024674769674883486,
+        "frequency": null,
+        "anharmonicity": null,
+        "readout_error": 0.0152587890625,
+        "prob_meas0_prep1": 0.012939453125,
+        "prob_meas1_prep0": 0.017578125,
+        "readout_length": 1.56e-06
+      },
+      "Q95": {
+        "t1": 0.00020320872436122418,
+        "t2": 0.0002453253468978853,
+        "frequency": null,
+        "anharmonicity": null,
+        "readout_error": 0.025634765625,
+        "prob_meas0_prep1": 0.01318359375,
+        "prob_meas1_prep0": 0.0380859375,
+        "readout_length": 1.56e-06
+      },
+      "Q96": {
+        "t1": 0.00013084781170587668,
+        "t2": 0.00011982967035334012,
+        "frequency": null,
+        "anharmonicity": null,
+        "readout_error": 0.0123291015625,
+        "prob_meas0_prep1": 0.014892578125,
+        "prob_meas1_prep0": 0.009765625,
+        "readout_length": 1.56e-06
+      },
+      "Q97": {
+        "t1": 0.0002252323801097032,
+        "t2": 0.00018434113321393327,
+        "frequency": null,
+        "anharmonicity": null,
+        "readout_error": 0.1087646484375,
+        "prob_meas0_prep1": 0.0810546875,
+        "prob_meas1_prep0": 0.136474609375,
+        "readout_length": 1.56e-06
+      },
+      "Q98": {
+        "t1": 0.00019211525154797478,
+        "t2": 8.938578824378735e-05,
+        "frequency": null,
+        "anharmonicity": null,
+        "readout_error": 0.014892578125,
+        "prob_meas0_prep1": 0.021728515625,
+        "prob_meas1_prep0": 0.008056640625,
+        "readout_length": 1.56e-06
+      },
+      "Q99": {
+        "t1": 0.00019568727813621293,
+        "t2": 0.00013343058829961034,
+        "frequency": null,
+        "anharmonicity": null,
+        "readout_error": 0.0321044921875,
+        "prob_meas0_prep1": 0.029296875,
+        "prob_meas1_prep0": 0.034912109375,
+        "readout_length": 1.56e-06
+      },
+      "Q100": {
+        "t1": 0.0001844272987820258,
+        "t2": 0.00015587033958193525,
+        "frequency": null,
+        "anharmonicity": null,
+        "readout_error": 0.0433349609375,
+        "prob_meas0_prep1": 0.026611328125,
+        "prob_meas1_prep0": 0.06005859375,
+        "readout_length": 1.56e-06
+      },
+      "Q101": {
+        "t1": 5.859078897678914e-05,
+        "t2": 5.1514816398168444e-05,
+        "frequency": null,
+        "anharmonicity": null,
+        "readout_error": 0.028564453125,
+        "prob_meas0_prep1": 0.035888671875,
+        "prob_meas1_prep0": 0.021240234375,
+        "readout_length": 1.56e-06
+      },
+      "Q102": {
+        "t1": 0.00021488411116146232,
+        "t2": 3.7462236096683926e-05,
+        "frequency": null,
+        "anharmonicity": null,
+        "readout_error": 0.0118408203125,
+        "prob_meas0_prep1": 0.009765625,
+        "prob_meas1_prep0": 0.013916015625,
+        "readout_length": 1.56e-06
+      },
+      "Q103": {
+        "t1": 0.0002758815674423773,
+        "t2": 9.031802978062495e-05,
+        "frequency": null,
+        "anharmonicity": null,
+        "readout_error": 0.04736328125,
+        "prob_meas0_prep1": 0.055419921875,
+        "prob_meas1_prep0": 0.039306640625,
+        "readout_length": 1.56e-06
+      },
+      "Q104": {
+        "t1": 0.00010645525684638753,
+        "t2": 9.41701289706437e-05,
+        "frequency": null,
+        "anharmonicity": null,
+        "readout_error": 0.025390625,
+        "prob_meas0_prep1": 0.0361328125,
+        "prob_meas1_prep0": 0.0146484375,
+        "readout_length": 1.56e-06
+      },
+      "Q105": {
+        "t1": 0.00012035869215472095,
+        "t2": 6.245236629017306e-05,
+        "frequency": null,
+        "anharmonicity": null,
+        "readout_error": 0.094970703125,
+        "prob_meas0_prep1": 0.12353515625,
+        "prob_meas1_prep0": 0.06640625,
+        "readout_length": 1.56e-06
+      },
+      "Q106": {
+        "t1": 0.0001324474962013541,
+        "t2": 0.0001319029287928373,
+        "frequency": null,
+        "anharmonicity": null,
+        "readout_error": 0.1119384765625,
+        "prob_meas0_prep1": 0.1494140625,
+        "prob_meas1_prep0": 0.074462890625,
+        "readout_length": 1.56e-06
+      },
+      "Q107": {
+        "t1": 0.00018834912858939,
+        "t2": 0.00016126691438925504,
+        "frequency": null,
+        "anharmonicity": null,
+        "readout_error": 0.028076171875,
+        "prob_meas0_prep1": 0.026123046875,
+        "prob_meas1_prep0": 0.030029296875,
+        "readout_length": 1.56e-06
+      },
+      "Q108": {
+        "t1": 7.047259871117795e-05,
+        "t2": 9.944579294177978e-05,
+        "frequency": null,
+        "anharmonicity": null,
+        "readout_error": 0.0181884765625,
+        "prob_meas0_prep1": 0.00927734375,
+        "prob_meas1_prep0": 0.02685546875,
+        "readout_length": 1.56e-06
+      },
+      "Q109": {
+        "t1": 0.00020906877511256373,
+        "t2": 0.0002196924978008134,
+        "frequency": null,
+        "anharmonicity": null,
+        "readout_error": 0.0712890625,
+        "prob_meas0_prep1": 0.04931640625,
+        "prob_meas1_prep0": 0.09326171875,
+        "readout_length": 1.56e-06
+      },
+      "Q110": {
+        "t1": 0.00014154925748406487,
+        "t2": 0.00013475308241293302,
+        "frequency": null,
+        "anharmonicity": null,
+        "readout_error": 0.0091552734375,
+        "prob_meas0_prep1": 0.00927734375,
+        "prob_meas1_prep0": 0.009033203125,
+        "readout_length": 1.56e-06
+      },
+      "Q111": {
+        "t1": 0.00016718812207613796,
+        "t2": 0.00010439949198020755,
+        "frequency": null,
+        "anharmonicity": null,
+        "readout_error": 0.0133056640625,
+        "prob_meas0_prep1": 0.008056640625,
+        "prob_meas1_prep0": 0.0185546875,
+        "readout_length": 1.56e-06
+      },
+      "Q112": {
+        "t1": 0.0002934119029105482,
+        "t2": 0.00021212897109522058,
+        "frequency": null,
+        "anharmonicity": null,
+        "readout_error": 0.0137939453125,
+        "prob_meas0_prep1": 0.00927734375,
+        "prob_meas1_prep0": 0.018310546875,
+        "readout_length": 1.56e-06
+      },
+      "Q113": {
+        "t1": 0.00026592612728131986,
+        "t2": 0.0002032162392531727,
+        "frequency": null,
+        "anharmonicity": null,
+        "readout_error": 0.0396728515625,
+        "prob_meas0_prep1": 0.032958984375,
+        "prob_meas1_prep0": 0.04638671875,
+        "readout_length": 1.56e-06
+      },
+      "Q114": {
+        "t1": 5.701519390474971e-05,
+        "t2": 6.113843291763946e-05,
+        "frequency": null,
+        "anharmonicity": null,
+        "readout_error": 0.064697265625,
+        "prob_meas0_prep1": 0.015625,
+        "prob_meas1_prep0": 0.11376953125,
+        "readout_length": 1.56e-06
+      },
+      "Q115": {
+        "t1": 8.71761703493419e-05,
+        "t2": 0.00011006061174703969,
+        "frequency": null,
+        "anharmonicity": null,
+        "readout_error": 0.126220703125,
+        "prob_meas0_prep1": 0.101806640625,
+        "prob_meas1_prep0": 0.150634765625,
+        "readout_length": 1.56e-06
+      },
+      "Q116": {
+        "t1": 0.00026257241526700517,
+        "t2": 0.000179155402586582,
+        "frequency": null,
+        "anharmonicity": null,
+        "readout_error": 0.04931640625,
+        "prob_meas0_prep1": 0.03564453125,
+        "prob_meas1_prep0": 0.06298828125,
+        "readout_length": 1.56e-06
+      },
+      "Q117": {
+        "t1": 0.00012602105377734754,
+        "t2": 8.031453735408716e-05,
+        "frequency": null,
+        "anharmonicity": null,
+        "readout_error": 0.0059814453125,
+        "prob_meas0_prep1": 0.010986328125,
+        "prob_meas1_prep0": 0.0009765625,
+        "readout_length": 1.56e-06
+      },
+      "Q118": {
+        "t1": 0.00012860928493347584,
+        "t2": 0.00012082187823500902,
+        "frequency": null,
+        "anharmonicity": null,
+        "readout_error": 0.0849609375,
+        "prob_meas0_prep1": 0.0810546875,
+        "prob_meas1_prep0": 0.0888671875,
+        "readout_length": 1.56e-06
+      },
+      "Q119": {
+        "t1": 0.0002444015187028321,
+        "t2": 7.422808958462074e-05,
+        "frequency": null,
+        "anharmonicity": null,
+        "readout_error": 0.026123046875,
+        "prob_meas0_prep1": 0.015625,
+        "prob_meas1_prep0": 0.03662109375,
+        "readout_length": 1.56e-06
+      },
+      "Q120": {
+        "t1": 7.39620102734867e-05,
+        "t2": 9.252304501233472e-05,
+        "frequency": null,
+        "anharmonicity": null,
+        "readout_error": 0.024169921875,
+        "prob_meas0_prep1": 0.019775390625,
+        "prob_meas1_prep0": 0.028564453125,
+        "readout_length": 1.56e-06
+      },
+      "Q121": {
+        "t1": 0.00017563356844429233,
+        "t2": 0.00014747097927013338,
+        "frequency": null,
+        "anharmonicity": null,
+        "readout_error": 0.0311279296875,
+        "prob_meas0_prep1": 0.017333984375,
+        "prob_meas1_prep0": 0.044921875,
+        "readout_length": 1.56e-06
+      },
+      "Q122": {
+        "t1": 0.0002594165179771401,
+        "t2": 0.00014092059108627785,
+        "frequency": null,
+        "anharmonicity": null,
+        "readout_error": 0.057861328125,
+        "prob_meas0_prep1": 0.045166015625,
+        "prob_meas1_prep0": 0.070556640625,
+        "readout_length": 1.56e-06
+      },
+      "Q123": {
+        "t1": 5.760753619318146e-05,
+        "t2": 4.3059147429066794e-05,
+        "frequency": null,
+        "anharmonicity": null,
+        "readout_error": 0.02392578125,
+        "prob_meas0_prep1": 0.041748046875,
+        "prob_meas1_prep0": 0.006103515625,
+        "readout_length": 1.56e-06
+      },
+      "Q124": {
+        "t1": 0.00017438437054159416,
+        "t2": 0.0001058223398748969,
+        "frequency": null,
+        "anharmonicity": null,
+        "readout_error": 0.1396484375,
+        "prob_meas0_prep1": 0.17041015625,
+        "prob_meas1_prep0": 0.10888671875,
+        "readout_length": 1.56e-06
+      },
+      "Q125": {
+        "t1": 0.0001796926958979512,
+        "t2": 0.00013681392429999234,
+        "frequency": null,
+        "anharmonicity": null,
+        "readout_error": 0.0089111328125,
+        "prob_meas0_prep1": 0.01025390625,
+        "prob_meas1_prep0": 0.003662109375,
+        "readout_length": 1.56e-06
+      },
+      "Q126": {
+        "t1": 0.00013961668402094965,
+        "t2": 0.0001438528707501884,
+        "frequency": null,
+        "anharmonicity": null,
+        "readout_error": 0.0706787109375,
+        "prob_meas0_prep1": 0.07666015625,
+        "prob_meas1_prep0": 0.064697265625,
+        "readout_length": 1.56e-06
+      },
+      "Q127": {
+        "t1": 0.0002536015747837633,
+        "t2": 0.00012254810542223975,
+        "frequency": null,
+        "anharmonicity": null,
+        "readout_error": 0.141357421875,
+        "prob_meas0_prep1": 0.128173828125,
+        "prob_meas1_prep0": 0.154541015625,
+        "readout_length": 1.56e-06
+      },
+      "Q128": {
+        "t1": 0.00034840242631090155,
+        "t2": 0.00015622548840738682,
+        "frequency": null,
+        "anharmonicity": null,
+        "readout_error": 0.0902099609375,
+        "prob_meas0_prep1": 0.09130859375,
+        "prob_meas1_prep0": 0.089111328125,
+        "readout_length": 1.56e-06
+      },
+      "Q129": {
+        "t1": 0.00021030987006352396,
+        "t2": 0.00011296763611578306,
+        "frequency": null,
+        "anharmonicity": null,
+        "readout_error": 0.043212890625,
+        "prob_meas0_prep1": 0.04150390625,
+        "prob_meas1_prep0": 0.044921875,
+        "readout_length": 1.56e-06
+      },
+      "Q130": {
+        "t1": 0.0002636295463254497,
+        "t2": 0.0002578505523072962,
+        "frequency": null,
+        "anharmonicity": null,
+        "readout_error": 0.0181884765625,
+        "prob_meas0_prep1": 0.01220703125,
+        "prob_meas1_prep0": 0.024169921875,
+        "readout_length": 1.56e-06
+      },
+      "Q131": {
+        "t1": 0.00020218149339513937,
+        "t2": 5.731088678585688e-05,
+        "frequency": null,
+        "anharmonicity": null,
+        "readout_error": 0.008056640625,
+        "prob_meas0_prep1": 0.00732421875,
+        "prob_meas1_prep0": 0.0087890625,
+        "readout_length": 1.56e-06
+      },
+      "Q132": {
+        "t1": 0.00020926504218713373,
+        "t2": 0.00020494838736504511,
+        "frequency": null,
+        "anharmonicity": null,
+        "readout_error": 0.0087890625,
+        "prob_meas0_prep1": 0.006103515625,
+        "prob_meas1_prep0": 0.011474609375,
+        "readout_length": 1.56e-06
+      }
+    },
+    "id": "ibm_torino-2026-01-10_06:26:19"
+  },
+  "ibm_marrakesh-2026-01-10_06:26:19": {
+    "backend": "ibm_marrakesh",
+    "num_qubits": 156,
+    "calibration_time": "2026-01-10_06:26:19",
+    "qubits": {
+      "Q0": {
+        "t1": 0.0003642369110014877,
+        "t2": 5.649154081865172e-05,
+        "frequency": null,
+        "anharmonicity": null,
+        "readout_error": 0.0076904296875,
+        "prob_meas0_prep1": 0.01318359375,
+        "prob_meas1_prep0": 0.002197265625,
+        "readout_length": 2.584e-06
+      },
+      "Q1": {
+        "t1": 0.0002027047111961243,
+        "t2": 0.00017614830589803582,
+        "frequency": null,
+        "anharmonicity": null,
+        "readout_error": 0.008544921875,
+        "prob_meas0_prep1": 0.01611328125,
+        "prob_meas1_prep0": 0.0009765625,
+        "readout_length": 2.584e-06
+      },
+      "Q2": {
+        "t1": 0.00033319147465707524,
+        "t2": 0.00039377399641441337,
+        "frequency": null,
+        "anharmonicity": null,
+        "readout_error": 0.003662109375,
+        "prob_meas0_prep1": 0.004150390625,
+        "prob_meas1_prep0": 0.003173828125,
+        "readout_length": 2.584e-06
+      },
+      "Q3": {
+        "t1": 0.0002520143313041168,
+        "t2": 0.00015941784588274956,
+        "frequency": null,
+        "anharmonicity": null,
+        "readout_error": 0.0081787109375,
+        "prob_meas0_prep1": 0.01025390625,
+        "prob_meas1_prep0": 0.006103515625,
+        "readout_length": 2.584e-06
+      },
+      "Q4": {
+        "t1": 0.0002266167275232762,
+        "t2": 0.0002674987428043391,
+        "frequency": null,
+        "anharmonicity": null,
+        "readout_error": 0.0078125,
+        "prob_meas0_prep1": 0.01513671875,
+        "prob_meas1_prep0": 0.00048828125,
+        "readout_length": 2.584e-06
+      },
+      "Q5": {
+        "t1": 0.00036194917330220296,
+        "t2": 0.0002475574943406939,
+        "frequency": null,
+        "anharmonicity": null,
+        "readout_error": 0.0028076171875,
+        "prob_meas0_prep1": 0.0048828125,
+        "prob_meas1_prep0": 0.000732421875,
+        "readout_length": 2.584e-06
+      },
+      "Q6": {
+        "t1": 0.00012419239841866153,
+        "t2": 0.00011614891731525265,
+        "frequency": null,
+        "anharmonicity": null,
+        "readout_error": 0.00439453125,
+        "prob_meas0_prep1": 0.007080078125,
+        "prob_meas1_prep0": 0.001708984375,
+        "readout_length": 2.584e-06
+      },
+      "Q7": {
+        "t1": 0.00022124265238467232,
+        "t2": 0.00012673659412689773,
+        "frequency": null,
+        "anharmonicity": null,
+        "readout_error": 0.0052490234375,
+        "prob_meas0_prep1": 0.009033203125,
+        "prob_meas1_prep0": 0.00146484375,
+        "readout_length": 2.584e-06
+      },
+      "Q8": {
+        "t1": 0.00033187076223518275,
+        "t2": 0.00017199618318102306,
+        "frequency": null,
+        "anharmonicity": null,
+        "readout_error": 0.0047607421875,
+        "prob_meas0_prep1": 0.008056640625,
+        "prob_meas1_prep0": 0.00146484375,
+        "readout_length": 2.584e-06
+      },
+      "Q9": {
+        "t1": 0.0002298830415928249,
+        "t2": 0.00028126276028849764,
+        "frequency": null,
+        "anharmonicity": null,
+        "readout_error": 0.040771484375,
+        "prob_meas0_prep1": 0.033203125,
+        "prob_meas1_prep0": 0.04833984375,
+        "readout_length": 2.584e-06
+      },
+      "Q10": {
+        "t1": 0.0002738954581468728,
+        "t2": 0.00021978553451750804,
+        "frequency": null,
+        "anharmonicity": null,
+        "readout_error": 0.005859375,
+        "prob_meas0_prep1": 0.0146484375,
+        "prob_meas1_prep0": 0.003662109375,
+        "readout_length": 2.584e-06
+      },
+      "Q11": {
+        "t1": 0.0003687095808900255,
+        "t2": 0.00027804342730914744,
+        "frequency": null,
+        "anharmonicity": null,
+        "readout_error": 0.012451171875,
+        "prob_meas0_prep1": 0.020263671875,
+        "prob_meas1_prep0": 0.004638671875,
+        "readout_length": 2.584e-06
+      },
+      "Q12": {
+        "t1": 0.0003193967408166746,
+        "t2": 7.024820491561835e-05,
+        "frequency": null,
+        "anharmonicity": null,
+        "readout_error": 0.003662109375,
+        "prob_meas0_prep1": 0.005615234375,
+        "prob_meas1_prep0": 0.001708984375,
+        "readout_length": 2.584e-06
+      },
+      "Q13": {
+        "t1": 0.00018454320136301492,
+        "t2": 0.00016513013084407506,
+        "frequency": null,
+        "anharmonicity": null,
+        "readout_error": 0.01708984375,
+        "prob_meas0_prep1": 0.0146484375,
+        "prob_meas1_prep0": 0.01953125,
+        "readout_length": 2.584e-06
+      },
+      "Q14": {
+        "t1": 0.0003023923349342922,
+        "t2": 0.00014609277416684392,
+        "frequency": null,
+        "anharmonicity": null,
+        "readout_error": 0.0030517578125,
+        "prob_meas0_prep1": 0.005126953125,
+        "prob_meas1_prep0": 0.0009765625,
+        "readout_length": 2.584e-06
+      },
+      "Q15": {
+        "t1": 0.0003056062276109155,
+        "t2": 5.155330169851912e-05,
+        "frequency": null,
+        "anharmonicity": null,
+        "readout_error": 0.00439453125,
+        "prob_meas0_prep1": 0.00732421875,
+        "prob_meas1_prep0": 0.00146484375,
+        "readout_length": 2.584e-06
+      },
+      "Q16": {
+        "t1": 0.00015165993663731746,
+        "t2": 6.672565637273546e-05,
+        "frequency": null,
+        "anharmonicity": null,
+        "readout_error": 0.011474609375,
+        "prob_meas0_prep1": 0.02099609375,
+        "prob_meas1_prep0": 0.001953125,
+        "readout_length": 2.584e-06
+      },
+      "Q17": {
+        "t1": 0.0002954186006075017,
+        "t2": 1.0758625328808006e-05,
+        "frequency": null,
+        "anharmonicity": null,
+        "readout_error": 0.0069580078125,
+        "prob_meas0_prep1": 0.013427734375,
+        "prob_meas1_prep0": 0.00048828125,
+        "readout_length": 2.584e-06
+      },
+      "Q18": {
+        "t1": 0.00010967074614698574,
+        "t2": 0.00012549735111470846,
+        "frequency": null,
+        "anharmonicity": null,
+        "readout_error": 0.0140380859375,
+        "prob_meas0_prep1": 0.02490234375,
+        "prob_meas1_prep0": 0.003173828125,
+        "readout_length": 2.584e-06
+      },
+      "Q19": {
+        "t1": 0.00012571390607966356,
+        "t2": 5.28548074222268e-05,
+        "frequency": null,
+        "anharmonicity": null,
+        "readout_error": 0.005126953125,
+        "prob_meas0_prep1": 0.010009765625,
+        "prob_meas1_prep0": 0.000244140625,
+        "readout_length": 2.584e-06
+      },
+      "Q20": {
+        "t1": 0.00016434767524686536,
+        "t2": 1.727634834250557e-05,
+        "frequency": null,
+        "anharmonicity": null,
+        "readout_error": 0.007568359375,
+        "prob_meas0_prep1": 0.014404296875,
+        "prob_meas1_prep0": 0.000732421875,
+        "readout_length": 2.584e-06
+      },
+      "Q21": {
+        "t1": 0.00011283758297851058,
+        "t2": 8.442413182494463e-05,
+        "frequency": null,
+        "anharmonicity": null,
+        "readout_error": 0.0035400390625,
+        "prob_meas0_prep1": 0.005859375,
+        "prob_meas1_prep0": 0.001220703125,
+        "readout_length": 2.584e-06
+      },
+      "Q22": {
+        "t1": 0.0002246362454562535,
+        "t2": 4.698604945181714e-05,
+        "frequency": null,
+        "anharmonicity": null,
+        "readout_error": 0.007080078125,
+        "prob_meas0_prep1": 0.0126953125,
+        "prob_meas1_prep0": 0.00146484375,
+        "readout_length": 2.584e-06
+      },
+      "Q23": {
+        "t1": 0.0003255666477616236,
+        "t2": 0.0002039225988509725,
+        "frequency": null,
+        "anharmonicity": null,
+        "readout_error": 0.0328369140625,
+        "prob_meas0_prep1": 0.03125,
+        "prob_meas1_prep0": 0.034423828125,
+        "readout_length": 2.584e-06
+      },
+      "Q24": {
+        "t1": 0.00013531087389983637,
+        "t2": 8.941683281450587e-05,
+        "frequency": null,
+        "anharmonicity": null,
+        "readout_error": 0.009033203125,
+        "prob_meas0_prep1": 0.017578125,
+        "prob_meas1_prep0": 0.00048828125,
+        "readout_length": 2.584e-06
+      },
+      "Q25": {
+        "t1": 9.528940042893411e-05,
+        "t2": 4.0079690120726645e-05,
+        "frequency": null,
+        "anharmonicity": null,
+        "readout_error": 0.07958984375,
+        "prob_meas0_prep1": 0.059814453125,
+        "prob_meas1_prep0": 0.099365234375,
+        "readout_length": 2.584e-06
+      },
+      "Q26": {
+        "t1": 4.26524995506303e-06,
+        "t2": 6.776757543408719e-06,
+        "frequency": null,
+        "anharmonicity": null,
+        "readout_error": 0.093505859375,
+        "prob_meas0_prep1": 0.115966796875,
+        "prob_meas1_prep0": 0.071044921875,
+        "readout_length": 2.584e-06
+      },
+      "Q27": {
+        "t1": 0.00018379510558562883,
+        "t2": 0.00021224587287252452,
+        "frequency": null,
+        "anharmonicity": null,
+        "readout_error": 0.0062255859375,
+        "prob_meas0_prep1": 0.01025390625,
+        "prob_meas1_prep0": 0.002685546875,
+        "readout_length": 2.584e-06
+      },
+      "Q28": {
+        "t1": 0.00021136544070496903,
+        "t2": 0.0002272390712606051,
+        "frequency": null,
+        "anharmonicity": null,
+        "readout_error": 0.00927734375,
+        "prob_meas0_prep1": 0.014404296875,
+        "prob_meas1_prep0": 0.004150390625,
+        "readout_length": 2.584e-06
+      },
+      "Q29": {
+        "t1": 7.294232182411845e-05,
+        "t2": 7.392012582871404e-05,
+        "frequency": null,
+        "anharmonicity": null,
+        "readout_error": 0.0225830078125,
+        "prob_meas0_prep1": 0.02294921875,
+        "prob_meas1_prep0": 0.022216796875,
+        "readout_length": 2.584e-06
+      },
+      "Q30": {
+        "t1": 0.0002442976402624326,
+        "t2": 4.4708049512382095e-05,
+        "frequency": null,
+        "anharmonicity": null,
+        "readout_error": 0.01513671875,
+        "prob_meas0_prep1": 0.02587890625,
+        "prob_meas1_prep0": 0.00439453125,
+        "readout_length": 2.584e-06
+      },
+      "Q31": {
+        "t1": 0.00013253264957024924,
+        "t2": 6.91495176321653e-05,
+        "frequency": null,
+        "anharmonicity": null,
+        "readout_error": 0.022216796875,
+        "prob_meas0_prep1": 0.03955078125,
+        "prob_meas1_prep0": 0.0048828125,
+        "readout_length": 2.584e-06
+      },
+      "Q32": {
+        "t1": 0.00018097568279109902,
+        "t2": 6.360280356960091e-05,
+        "frequency": null,
+        "anharmonicity": null,
+        "readout_error": 0.013427734375,
+        "prob_meas0_prep1": 0.022216796875,
+        "prob_meas1_prep0": 0.004638671875,
+        "readout_length": 2.584e-06
+      },
+      "Q33": {
+        "t1": 0.00015809128847322048,
+        "t2": 0.00015954778565597106,
+        "frequency": null,
+        "anharmonicity": null,
+        "readout_error": 0.00634765625,
+        "prob_meas0_prep1": 0.01171875,
+        "prob_meas1_prep0": 0.0009765625,
+        "readout_length": 2.584e-06
+      },
+      "Q34": {
+        "t1": 0.00016938338090608928,
+        "t2": 0.00013916633722579674,
+        "frequency": null,
+        "anharmonicity": null,
+        "readout_error": 0.0030517578125,
+        "prob_meas0_prep1": 0.00537109375,
+        "prob_meas1_prep0": 0.000732421875,
+        "readout_length": 2.584e-06
+      },
+      "Q35": {
+        "t1": 0.0005255095765355237,
+        "t2": 0.0004969196571510677,
+        "frequency": null,
+        "anharmonicity": null,
+        "readout_error": 0.0238037109375,
+        "prob_meas0_prep1": 0.038818359375,
+        "prob_meas1_prep0": 0.0087890625,
+        "readout_length": 2.584e-06
+      },
+      "Q36": {
+        "t1": 0.00021462025026899794,
+        "t2": 4.7666878531166374e-05,
+        "frequency": null,
+        "anharmonicity": null,
+        "readout_error": 0.0211181640625,
+        "prob_meas0_prep1": 0.040771484375,
+        "prob_meas1_prep0": 0.00146484375,
+        "readout_length": 2.584e-06
+      },
+      "Q37": {
+        "t1": 0.00012391542411504587,
+        "t2": 1.3074873588600048e-05,
+        "frequency": null,
+        "anharmonicity": null,
+        "readout_error": 0.01123046875,
+        "prob_meas0_prep1": 0.02001953125,
+        "prob_meas1_prep0": 0.00244140625,
+        "readout_length": 2.584e-06
+      },
+      "Q38": {
+        "t1": 0.00012018462985175299,
+        "t2": 4.299364994673784e-05,
+        "frequency": null,
+        "anharmonicity": null,
+        "readout_error": 0.009033203125,
+        "prob_meas0_prep1": 0.015869140625,
+        "prob_meas1_prep0": 0.002197265625,
+        "readout_length": 2.584e-06
+      },
+      "Q39": {
+        "t1": 0.0001931728129402326,
+        "t2": 4.5429730164760944e-05,
+        "frequency": null,
+        "anharmonicity": null,
+        "readout_error": 0.0079345703125,
+        "prob_meas0_prep1": 0.011962890625,
+        "prob_meas1_prep0": 0.00390625,
+        "readout_length": 2.584e-06
+      },
+      "Q40": {
+        "t1": 0.00014047922216425248,
+        "t2": 0.00013812259836056142,
+        "frequency": null,
+        "anharmonicity": null,
+        "readout_error": 0.3267822265625,
+        "prob_meas0_prep1": 0.149169921875,
+        "prob_meas1_prep0": 0.50439453125,
+        "readout_length": 2.584e-06
+      },
+      "Q41": {
+        "t1": 0.00015840285308724088,
+        "t2": 3.42545668318191e-05,
+        "frequency": null,
+        "anharmonicity": null,
+        "readout_error": 0.01611328125,
+        "prob_meas0_prep1": 0.020751953125,
+        "prob_meas1_prep0": 0.011474609375,
+        "readout_length": 2.584e-06
+      },
+      "Q42": {
+        "t1": 0.00029909001588557683,
+        "t2": 0.00016278515606021839,
+        "frequency": null,
+        "anharmonicity": null,
+        "readout_error": 0.0078125,
+        "prob_meas0_prep1": 0.00927734375,
+        "prob_meas1_prep0": 0.00634765625,
+        "readout_length": 2.584e-06
+      },
+      "Q43": {
+        "t1": 0.00033401337706628496,
+        "t2": 0.00010554367595474823,
+        "frequency": null,
+        "anharmonicity": null,
+        "readout_error": 0.1282958984375,
+        "prob_meas0_prep1": 0.242919921875,
+        "prob_meas1_prep0": 0.013671875,
+        "readout_length": 2.584e-06
+      },
+      "Q44": {
+        "t1": 0.00014381036225215988,
+        "t2": 9.674017307289991e-05,
+        "frequency": null,
+        "anharmonicity": null,
+        "readout_error": 0.00830078125,
+        "prob_meas0_prep1": 0.01904296875,
+        "prob_meas1_prep0": 0.007568359375,
+        "readout_length": 2.584e-06
+      },
+      "Q45": {
+        "t1": 9.244459665676108e-05,
+        "t2": 8.420098039041314e-05,
+        "frequency": null,
+        "anharmonicity": null,
+        "readout_error": 0.0133056640625,
+        "prob_meas0_prep1": 0.025390625,
+        "prob_meas1_prep0": 0.001220703125,
+        "readout_length": 2.584e-06
+      },
+      "Q46": {
+        "t1": 0.0002615352047552598,
+        "t2": 0.00013193766530359322,
+        "frequency": null,
+        "anharmonicity": null,
+        "readout_error": 0.010009765625,
+        "prob_meas0_prep1": 0.0166015625,
+        "prob_meas1_prep0": 0.00341796875,
+        "readout_length": 2.584e-06
+      },
+      "Q47": {
+        "t1": 0.00019945135032301995,
+        "t2": 6.858688754993465e-05,
+        "frequency": null,
+        "anharmonicity": null,
+        "readout_error": 0.012939453125,
+        "prob_meas0_prep1": 0.01416015625,
+        "prob_meas1_prep0": 0.01171875,
+        "readout_length": 2.584e-06
+      },
+      "Q48": {
+        "t1": 0.00020835670139661742,
+        "t2": 0.00024003224583906592,
+        "frequency": null,
+        "anharmonicity": null,
+        "readout_error": 0.09375,
+        "prob_meas0_prep1": 0.142822265625,
+        "prob_meas1_prep0": 0.044677734375,
+        "readout_length": 2.584e-06
+      },
+      "Q49": {
+        "t1": 0.00018075665817428123,
+        "t2": 0.00016082221872931211,
+        "frequency": null,
+        "anharmonicity": null,
+        "readout_error": 0.012939453125,
+        "prob_meas0_prep1": 0.0224609375,
+        "prob_meas1_prep0": 0.00341796875,
+        "readout_length": 2.584e-06
+      },
+      "Q50": {
+        "t1": 0.00018708741887881743,
+        "t2": 0.00014525447713516646,
+        "frequency": null,
+        "anharmonicity": null,
+        "readout_error": 0.013427734375,
+        "prob_meas0_prep1": 0.021484375,
+        "prob_meas1_prep0": 0.00537109375,
+        "readout_length": 2.584e-06
+      },
+      "Q51": {
+        "t1": 0.0001956661950555128,
+        "t2": 0.00022056866501199285,
+        "frequency": null,
+        "anharmonicity": null,
+        "readout_error": 0.06005859375,
+        "prob_meas0_prep1": 0.05322265625,
+        "prob_meas1_prep0": 0.06689453125,
+        "readout_length": 2.584e-06
+      },
+      "Q52": {
+        "t1": 0.0001787864405121884,
+        "t2": 0.00016314490099092553,
+        "frequency": null,
+        "anharmonicity": null,
+        "readout_error": 0.010986328125,
+        "prob_meas0_prep1": 0.0126953125,
+        "prob_meas1_prep0": 0.00927734375,
+        "readout_length": 2.584e-06
+      },
+      "Q53": {
+        "t1": 0.0002114279552916541,
+        "t2": 0.00018291923271469617,
+        "frequency": null,
+        "anharmonicity": null,
+        "readout_error": 0.0067138671875,
+        "prob_meas0_prep1": 0.007568359375,
+        "prob_meas1_prep0": 0.005859375,
+        "readout_length": 2.584e-06
+      },
+      "Q54": {
+        "t1": 0.0002626907299997275,
+        "t2": 0.00031688937412564333,
+        "frequency": null,
+        "anharmonicity": null,
+        "readout_error": 0.0067138671875,
+        "prob_meas0_prep1": 0.00830078125,
+        "prob_meas1_prep0": 0.005126953125,
+        "readout_length": 2.584e-06
+      },
+      "Q55": {
+        "t1": 0.00016857506810474406,
+        "t2": 6.447840616134326e-05,
+        "frequency": null,
+        "anharmonicity": null,
+        "readout_error": 0.025146484375,
+        "prob_meas0_prep1": 0.0244140625,
+        "prob_meas1_prep0": 0.02587890625,
+        "readout_length": 2.584e-06
+      },
+      "Q56": {
+        "t1": 0.0002300813987577755,
+        "t2": 7.929837348979959e-05,
+        "frequency": null,
+        "anharmonicity": null,
+        "readout_error": 0.008056640625,
+        "prob_meas0_prep1": 0.013427734375,
+        "prob_meas1_prep0": 0.002685546875,
+        "readout_length": 2.584e-06
+      },
+      "Q57": {
+        "t1": 0.00010389579938537753,
+        "t2": 8.271592734795405e-05,
+        "frequency": null,
+        "anharmonicity": null,
+        "readout_error": 0.013916015625,
+        "prob_meas0_prep1": 0.017822265625,
+        "prob_meas1_prep0": 0.010009765625,
+        "readout_length": 2.584e-06
+      },
+      "Q58": {
+        "t1": 0.00022168430801620677,
+        "t2": 0.00016143169280525839,
+        "frequency": null,
+        "anharmonicity": null,
+        "readout_error": 0.0240478515625,
+        "prob_meas0_prep1": 0.033203125,
+        "prob_meas1_prep0": 0.014892578125,
+        "readout_length": 2.584e-06
+      },
+      "Q59": {
+        "t1": 0.00013949432986076784,
+        "t2": 0.00017018507079121038,
+        "frequency": null,
+        "anharmonicity": null,
+        "readout_error": 0.0152587890625,
+        "prob_meas0_prep1": 0.028076171875,
+        "prob_meas1_prep0": 0.00244140625,
+        "readout_length": 2.584e-06
+      },
+      "Q60": {
+        "t1": 0.00017200078997102418,
+        "t2": 0.00016777710106002697,
+        "frequency": null,
+        "anharmonicity": null,
+        "readout_error": 0.0999755859375,
+        "prob_meas0_prep1": 0.068115234375,
+        "prob_meas1_prep0": 0.1318359375,
+        "readout_length": 2.584e-06
+      },
+      "Q61": {
+        "t1": 0.00017113263603874736,
+        "t2": 0.00013870474382481456,
+        "frequency": null,
+        "anharmonicity": null,
+        "readout_error": 0.0142822265625,
+        "prob_meas0_prep1": 0.0302734375,
+        "prob_meas1_prep0": 0.013671875,
+        "readout_length": 2.584e-06
+      },
+      "Q62": {
+        "t1": 0.00016687985757528087,
+        "t2": 3.7953690930411775e-05,
+        "frequency": null,
+        "anharmonicity": null,
+        "readout_error": 0.3089599609375,
+        "prob_meas0_prep1": 0.614501953125,
+        "prob_meas1_prep0": 0.00341796875,
+        "readout_length": 2.584e-06
+      },
+      "Q63": {
+        "t1": 0.00012210004908574067,
+        "t2": 0.00011535520719302144,
+        "frequency": null,
+        "anharmonicity": null,
+        "readout_error": 0.0760498046875,
+        "prob_meas0_prep1": 0.05419921875,
+        "prob_meas1_prep0": 0.097900390625,
+        "readout_length": 2.584e-06
+      },
+      "Q64": {
+        "t1": 7.499583090597759e-05,
+        "t2": 1.6617051168327357e-05,
+        "frequency": null,
+        "anharmonicity": null,
+        "readout_error": 0.0101318359375,
+        "prob_meas0_prep1": 0.016845703125,
+        "prob_meas1_prep0": 0.00341796875,
+        "readout_length": 2.584e-06
+      },
+      "Q65": {
+        "t1": 0.00031579934690268856,
+        "t2": 7.236193050131364e-05,
+        "frequency": null,
+        "anharmonicity": null,
+        "readout_error": 0.0206298828125,
+        "prob_meas0_prep1": 0.02880859375,
+        "prob_meas1_prep0": 0.012451171875,
+        "readout_length": 2.584e-06
+      },
+      "Q66": {
+        "t1": 0.00013786472739089802,
+        "t2": 9.801478465630917e-05,
+        "frequency": null,
+        "anharmonicity": null,
+        "readout_error": 0.0120849609375,
+        "prob_meas0_prep1": 0.0234375,
+        "prob_meas1_prep0": 0.000732421875,
+        "readout_length": 2.584e-06
+      },
+      "Q67": {
+        "t1": 0.0003158757138420989,
+        "t2": 9.102155515517724e-05,
+        "frequency": null,
+        "anharmonicity": null,
+        "readout_error": 0.0438232421875,
+        "prob_meas0_prep1": 0.035888671875,
+        "prob_meas1_prep0": 0.0517578125,
+        "readout_length": 2.584e-06
+      },
+      "Q68": {
+        "t1": 0.00012318502462353685,
+        "t2": 3.7411012152182775e-05,
+        "frequency": null,
+        "anharmonicity": null,
+        "readout_error": 0.01416015625,
+        "prob_meas0_prep1": 0.02685546875,
+        "prob_meas1_prep0": 0.00146484375,
+        "readout_length": 2.584e-06
+      },
+      "Q69": {
+        "t1": 0.00015819774795157324,
+        "t2": 2.8215756641773874e-05,
+        "frequency": null,
+        "anharmonicity": null,
+        "readout_error": 0.02294921875,
+        "prob_meas0_prep1": 0.02490234375,
+        "prob_meas1_prep0": 0.02099609375,
+        "readout_length": 2.584e-06
+      },
+      "Q70": {
+        "t1": 0.00016099978928207245,
+        "t2": 2.3125980610397926e-05,
+        "frequency": null,
+        "anharmonicity": null,
+        "readout_error": 0.02294921875,
+        "prob_meas0_prep1": 0.042236328125,
+        "prob_meas1_prep0": 0.003662109375,
+        "readout_length": 2.584e-06
+      },
+      "Q71": {
+        "t1": 0.00018949633956262895,
+        "t2": 0.0001693798733899339,
+        "frequency": null,
+        "anharmonicity": null,
+        "readout_error": 0.00830078125,
+        "prob_meas0_prep1": 0.0146484375,
+        "prob_meas1_prep0": 0.001953125,
+        "readout_length": 2.584e-06
+      },
+      "Q72": {
+        "t1": 0.0001212452960309931,
+        "t2": 2.0518189815076626e-05,
+        "frequency": null,
+        "anharmonicity": null,
+        "readout_error": 0.0142822265625,
+        "prob_meas0_prep1": 0.026611328125,
+        "prob_meas1_prep0": 0.001953125,
+        "readout_length": 2.584e-06
+      },
+      "Q73": {
+        "t1": 0.0002232465669004214,
+        "t2": 0.00019223607275856134,
+        "frequency": null,
+        "anharmonicity": null,
+        "readout_error": 0.0235595703125,
+        "prob_meas0_prep1": 0.044677734375,
+        "prob_meas1_prep0": 0.00244140625,
+        "readout_length": 2.584e-06
+      },
+      "Q74": {
+        "t1": 0.00010845241083084842,
+        "t2": 9.92806581354537e-06,
+        "frequency": null,
+        "anharmonicity": null,
+        "readout_error": 0.0135498046875,
+        "prob_meas0_prep1": 0.01806640625,
+        "prob_meas1_prep0": 0.009033203125,
+        "readout_length": 2.584e-06
+      },
+      "Q75": {
+        "t1": 0.00037159768265807085,
+        "t2": 0.00035618915409843917,
+        "frequency": null,
+        "anharmonicity": null,
+        "readout_error": 0.005859375,
+        "prob_meas0_prep1": 0.009033203125,
+        "prob_meas1_prep0": 0.002685546875,
+        "readout_length": 2.584e-06
+      },
+      "Q76": {
+        "t1": 0.00010742627588029082,
+        "t2": 4.911737625588061e-05,
+        "frequency": null,
+        "anharmonicity": null,
+        "readout_error": 0.02001953125,
+        "prob_meas0_prep1": 0.03564453125,
+        "prob_meas1_prep0": 0.00439453125,
+        "readout_length": 2.584e-06
+      },
+      "Q77": {
+        "t1": 0.00026495451460639,
+        "t2": 0.00013280916893493482,
+        "frequency": null,
+        "anharmonicity": null,
+        "readout_error": 0.0076904296875,
+        "prob_meas0_prep1": 0.01318359375,
+        "prob_meas1_prep0": 0.002197265625,
+        "readout_length": 2.584e-06
+      },
+      "Q78": {
+        "t1": 0.00016778372745836255,
+        "t2": 0.0002205548133581398,
+        "frequency": null,
+        "anharmonicity": null,
+        "readout_error": 0.0078125,
+        "prob_meas0_prep1": 0.005859375,
+        "prob_meas1_prep0": 0.001708984375,
+        "readout_length": 2.584e-06
+      },
+      "Q79": {
+        "t1": 0.00013311061845489678,
+        "t2": 4.1541852370506114e-05,
+        "frequency": null,
+        "anharmonicity": null,
+        "readout_error": 0.0953369140625,
+        "prob_meas0_prep1": 0.07861328125,
+        "prob_meas1_prep0": 0.112060546875,
+        "readout_length": 2.584e-06
+      },
+      "Q80": {
+        "t1": 0.00016421875114777272,
+        "t2": 2.9183469997923164e-05,
+        "frequency": null,
+        "anharmonicity": null,
+        "readout_error": 0.0108642578125,
+        "prob_meas0_prep1": 0.018798828125,
+        "prob_meas1_prep0": 0.0029296875,
+        "readout_length": 2.584e-06
+      },
+      "Q81": {
+        "t1": 0.00024101750956426177,
+        "t2": 0.00019345976362786569,
+        "frequency": null,
+        "anharmonicity": null,
+        "readout_error": 0.0308837890625,
+        "prob_meas0_prep1": 0.05859375,
+        "prob_meas1_prep0": 0.003173828125,
+        "readout_length": 2.584e-06
+      },
+      "Q82": {
+        "t1": 7.71222305477917e-06,
+        "t2": 4.609146610593048e-06,
+        "frequency": null,
+        "anharmonicity": null,
+        "readout_error": 0.285888671875,
+        "prob_meas0_prep1": 0.520751953125,
+        "prob_meas1_prep0": 0.051025390625,
+        "readout_length": 2.584e-06
+      },
+      "Q83": {
+        "t1": 0.000254637796792647,
+        "t2": 0.00032696842411133694,
+        "frequency": null,
+        "anharmonicity": null,
+        "readout_error": 0.1287841796875,
+        "prob_meas0_prep1": 0.200439453125,
+        "prob_meas1_prep0": 0.05712890625,
+        "readout_length": 2.584e-06
+      },
+      "Q84": {
+        "t1": 0.0002568331546248712,
+        "t2": 0.0002419927272812615,
+        "frequency": null,
+        "anharmonicity": null,
+        "readout_error": 0.04833984375,
+        "prob_meas0_prep1": 0.094970703125,
+        "prob_meas1_prep0": 0.001708984375,
+        "readout_length": 2.584e-06
+      },
+      "Q85": {
+        "t1": 0.00017449459697443386,
+        "t2": 6.541906127598402e-05,
+        "frequency": null,
+        "anharmonicity": null,
+        "readout_error": 0.00537109375,
+        "prob_meas0_prep1": 0.0087890625,
+        "prob_meas1_prep0": 0.001953125,
+        "readout_length": 2.584e-06
+      },
+      "Q86": {
+        "t1": 0.00026234359974464864,
+        "t2": 7.45080901251888e-05,
+        "frequency": null,
+        "anharmonicity": null,
+        "readout_error": 0.0064697265625,
+        "prob_meas0_prep1": 0.011474609375,
+        "prob_meas1_prep0": 0.00146484375,
+        "readout_length": 2.584e-06
+      },
+      "Q87": {
+        "t1": 0.00022908764265556385,
+        "t2": 0.00016940514668545734,
+        "frequency": null,
+        "anharmonicity": null,
+        "readout_error": 0.027099609375,
+        "prob_meas0_prep1": 0.052001953125,
+        "prob_meas1_prep0": 0.002197265625,
+        "readout_length": 2.584e-06
+      },
+      "Q88": {
+        "t1": 0.00027002755531379847,
+        "t2": 0.00016107257263102103,
+        "frequency": null,
+        "anharmonicity": null,
+        "readout_error": 0.0208740234375,
+        "prob_meas0_prep1": 0.0263671875,
+        "prob_meas1_prep0": 0.015380859375,
+        "readout_length": 2.584e-06
+      },
+      "Q89": {
+        "t1": 0.0002406071962081652,
+        "t2": 0.00023825569543347585,
+        "frequency": null,
+        "anharmonicity": null,
+        "readout_error": 0.010986328125,
+        "prob_meas0_prep1": 0.013916015625,
+        "prob_meas1_prep0": 0.008056640625,
+        "readout_length": 2.584e-06
+      },
+      "Q90": {
+        "t1": 5.289121988398178e-05,
+        "t2": 5.187824204292433e-05,
+        "frequency": null,
+        "anharmonicity": null,
+        "readout_error": 0.03369140625,
+        "prob_meas0_prep1": 0.044677734375,
+        "prob_meas1_prep0": 0.022705078125,
+        "readout_length": 2.584e-06
+      },
+      "Q91": {
+        "t1": 0.00015180850053764922,
+        "t2": 0.00019950272180752554,
+        "frequency": null,
+        "anharmonicity": null,
+        "readout_error": 0.0123291015625,
+        "prob_meas0_prep1": 0.01318359375,
+        "prob_meas1_prep0": 0.011474609375,
+        "readout_length": 2.584e-06
+      },
+      "Q92": {
+        "t1": 0.00024902487973565236,
+        "t2": 0.00015481541136642247,
+        "frequency": null,
+        "anharmonicity": null,
+        "readout_error": 0.006103515625,
+        "prob_meas0_prep1": 0.0087890625,
+        "prob_meas1_prep0": 0.00341796875,
+        "readout_length": 2.584e-06
+      },
+      "Q93": {
+        "t1": 0.00033274865449088435,
+        "t2": 8.6859494031187e-05,
+        "frequency": null,
+        "anharmonicity": null,
+        "readout_error": 0.009765625,
+        "prob_meas0_prep1": 0.01611328125,
+        "prob_meas1_prep0": 0.00341796875,
+        "readout_length": 2.584e-06
+      },
+      "Q94": {
+        "t1": 0.00023997515126958024,
+        "t2": 9.809290154393713e-05,
+        "frequency": null,
+        "anharmonicity": null,
+        "readout_error": 0.006591796875,
+        "prob_meas0_prep1": 0.010498046875,
+        "prob_meas1_prep0": 0.002685546875,
+        "readout_length": 2.584e-06
+      },
+      "Q95": {
+        "t1": 0.00019443653747608795,
+        "t2": 0.00024158914998071115,
+        "frequency": null,
+        "anharmonicity": null,
+        "readout_error": 0.0054931640625,
+        "prob_meas0_prep1": 0.01220703125,
+        "prob_meas1_prep0": 0.003173828125,
+        "readout_length": 2.584e-06
+      },
+      "Q96": {
+        "t1": 0.0001384199092858182,
+        "t2": 1.4172404010933389e-05,
+        "frequency": null,
+        "anharmonicity": null,
+        "readout_error": 0.0400390625,
+        "prob_meas0_prep1": 0.05419921875,
+        "prob_meas1_prep0": 0.02587890625,
+        "readout_length": 2.584e-06
+      },
+      "Q97": {
+        "t1": 0.00025241939534052343,
+        "t2": 8.634144338957749e-05,
+        "frequency": null,
+        "anharmonicity": null,
+        "readout_error": 0.009765625,
+        "prob_meas0_prep1": 0.017333984375,
+        "prob_meas1_prep0": 0.002197265625,
+        "readout_length": 2.584e-06
+      },
+      "Q98": {
+        "t1": 0.00025296022565284433,
+        "t2": 7.973313498820355e-05,
+        "frequency": null,
+        "anharmonicity": null,
+        "readout_error": 0.00830078125,
+        "prob_meas0_prep1": 0.012939453125,
+        "prob_meas1_prep0": 0.003662109375,
+        "readout_length": 2.584e-06
+      },
+      "Q99": {
+        "t1": 0.00013114559345572216,
+        "t2": 3.911975938000648e-05,
+        "frequency": null,
+        "anharmonicity": null,
+        "readout_error": 0.0123291015625,
+        "prob_meas0_prep1": 0.0224609375,
+        "prob_meas1_prep0": 0.002197265625,
+        "readout_length": 2.584e-06
+      },
+      "Q100": {
+        "t1": 7.801579968145137e-05,
+        "t2": 3.271037377132821e-05,
+        "frequency": null,
+        "anharmonicity": null,
+        "readout_error": 0.0113525390625,
+        "prob_meas0_prep1": 0.0205078125,
+        "prob_meas1_prep0": 0.002197265625,
+        "readout_length": 2.584e-06
+      },
+      "Q101": {
+        "t1": 0.00017661145976411918,
+        "t2": 7.511376282210508e-05,
+        "frequency": null,
+        "anharmonicity": null,
+        "readout_error": 0.018310546875,
+        "prob_meas0_prep1": 0.033447265625,
+        "prob_meas1_prep0": 0.003173828125,
+        "readout_length": 2.584e-06
+      },
+      "Q102": {
+        "t1": 0.00010794562534110718,
+        "t2": 7.261377455320153e-05,
+        "frequency": null,
+        "anharmonicity": null,
+        "readout_error": 0.019775390625,
+        "prob_meas0_prep1": 0.032470703125,
+        "prob_meas1_prep0": 0.007080078125,
+        "readout_length": 2.584e-06
+      },
+      "Q103": {
+        "t1": 0.0001039080276066034,
+        "t2": 6.321663221629455e-05,
+        "frequency": null,
+        "anharmonicity": null,
+        "readout_error": 0.0120849609375,
+        "prob_meas0_prep1": 0.021728515625,
+        "prob_meas1_prep0": 0.00244140625,
+        "readout_length": 2.584e-06
+      },
+      "Q104": {
+        "t1": 0.0002636902050736109,
+        "t2": 0.00026019046172193476,
+        "frequency": null,
+        "anharmonicity": null,
+        "readout_error": 0.0093994140625,
+        "prob_meas0_prep1": 0.01416015625,
+        "prob_meas1_prep0": 0.004638671875,
+        "readout_length": 2.584e-06
+      },
+      "Q105": {
+        "t1": 0.00014885520121670116,
+        "t2": 8.73033308080263e-05,
+        "frequency": null,
+        "anharmonicity": null,
+        "readout_error": 0.0074462890625,
+        "prob_meas0_prep1": 0.0146484375,
+        "prob_meas1_prep0": 0.000244140625,
+        "readout_length": 2.584e-06
+      },
+      "Q106": {
+        "t1": 0.00032071457159105795,
+        "t2": 0.00018194809882697308,
+        "frequency": null,
+        "anharmonicity": null,
+        "readout_error": 0.01416015625,
+        "prob_meas0_prep1": 0.01416015625,
+        "prob_meas1_prep0": 0.01416015625,
+        "readout_length": 2.584e-06
+      },
+      "Q107": {
+        "t1": 0.00020005081967579548,
+        "t2": 0.0002303070806314529,
+        "frequency": null,
+        "anharmonicity": null,
+        "readout_error": 0.0047607421875,
+        "prob_meas0_prep1": 0.00634765625,
+        "prob_meas1_prep0": 0.003173828125,
+        "readout_length": 2.584e-06
+      },
+      "Q108": {
+        "t1": 3.9702512490477777e-05,
+        "t2": 4.510182799664936e-05,
+        "frequency": null,
+        "anharmonicity": null,
+        "readout_error": 0.037353515625,
+        "prob_meas0_prep1": 0.031005859375,
+        "prob_meas1_prep0": 0.043701171875,
+        "readout_length": 2.584e-06
+      },
+      "Q109": {
+        "t1": 0.00025901473227312556,
+        "t2": 8.799650750675657e-05,
+        "frequency": null,
+        "anharmonicity": null,
+        "readout_error": 0.0052490234375,
+        "prob_meas0_prep1": 0.008056640625,
+        "prob_meas1_prep0": 0.00244140625,
+        "readout_length": 2.584e-06
+      },
+      "Q110": {
+        "t1": 0.0003361677560465057,
+        "t2": 0.0002954195446714395,
+        "frequency": null,
+        "anharmonicity": null,
+        "readout_error": 0.0093994140625,
+        "prob_meas0_prep1": 0.00927734375,
+        "prob_meas1_prep0": 0.009521484375,
+        "readout_length": 2.584e-06
+      },
+      "Q111": {
+        "t1": 6.737014527126092e-05,
+        "t2": 3.3280919141983254e-05,
+        "frequency": null,
+        "anharmonicity": null,
+        "readout_error": 0.009033203125,
+        "prob_meas0_prep1": 0.012451171875,
+        "prob_meas1_prep0": 0.005615234375,
+        "readout_length": 2.584e-06
+      },
+      "Q112": {
+        "t1": 0.00035665233271805265,
+        "t2": 0.00019706952183713166,
+        "frequency": null,
+        "anharmonicity": null,
+        "readout_error": 0.0057373046875,
+        "prob_meas0_prep1": 0.00634765625,
+        "prob_meas1_prep0": 0.00390625,
+        "readout_length": 2.584e-06
+      },
+      "Q113": {
+        "t1": 0.00017416723325116938,
+        "t2": 0.00012111110201074951,
+        "frequency": null,
+        "anharmonicity": null,
+        "readout_error": 0.37646484375,
+        "prob_meas0_prep1": 0.73193359375,
+        "prob_meas1_prep0": 0.02099609375,
+        "readout_length": 2.584e-06
+      },
+      "Q114": {
+        "t1": 0.00018727341781994139,
+        "t2": 0.00020860833488292566,
+        "frequency": null,
+        "anharmonicity": null,
+        "readout_error": 0.0062255859375,
+        "prob_meas0_prep1": 0.00830078125,
+        "prob_meas1_prep0": 0.004150390625,
+        "readout_length": 2.584e-06
+      },
+      "Q115": {
+        "t1": 0.00021551939308238482,
+        "t2": 7.97502351451425e-05,
+        "frequency": null,
+        "anharmonicity": null,
+        "readout_error": 0.0093994140625,
+        "prob_meas0_prep1": 0.01025390625,
+        "prob_meas1_prep0": 0.008544921875,
+        "readout_length": 2.584e-06
+      },
+      "Q116": {
+        "t1": 8.025323097741817e-05,
+        "t2": 8.769889508708265e-05,
+        "frequency": null,
+        "anharmonicity": null,
+        "readout_error": 0.027099609375,
+        "prob_meas0_prep1": 0.02978515625,
+        "prob_meas1_prep0": 0.0244140625,
+        "readout_length": 2.584e-06
+      },
+      "Q117": {
+        "t1": 0.0002032522578519346,
+        "t2": 7.418487286668614e-06,
+        "frequency": null,
+        "anharmonicity": null,
+        "readout_error": 0.0140380859375,
+        "prob_meas0_prep1": 0.0224609375,
+        "prob_meas1_prep0": 0.005615234375,
+        "readout_length": 2.584e-06
+      },
+      "Q118": {
+        "t1": 0.00019812836289699284,
+        "t2": 5.444768998032677e-05,
+        "frequency": null,
+        "anharmonicity": null,
+        "readout_error": 0.0167236328125,
+        "prob_meas0_prep1": 0.025634765625,
+        "prob_meas1_prep0": 0.0078125,
+        "readout_length": 2.584e-06
+      },
+      "Q119": {
+        "t1": 0.00023893163918844458,
+        "t2": 7.56274732378708e-05,
+        "frequency": null,
+        "anharmonicity": null,
+        "readout_error": 0.213623046875,
+        "prob_meas0_prep1": 0.411376953125,
+        "prob_meas1_prep0": 0.015869140625,
+        "readout_length": 2.584e-06
+      },
+      "Q120": {
+        "t1": 0.0001999608132505511,
+        "t2": 7.231999579150021e-05,
+        "frequency": null,
+        "anharmonicity": null,
+        "readout_error": 0.0098876953125,
+        "prob_meas0_prep1": 0.0185546875,
+        "prob_meas1_prep0": 0.001220703125,
+        "readout_length": 2.584e-06
+      },
+      "Q121": {
+        "t1": 0.00022643991505562526,
+        "t2": 0.0002962425485318364,
+        "frequency": null,
+        "anharmonicity": null,
+        "readout_error": 0.0408935546875,
+        "prob_meas0_prep1": 0.077880859375,
+        "prob_meas1_prep0": 0.00390625,
+        "readout_length": 2.584e-06
+      },
+      "Q122": {
+        "t1": 0.0002767407675313605,
+        "t2": 2.865006548404883e-05,
+        "frequency": null,
+        "anharmonicity": null,
+        "readout_error": 0.00830078125,
+        "prob_meas0_prep1": 0.01513671875,
+        "prob_meas1_prep0": 0.00146484375,
+        "readout_length": 2.584e-06
+      },
+      "Q123": {
+        "t1": 0.0001807936772477569,
+        "t2": 9.687726856114057e-05,
+        "frequency": null,
+        "anharmonicity": null,
+        "readout_error": 0.0096435546875,
+        "prob_meas0_prep1": 0.011962890625,
+        "prob_meas1_prep0": 0.00732421875,
+        "readout_length": 2.584e-06
+      },
+      "Q124": {
+        "t1": 0.00011248760904297878,
+        "t2": 8.864304541132775e-05,
+        "frequency": null,
+        "anharmonicity": null,
+        "readout_error": 0.00634765625,
+        "prob_meas0_prep1": 0.011962890625,
+        "prob_meas1_prep0": 0.000732421875,
+        "readout_length": 2.584e-06
+      },
+      "Q125": {
+        "t1": 0.0001797353291681651,
+        "t2": 5.227619056961012e-05,
+        "frequency": null,
+        "anharmonicity": null,
+        "readout_error": 0.0126953125,
+        "prob_meas0_prep1": 0.023193359375,
+        "prob_meas1_prep0": 0.002197265625,
+        "readout_length": 2.584e-06
+      },
+      "Q126": {
+        "t1": 0.0001222764305092902,
+        "t2": 2.3634819698084722e-05,
+        "frequency": null,
+        "anharmonicity": null,
+        "readout_error": 0.0423583984375,
+        "prob_meas0_prep1": 0.084228515625,
+        "prob_meas1_prep0": 0.00048828125,
+        "readout_length": 2.584e-06
+      },
+      "Q127": {
+        "t1": 0.0002501263311659307,
+        "t2": 2.261234870093296e-05,
+        "frequency": null,
+        "anharmonicity": null,
+        "readout_error": 0.0216064453125,
+        "prob_meas0_prep1": 0.02783203125,
+        "prob_meas1_prep0": 0.015380859375,
+        "readout_length": 2.584e-06
+      },
+      "Q128": {
+        "t1": 0.0003186998237164664,
+        "t2": 0.0002431221641838032,
+        "frequency": null,
+        "anharmonicity": null,
+        "readout_error": 0.0084228515625,
+        "prob_meas0_prep1": 0.01416015625,
+        "prob_meas1_prep0": 0.002685546875,
+        "readout_length": 2.584e-06
+      },
+      "Q129": {
+        "t1": 0.0003152481219493551,
+        "t2": 0.0002705228269091748,
+        "frequency": null,
+        "anharmonicity": null,
+        "readout_error": 0.0078125,
+        "prob_meas0_prep1": 0.01220703125,
+        "prob_meas1_prep0": 0.003173828125,
+        "readout_length": 2.584e-06
+      },
+      "Q130": {
+        "t1": 0.0002446441740899853,
+        "t2": 3.433005152502886e-05,
+        "frequency": null,
+        "anharmonicity": null,
+        "readout_error": 0.3126220703125,
+        "prob_meas0_prep1": 0.2646484375,
+        "prob_meas1_prep0": 0.360595703125,
+        "readout_length": 2.584e-06
+      },
+      "Q131": {
+        "t1": 0.00013990070670082813,
+        "t2": 0.00012266510129582965,
+        "frequency": null,
+        "anharmonicity": null,
+        "readout_error": 0.0072021484375,
+        "prob_meas0_prep1": 0.010009765625,
+        "prob_meas1_prep0": 0.00439453125,
+        "readout_length": 2.584e-06
+      },
+      "Q132": {
+        "t1": 0.00030857668568939293,
+        "t2": 9.01783554666608e-05,
+        "frequency": null,
+        "anharmonicity": null,
+        "readout_error": 0.007080078125,
+        "prob_meas0_prep1": 0.011474609375,
+        "prob_meas1_prep0": 0.002685546875,
+        "readout_length": 2.584e-06
+      },
+      "Q133": {
+        "t1": 0.00031889736422651473,
+        "t2": 0.0002172827856512976,
+        "frequency": null,
+        "anharmonicity": null,
+        "readout_error": 0.009765625,
+        "prob_meas0_prep1": 0.017333984375,
+        "prob_meas1_prep0": 0.002197265625,
+        "readout_length": 2.584e-06
+      },
+      "Q134": {
+        "t1": 0.0002703422420618403,
+        "t2": 0.00014169319845677575,
+        "frequency": null,
+        "anharmonicity": null,
+        "readout_error": 0.006103515625,
+        "prob_meas0_prep1": 0.010009765625,
+        "prob_meas1_prep0": 0.002197265625,
+        "readout_length": 2.584e-06
+      },
+      "Q135": {
+        "t1": 0.0004515863775939266,
+        "t2": 7.721884386712599e-05,
+        "frequency": null,
+        "anharmonicity": null,
+        "readout_error": 0.1092529296875,
+        "prob_meas0_prep1": 0.064697265625,
+        "prob_meas1_prep0": 0.15380859375,
+        "readout_length": 2.584e-06
+      },
+      "Q136": {
+        "t1": 0.00016296517722166402,
+        "t2": 0.00010436853680149749,
+        "frequency": null,
+        "anharmonicity": null,
+        "readout_error": 0.0068359375,
+        "prob_meas0_prep1": 0.01220703125,
+        "prob_meas1_prep0": 0.00146484375,
+        "readout_length": 2.584e-06
+      },
+      "Q137": {
+        "t1": 0.0001623629053976247,
+        "t2": 0.00012331268132701964,
+        "frequency": null,
+        "anharmonicity": null,
+        "readout_error": 0.014892578125,
+        "prob_meas0_prep1": 0.028076171875,
+        "prob_meas1_prep0": 0.001708984375,
+        "readout_length": 2.584e-06
+      },
+      "Q138": {
+        "t1": 0.0002624353234542836,
+        "t2": 0.00024012121627790464,
+        "frequency": null,
+        "anharmonicity": null,
+        "readout_error": 0.0087890625,
+        "prob_meas0_prep1": 0.009765625,
+        "prob_meas1_prep0": 0.0078125,
+        "readout_length": 2.584e-06
+      },
+      "Q139": {
+        "t1": 0.00017493011383355958,
+        "t2": 7.243174149996524e-05,
+        "frequency": null,
+        "anharmonicity": null,
+        "readout_error": 0.005859375,
+        "prob_meas0_prep1": 0.00732421875,
+        "prob_meas1_prep0": 0.00439453125,
+        "readout_length": 2.584e-06
+      },
+      "Q140": {
+        "t1": 0.0002198443475269224,
+        "t2": 5.6256563041883534e-05,
+        "frequency": null,
+        "anharmonicity": null,
+        "readout_error": 0.0069580078125,
+        "prob_meas0_prep1": 0.00927734375,
+        "prob_meas1_prep0": 0.004638671875,
+        "readout_length": 2.584e-06
+      },
+      "Q141": {
+        "t1": 0.00041012123192784076,
+        "t2": 0.00033017847033577655,
+        "frequency": null,
+        "anharmonicity": null,
+        "readout_error": 0.015869140625,
+        "prob_meas0_prep1": 0.014404296875,
+        "prob_meas1_prep0": 0.017333984375,
+        "readout_length": 2.584e-06
+      },
+      "Q142": {
+        "t1": 0.00021095027229910666,
+        "t2": 0.00023057665991115122,
+        "frequency": null,
+        "anharmonicity": null,
+        "readout_error": 0.0142822265625,
+        "prob_meas0_prep1": 0.01806640625,
+        "prob_meas1_prep0": 0.010498046875,
+        "readout_length": 2.584e-06
+      },
+      "Q143": {
+        "t1": 0.00011524923770636935,
+        "t2": 4.392093460205195e-05,
+        "frequency": null,
+        "anharmonicity": null,
+        "readout_error": 0.01416015625,
+        "prob_meas0_prep1": 0.027587890625,
+        "prob_meas1_prep0": 0.000732421875,
+        "readout_length": 2.584e-06
+      },
+      "Q144": {
+        "t1": 0.00010498963504460727,
+        "t2": 4.739798923130235e-05,
+        "frequency": null,
+        "anharmonicity": null,
+        "readout_error": 0.014892578125,
+        "prob_meas0_prep1": 0.024658203125,
+        "prob_meas1_prep0": 0.005126953125,
+        "readout_length": 2.584e-06
+      },
+      "Q145": {
+        "t1": 0.00017437904997350906,
+        "t2": 0.0001659202224409064,
+        "frequency": null,
+        "anharmonicity": null,
+        "readout_error": 0.0196533203125,
+        "prob_meas0_prep1": 0.03515625,
+        "prob_meas1_prep0": 0.004150390625,
+        "readout_length": 2.584e-06
+      },
+      "Q146": {
+        "t1": 0.00014976548955444603,
+        "t2": 6.256687097511469e-05,
+        "frequency": null,
+        "anharmonicity": null,
+        "readout_error": 0.004150390625,
+        "prob_meas0_prep1": 0.0068359375,
+        "prob_meas1_prep0": 0.001953125,
+        "readout_length": 2.584e-06
+      },
+      "Q147": {
+        "t1": 0.00020840395426830597,
+        "t2": 0.00011536175328939963,
+        "frequency": null,
+        "anharmonicity": null,
+        "readout_error": 0.0037841796875,
+        "prob_meas0_prep1": 0.005859375,
+        "prob_meas1_prep0": 0.001708984375,
+        "readout_length": 2.584e-06
+      },
+      "Q148": {
+        "t1": 0.00022492387948640897,
+        "t2": 0.000118009612079943,
+        "frequency": null,
+        "anharmonicity": null,
+        "readout_error": 0.007568359375,
+        "prob_meas0_prep1": 0.013916015625,
+        "prob_meas1_prep0": 0.001220703125,
+        "readout_length": 2.584e-06
+      },
+      "Q149": {
+        "t1": 0.0001257443542150426,
+        "t2": 7.229414687556708e-05,
+        "frequency": null,
+        "anharmonicity": null,
+        "readout_error": 0.015869140625,
+        "prob_meas0_prep1": 0.031005859375,
+        "prob_meas1_prep0": 0.000732421875,
+        "readout_length": 2.584e-06
+      },
+      "Q150": {
+        "t1": 8.325661693340306e-05,
+        "t2": 6.429794538026983e-05,
+        "frequency": null,
+        "anharmonicity": null,
+        "readout_error": 0.0166015625,
+        "prob_meas0_prep1": 0.030517578125,
+        "prob_meas1_prep0": 0.002685546875,
+        "readout_length": 2.584e-06
+      },
+      "Q151": {
+        "t1": 0.00023519362464092982,
+        "t2": 7.444397152374498e-05,
+        "frequency": null,
+        "anharmonicity": null,
+        "readout_error": 0.00830078125,
+        "prob_meas0_prep1": 0.013671875,
+        "prob_meas1_prep0": 0.0029296875,
+        "readout_length": 2.584e-06
+      },
+      "Q152": {
+        "t1": 0.00014171273531797153,
+        "t2": 8.409694059267512e-05,
+        "frequency": null,
+        "anharmonicity": null,
+        "readout_error": 0.039306640625,
+        "prob_meas0_prep1": 0.063720703125,
+        "prob_meas1_prep0": 0.014892578125,
+        "readout_length": 2.584e-06
+      },
+      "Q153": {
+        "t1": 0.00018943061331813665,
+        "t2": 0.00018834162836324256,
+        "frequency": null,
+        "anharmonicity": null,
+        "readout_error": 0.00439453125,
+        "prob_meas0_prep1": 0.0068359375,
+        "prob_meas1_prep0": 0.001953125,
+        "readout_length": 2.584e-06
+      },
+      "Q154": {
+        "t1": 0.0003702606327659789,
+        "t2": 1.796903154177132e-05,
+        "frequency": null,
+        "anharmonicity": null,
+        "readout_error": 0.0137939453125,
+        "prob_meas0_prep1": 0.019287109375,
+        "prob_meas1_prep0": 0.00830078125,
+        "readout_length": 2.584e-06
+      },
+      "Q155": {
+        "t1": 0.0002815171570735115,
+        "t2": 0.00013215235497076274,
+        "frequency": null,
+        "anharmonicity": null,
+        "readout_error": 0.0113525390625,
+        "prob_meas0_prep1": 0.009765625,
+        "prob_meas1_prep0": 0.012939453125,
+        "readout_length": 2.584e-06
+      }
+    },
+    "id": "ibm_marrakesh-2026-01-10_06:26:19"
   }
 }
