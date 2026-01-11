@@ -40,9 +40,13 @@ jobs:
 
       - name: Traquer les fichiers dataset avec LFS
         run: |
-          git lfs track "extract/*.csv"
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+
+          git lfs track "extract/*.json"
           git add .gitattributes
           git diff-index --quiet HEAD || git commit -m "Track dataset files with Git LFS"
+
 
       - name: Commit et push
         env:
