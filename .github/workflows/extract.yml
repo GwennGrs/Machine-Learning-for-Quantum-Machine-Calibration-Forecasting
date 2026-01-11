@@ -40,7 +40,7 @@ jobs:
 
       - name: Traquer les fichiers dataset avec LFS
         run: |
-          git lfs track "data/*.csv"
+          git lfs track "extract/*.csv"
           git add .gitattributes
           git diff-index --quiet HEAD || git commit -m "Track dataset files with Git LFS"
 
