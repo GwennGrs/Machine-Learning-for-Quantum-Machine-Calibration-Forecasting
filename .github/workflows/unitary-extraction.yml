@@ -1,0 +1,43 @@
+name: Auto extraction and commit
+
+on:
+  schedule:
+    - cron: "*/5 * * * *"
+  workflow_dispatch:
+
+jobs:
+  run-collecte:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout du dépôt
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Installer dépendances
+        run: |
+          python -m venv env
+          source env/bin/activate
+          pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Exécuter single_extract.py
+        run: |
+          source env/bin/activate
+          python single_extract.py
+
+      - name: Commit et push
+        env:
+          GH_TOKEN: ${{ secrets.GH_TOKEN }}
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+
+          git add .
+          git diff-index --quiet HEAD || git commit -m "Mise à jour automatique par single_extract.py"
+
+          git push https://x-access-token:${GH_TOKEN}@github.com/${{ github.repository }} HEAD:main
