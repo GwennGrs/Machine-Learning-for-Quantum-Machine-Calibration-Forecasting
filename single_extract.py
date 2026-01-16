@@ -242,6 +242,7 @@ def complete_data_json(backend, filename="complete_data.json"):
 
 import json
 import os
+from pathlib import Path
 
 def append_calibration_with_id(calibration, filename="lambda.json"):
     id = str(calibration["backend"]) + "-" + str(calibration["calibration_time"])
@@ -270,6 +271,9 @@ def append_calibration_with_id(calibration, filename="lambda.json"):
     return False    
 
 def extraction_unitary(calibration, type):
+    output_dir = Path("extract")
+    output_dir.mkdir(parents=True, exist_ok=True)
+
     id = str(calibration["backend"]) + "-" + str(calibration["calibration_time"])
     filename = type + "-" + id + ".json"
     calibration["id"] = id
