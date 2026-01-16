@@ -1,0 +1,7 @@
+#!/home/runner/work/Projet_M1_Garrigues-Journaud_ULIlle_2025-2026/Projet_M1_Garrigues-Journaud_ULIlle_2025-2026/env/bin/python
+import sys
+from rsa.cli import decrypt
+if __name__ == '__main__':
+    if sys.argv[0].endswith('.exe'):
+        sys.argv[0] = sys.argv[0][:-4]
+    sys.exit(decrypt())
