@@ -108,7 +108,7 @@ All models struggle — R² is often negative, close to or worse than predicting
 ### Key findings
 
 - Calibration metrics update on average every **2–3.5 hours** depending on the backend
-- T1 and T2 are correlated (Fez: 0.75, Marrakesh: 0.70, Torino: 0.35)
+- Most of the feature express a correlation between each others
 - Most series are **stationary** (ADF test, p < 0.05) with **no significant seasonality**
 - Time series behave close to **white noise / random walk**, making prediction inherently difficult
 - NeuralProphet outperforms RNNs and SARIMAX but still does not beat the naive baseline
