@@ -162,22 +162,3 @@ export IBM_QUANTUM_API_KEY="your_key_here"
 ## Acknowledgments
 
 Special thanks to **Dr. Zakaria Abdelmoiz DAHI** (INRIA Bonus) for his guidance and support throughout this project.Master's research project in Data Science
-"What all this data means : https://quantum.cloud.ibm.com/docs/en/guides/get-qpu-information\n",
-    "- Qubit = the actual qubit we are looking at, we have in this machine for ex 127 qubits.\n",
-    "- T1 (relaxation time): represent the time a qubit can stay in his \"excited\" state (1) before losing energy and going back to his \"ground\" state (0).\n",
-    "- T2 (dephasing time): Amount of time the qubit can stay in the superpostion state between 0 et 1.\n",
-    "    (Always less or equal to 2xT1)\n",
-    "- frequency : Indicate the resonant frequency of a qubit -> the energy difference between the 2 states. (In the range of 5Ghz)\n",
-    "- Anharmonicity : \n",
-    "- Readout assignement error : The readout error quantifies the average probability of incorrectly measuring a qubit's state. It is commonly calculated as the mean of prob_meas0_prep1 \n",
-    "    and prob_meas1_prep0.\n",
-    "- Prob meas0 prep1 : The probability of measuring a qubit in the 0 state when it was supposed to be in the 1 state.\n",
-    "- Prob meas1 prep0 : The probability of measuring a qubit in the 1 state when it was supposed to be in the 0 state.\n",
-    "- Readout length : Give the time of the readout operation for a qubit.\n",
-    "- ID error : The ID gate is a delay of duration equal to the duration of the √X and X gates.\n",
-    "    (One of the error but all error are supposed to give the same information.)\n",
-    "- Single qubit gate length : Duration of a single-qubit lentgh operation\n",
-    "- Z-axis rotation (RZ) error : Error in the virtual rotation on Z gate (but report az 0 if executed in a software).\n",
-    "- different error means the error on the gate : the state predicted different than the one expected.\n",
-    "\n",
-    "- Gates lengths : Duration of the two-qubit gate operation."
