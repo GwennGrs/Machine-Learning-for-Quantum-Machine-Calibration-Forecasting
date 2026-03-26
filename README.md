@@ -144,10 +144,8 @@ export IBM_QUANTUM_API_KEY="your_key_here"
 
 - **Qubit-wise modeling** — study individual qubit behavior instead of backend-level medians
 - **Longer collection period** — more data to improve daily forecasting
-- **Anomaly detection** — flag abrupt calibration jumps rather than pure regression
 - **Multi-provider extension** — generalize to IQM and Quantum Inspire once metric standardization is resolved
-- **Optimal scheduling** — use forecasts to recommend the best computation windows
-
+- 
 ---
 
 ## References
