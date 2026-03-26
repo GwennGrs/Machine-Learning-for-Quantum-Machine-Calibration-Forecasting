@@ -148,7 +148,7 @@ export IBM_QUANTUM_API_KEY="your_key_here"
 - 
 ---
 
-## Main references
+## Main References
 
 - Dahi et al., *Optimising Quantum Calculations Reliability via Machine Learning: The IBM Case Study*, IEEE QAI 2025
 - Saghafi & Mili, *Predictive Time-Series Analysis of Single-Qubit Quantum Circuit Outcomes*, IEEE Access 2025
