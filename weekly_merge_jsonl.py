@@ -92,11 +92,11 @@ if __name__ == "__main__":
     Main function to execute the concatenation of jsonl files for qubits, complete, and gates data.
     Made to be run every 1/2 weeks.
     '''
-    input_folder = Path("extract")
+    input_folder = Path("extract") ## Name of the repository where the extracted calibration are (default extract)
     print(f"Input folder: {input_folder}")
-    output_folder = Path("dataset/weekly_merge")
+    output_folder = Path("dataset/weekly_merge") ## Name of the repository where we want to upload our weekly merged calibration (default dataset/weekly_merge)
     print(f"Output folder: {output_folder}")
-    dataset_folder = Path("dataset")
+    dataset_folder = Path("dataset") ## Name of the repository the main dataset is located in (default dataset)
     output_folder.mkdir(parents=True, exist_ok=True)
 
     concatenation_jsonl(input_folder, output_folder, "qubits", concat_dataset=True, dataset_folder=dataset_folder)
