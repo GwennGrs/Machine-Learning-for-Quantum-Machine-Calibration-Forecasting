@@ -26,7 +26,6 @@ jobs:
 
       - name: Exécuter collecte_extract_jsonl.py
         run: |
-          source env/bin/activate
           python collecte_extract_jsonl.py
 
       - name: Commit et push
