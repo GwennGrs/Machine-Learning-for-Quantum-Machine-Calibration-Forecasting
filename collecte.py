@@ -124,22 +124,6 @@ def full_collect(service):
     gates_set = pd.concat(datas_gates, ignore_index=True)
     return complet_set, qubit_set, gates_set
 
-# 3 fonctions de créations de csv
-# def create_json_complet(data, folder):
-#     date = datetime.datetime.now().strftime("%Y-%m-%d_%H:%M:%S")
-#     name_file = os.path.join(folder, "ibm_backends_complet_" + date + ".json")
-#     return data.to_json(name_file, index=False)
-
-# def create_json_qubit(data, folder):
-#     date = datetime.datetime.now().strftime("%Y-%m-%d_%H:%M:%S")
-#     name_file = os.path.join(folder, "ibm_backends_qubit_" + date + ".json")
-#     return data.to_json(name_file, index=False)
-
-# def create_json_gates(data, folder):
-#     date = datetime.datetime.now().strftime("%Y-%m-%d_%H:%M:%S")
-#     name_file = os.path.join(folder, "ibm_backends_gates_" + date + ".json")
-#     return data.to_json(name_file, index=False)
-
 def gate_data_json(backend, filename="gate_data.json"):
     '''
     Extract error and length for all the gate, with the qubit involved and create the Json for the gates data.
