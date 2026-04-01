@@ -10,7 +10,7 @@
 
 Quantum computers in their current **NISQ (Noisy Intermediate-Scale Quantum)** era are highly sensitive to environmental noise, causing frequent calibration drift and elevated error rates. This project builds an end-to-end pipeline to **forecast the temporal evolution of IBM quantum machine calibration metrics**, with the goal of predicting optimal computation windows and reducing wasted time and money on cloud-based quantum platforms.
 
-The pipeline covers automated data extraction, storage, exploratory analysis, and time-series forecasting using multiple model families (LSTM, GRU, SARIMAX, NeuralProphet).
+The pipeline covers automated data extraction, storage, exploratory analysis, and benchmarking using multiple model families (LSTM, GRU, SARIMAX, NeuralProphet).
 
 ---
 
@@ -23,13 +23,16 @@ The pipeline covers automated data extraction, storage, exploratory analysis, an
 │   |- gates_data.jsonl          # Gate-level calibration metrics
 │   |- qubits_data.jsonl        # Qubit-level calibration metrics
 |-- etl/
-│   ├── collecte_extract_jsonl.py   # IBM calibration metrics scraper
+│   ├── EDA.ipynb   # IBM calibration metrics scraper
 |-- eda/
 │   |- analysis.ipynb   # Exploratory Data Analysis notebook
 |-- modeling/
-│   |-- model.
-│   |-- neuralprophet.py # NeuralProphet model
-└── README.md
+│   |-- modeling.ipynb
+│   |-- neurProphet.py # NeuralProphet model
+|-- collecte_extract_jsonl
+|-- weekly_merge_jsonl.py
+└-- README.md
+
 ```
 
 ---
@@ -50,7 +53,7 @@ Data is collected **hourly** (validated by calibration stability analysis) from 
 
 ### Features
 
-After EDA-driven feature selection, 9 features are retained for modeling:
+After EDA-driven feature engineering, 9 features are retained for modeling:
 
 | Feature | Level | Description |
 |---|---|---|
@@ -79,7 +82,7 @@ Unique record identifier format: `{backend_name}_{scraping_timestamp}`
 
 | Model | Type | Notes |
 |---|---|---|
-| Linear Regression | Baseline | Strong naive baseline | t̂ = t-1 pattern |
+| Linear Regression | Baseline | Naive baseline | t̂ = t-1 pattern |
 | GRU | Recurrent Neural Network | Fewer params than LSTM, slightly better on daily data |
 | LSTM | Recurrent Neural Network | Best on hourly data for stable features |
 | SARIMAX | Statistical | Best with exogenous variables; poor standalone |
@@ -100,10 +103,13 @@ Most models achieve **R² > 0.9** on stable features (T1, T2, gate errors), but 
 | LSTM | 0.051 | 0.933 |
 | GRU | 0.061 | 0.933 |
 | Linear | 0.054 | 0.929 |
+| SARIMAX | 0.815 | -0.816 |
+| NeuralProphet | 0.010 | 0.929 |
 
 ### Daily data (median per day)
 
 All models struggle — R² is often negative, close to or worse than predicting the mean. Likely caused by insufficient data volume and over-smoothing via repeated medians.
+However, NeuralProphet exhibits better performance than other models with MAE $\approx$ 0.2
 
 ### Key findings
 
