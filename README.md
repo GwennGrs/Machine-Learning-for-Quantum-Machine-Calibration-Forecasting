@@ -132,7 +132,7 @@ pip install -r requirements.txt
 To use NeuralProphet
 ```bash
 pip install -r neural_requirement.txt
-'''
+```
 
 ### Requirements
 
@@ -143,11 +143,7 @@ pip install -r neural_requirement.txt
 
 ### IBM API Key
 
-To run the scraper, set your IBM Quantum API key:
-
-```bash
-export IBM_QUANTUM_API_KEY="your_key_here"
-```
+To run the scraper, set your IBM Quantum API key in the collecte_extract_jsonl.py files.
 
 ---
 
