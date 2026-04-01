@@ -149,9 +149,8 @@ export IBM_QUANTUM_API_KEY="your_key_here"
 ## Future Work
 
 - **Qubit-wise modeling** — study individual qubit behavior instead of backend-level medians
-- **Longer collection period** — more data to improve daily forecasting
+- **Dataset expansion** — more data to improve daily forecasting
 - **Multi-provider extension** — generalize to IQM and Quantum Inspire once metric standardization is resolved
-- 
 ---
 
 ## Main References
