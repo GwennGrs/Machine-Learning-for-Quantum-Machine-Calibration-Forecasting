@@ -129,6 +129,11 @@ cd Projet_M1_Garrigues-Journaud_ULIlle_2025-2026
 pip install -r requirements.txt
 ```
 
+To use NeuralProphet
+```bash
+pip install -r neural_requirement.txt
+'''
+
 ### Requirements
 
 - Python 3.10+
@@ -164,4 +169,4 @@ export IBM_QUANTUM_API_KEY="your_key_here"
 
 ## Acknowledgments
 
-Special thanks to **Dr. Zakaria Abdelmoiz DAHI** (INRIA Bonus) for his guidance and support throughout this project.Master's research project in Data Science
+Special thanks to **Dr. Zakaria Abdelmoiz DAHI** (INRIA BONUS) for his guidance and support throughout this project.Master's research project in Data Science
