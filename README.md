@@ -29,8 +29,8 @@ The pipeline covers automated data extraction, storage, exploratory analysis, an
 |-- modeling/
 │   |-- modeling.ipynb # RNN & Statistical models
 │   |-- neurProphet.py # NeuralProphet model
-|-- collecte_extract_jsonl
-|-- weekly_merge_jsonl.py
+|-- collecte_extract_jsonl # Automated data scrapping
+|-- weekly_merge_jsonl.py # Concatenate weekly merge data in the dataset
 └-- README.md
 
 ```
