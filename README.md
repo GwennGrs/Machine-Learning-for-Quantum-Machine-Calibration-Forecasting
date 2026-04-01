@@ -64,8 +64,6 @@ After EDA-driven feature engineering, 9 features are retained for modeling:
 | `cz_error` | Gate | CZ two-qubit gate error |
 | `rzz_error` | Gate | RZZ two-qubit gate error |
 
-Features excluded: constant durations, `rz_error` (always 0), `frequency`/`anharmonicity` (always NaN), `reset_error` (always 0).
-
 ### Storage
 
 Raw data is stored in **JSONL** format for incremental appending without full file reloads, versioned via **GitHub Actions + Git LFS**.
@@ -76,7 +74,7 @@ Unique record identifier format: `{backend_name}_{scraping_timestamp}`
 
 ---
 
-## Models
+## Models & Benchmarking
 
 | Model | Type | Notes |
 |---|---|---|
