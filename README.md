@@ -160,10 +160,7 @@ To run the scraper, set your IBM Quantum API key in the collecte_extract_jsonl.p
 ## Main References
 
 - Dahi et al., *Optimising Quantum Calculations Reliability via Machine Learning: The IBM Case Study*, IEEE QAI 2025
-- Saghafi & Mili, *Predictive Time-Series Analysis of Single-Qubit Quantum Circuit Outcomes*, IEEE Access 2025
-- Triebe et al., *NeuralProphet: Explainable Forecasting at Scale*, arXiv 2021
-- Krantz et al., *A Quantum Engineer's Guide to Superconducting Qubits*, Applied Physics Reviews 2019
-
+  
 ---
 
 ## Acknowledgments
