@@ -135,7 +135,7 @@ pip install -r neural_requirement.txt
 ```bash
 python3 weekly_merge_jsonl.py
 ```
-After merging, if necessary, delete the calibration data extract.
+After merging, if not needed, delete calibration data from the extract repository.
 
 ### Requirements
 
