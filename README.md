@@ -134,6 +134,13 @@ To use NeuralProphet
 pip install -r neural_requirement.txt
 ```
 
+## Merging dataset 
+
+```bash
+python3 weekly_merge_jsonl.py
+```
+After merging, if necessary, delete the calibration data extract.
+
 ### Requirements
 
 - Python 3.10+
