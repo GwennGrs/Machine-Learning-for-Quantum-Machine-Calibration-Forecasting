@@ -27,7 +27,7 @@ The pipeline covers automated data extraction, storage, exploratory analysis, an
 |-- eda/
 │   |- analysis.ipynb   # Exploratory Data Analysis notebook
 |-- modeling/
-│   |-- modeling.ipynb
+│   |-- modeling.ipynb # RNN & Statistical models
 │   |-- neurProphet.py # NeuralProphet model
 |-- collecte_extract_jsonl
 |-- weekly_merge_jsonl.py
