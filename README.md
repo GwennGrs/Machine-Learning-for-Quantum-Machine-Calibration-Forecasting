@@ -24,8 +24,6 @@ The pipeline covers automated data extraction, storage, exploratory analysis, an
 │   |- qubits_data.jsonl        # Qubit-level calibration metrics
 |-- etl/
 │   ├── EDA.ipynb   # IBM calibration metrics scraper
-|-- eda/
-│   |- analysis.ipynb   # Exploratory Data Analysis notebook
 |-- modeling/
 │   |-- modeling.ipynb # RNN & Statistical models
 │   |-- neurProphet.py # NeuralProphet model
