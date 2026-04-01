@@ -109,12 +109,8 @@ However, NeuralProphet exhibits better performance than other models with MAE $\
 
 ### Key findings
 
-- Calibration metrics update on average every **2–3.5 hours** depending on the backend
-- Most of the feature express a correlation between each others
-- Most series are **stationary** (ADF test, p < 0.05) with **no significant seasonality**
-- Time series behave close to **white noise / random walk**, making prediction inherently difficult
+- Weak but present temporal pattern
 - NeuralProphet outperforms RNNs and SARIMAX but still does not beat the naive baseline
-
 ---
 
 ## Installation
