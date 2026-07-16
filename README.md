@@ -5,6 +5,8 @@
 > Supervisor: Dr. Zakaria Abdelmoiz DAHI (INRIA Bonus)
 
 ---
+## Associated Article
+📄 [See article (PDF)](GARRIGUES-JOURNAUD_Report-Research_Project.pdf)
 
 ## Overview
 
