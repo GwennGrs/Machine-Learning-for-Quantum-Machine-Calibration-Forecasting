@@ -6,7 +6,7 @@
 
 ---
 ## Associated Article
-📄 [See article (PDF)](GARRIGUES-JOURNAUD_Report-Research_Project.pdf)
+[See article](GARRIGUES-JOURNAUD_Report-Research_Project.pdf)
 
 ## Overview
 
